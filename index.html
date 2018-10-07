@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>xkbcommon - a keyboard handling library</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+          integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body class="bg-dark text-light">
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 py-5">
+
+            <h1 class="ml-5 mb-4"><u>xkbcommon</u></h1>
+
+            <section>
+              <p>
+                <em>xkbcommon</em> is a library for handling of keyboard descriptions,
+                including loading them from disk, parsing them and handling their state.
+                It's mainly meant for client toolkits, window systems, and other system applications;
+                <br><br>
+                Currently that includes:
+
+                <ul>
+                  <li>
+                    <a href="http://wayland.freedesktop.org/">
+                      Wayland
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/dvdhrm/kmscon/wiki/KMSCON">
+                      kmscon
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.gtk.org/">
+                      GTK+
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://qt-project.org/">
+                      Qt
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://live.gnome.org/Clutter">
+                      Clutter
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://userbase.kde.org/KWin">
+                      KWin
+                    </a>
+                  </li>
+                  <li>
+                    and others
+                  </li>
+                </ul>
+
+                It is also used by some XCB applications for proper keyboard support.
+                <br><br>
+                If you're still confused, you might want to take a look at our
+                <a href="http://xkbcommon.org/doc/current/">documentation</a>
+                to find out more.
+              </p>
+            </section>
+
+            <section>
+              <h3 class="mt-5 mb-3">Releases</h3>
+
+              <p>
+                Our
+                <a href="http://github.com/xkbcommon/libxkbcommon">git repository</a>
+                on GitHub always contains the most up-to-date development code.
+                Patches and feedback should ideally be submitted against the latest code in git.
+              </p>
+
+              <p class="stable text-center my-5 p-3">
+                Our latest API- and ABI-stable release is
+                <a href="http://xkbcommon.org/download/libxkbcommon-0.8.2.tar.xz">0.8.2</a>.
+              </p>
+
+              <p>
+                You may find the past release announcements, including NEWS and checksums,
+                on the wayland-devel mailing list archives:
+              </p>
+
+              <div class="table-responsive">
+                <table class="table table-hover table-borderless text-center my-4">
+                  <tbody>
+                    <tr class="border-bottom">
+                      <td>
+                        <a href="https://lists.freedesktop.org/archives/wayland-devel/2018-August/039243.html">
+                          0.8.2
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://lists.freedesktop.org/archives/wayland-devel/2018-August/039232.html">
+                          0.8.1
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://lists.freedesktop.org/archives/wayland-devel/2017-December/036291.html">
+                          0.8.0
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://lists.freedesktop.org/archives/wayland-devel/2017-August/034721.html">
+                          0.7.2
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://lists.freedesktop.org/archives/wayland-devel/2017-January/032725.html">
+                          0.7.1
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://lists.freedesktop.org/archives/wayland-devel/2016-November/031544.html">
+                          0.7.0
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://lists.freedesktop.org/archives/wayland-devel/2016-April/027962.html">
+                          0.6.1
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://lists.freedesktop.org/archives/wayland-devel/2016-March/027483.html">
+                          0.6.0
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="https://lists.freedesktop.org/archives/wayland-devel/2014-October/017836.html">
+                          0.5.0
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://lists.freedesktop.org/archives/wayland-devel/2014-August/016647.html">
+                          0.4.3
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://lists.freedesktop.org/archives/wayland-devel/2014-May/014864.html">
+                          0.4.2
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://lists.freedesktop.org/archives/wayland-devel/2014-March/013903.html">
+                          0.4.1
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://lists.freedesktop.org/archives/wayland-devel/2014-February/013032.html">
+                          0.4.0
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://lists.freedesktop.org/archives/wayland-devel/2013-November/012182.html">
+                          0.3.2
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://lists.freedesktop.org/archives/wayland-devel/2013-April/008340.html">
+                          0.3.0
+                        </a>
+                      </td>
+                      <td>
+                        <a href="https://lists.freedesktop.org/archives/wayland-devel/2012-October/005976.html">
+                          0.2.0
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+
+            <section>
+              <h3 class="my-3">Bugs</h3>
+
+              <p>
+                You are welcome to report any bugs you may encounter either to
+                <a href="https://bugs.freedesktop.org/describecomponents.cgi?product=libxkbcommon">Bugzilla</a>
+                or
+                <a href="https://github.com/xkbcommon/libxkbcommon/issues">GitHub</a>.
+              </p>
+            </section>
+
+            <section>
+              <h3 class="mt-5 mb-3">Contact</h3>
+
+              <p>
+                <em>xkbcommon</em> is maintained by:
+                <ul>
+                  <li>
+                    Daniel Stone (daniel@fooishbar.org)
+                  </li>
+                  <li>
+                    Ran Benita (ran234@gmail.com)
+                  </li>
+                </ul>
+              </p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

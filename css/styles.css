@@ -1,0 +1,60 @@
+@font-face {
+  font-family: Iosevka Custom;
+  src: url('../ttf/iosevka-custom-regular.ttf');
+}
+
+@font-face {
+  font-family: Iosevka Custom;
+  src: url('../ttf/iosevka-custom-oblique.ttf');
+  font-style: oblique;
+}
+
+body {
+  font-family: Iosevka Custom;
+  font-size: 14pt;
+}
+
+h1 {
+  font-size: 30pt;
+}
+
+a {
+  outline: none;
+  color: #f8bdc4;
+  font-style: oblique;
+
+  transition: color .2s;
+}
+
+table a {
+  color: unset;
+}
+
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+ul {
+  list-style: lower-greek;
+}
+
+.bg-dark {
+  background: #1b4965 !important;
+}
+
+.text-light {
+  color: #fefefe;
+}
+
+.stable {
+  background: #14364a;
+}
+
+tr {
+  transition: .2s background;
+}
+
+.table-hover tr:hover {
+  background: #14364a !important;
+}
