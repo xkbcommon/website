@@ -26,10 +26,6 @@ a {
   transition: color .2s;
 }
 
-table a {
-  color: unset;
-}
-
 a:hover {
   color: unset;
   text-decoration: none;
@@ -51,10 +47,28 @@ ul {
   background: #14364a;
 }
 
-tr {
+.release-list a {
+  font-style: unset;
+}
+
+.list-group-item {
+  background: #173c53;
+  color: #fefefe;
+
   transition: .2s background;
 }
 
-.table-hover tr:hover {
-  background: #14364a !important;
+.list-group-item .text-muted {
+  color: #94a3ac !important;
+}
+
+.list-group-item:hover, .list-group-item:focus {
+  background: #14364a;
+  color: unset;
+}
+
+@media (max-width: 767.98px) {
+  .list-group-flush:last-child .list-group-item:last-child {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+  }
 }
