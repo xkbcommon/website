@@ -1,17 +1,17 @@
 @font-face {
-  font-family: Iosevka Custom;
-  src: url('../ttf/iosevka-custom-regular.ttf');
+  font-family: Ubuntu Mono;
+  src: url('../ttf/ubuntumono-regular.ttf');
 }
 
 @font-face {
-  font-family: Iosevka Custom;
-  src: url('../ttf/iosevka-custom-oblique.ttf');
-  font-style: oblique;
+  font-family: Ubuntu Mono;
+  font-style: italic;
+  src: url('../ttf/ubuntumono-italic.ttf');
 }
 
 body {
-  font-family: Iosevka Custom;
-  font-size: 14pt;
+  font-family: Ubuntu Mono;
+  font-size: 17pt;
 }
 
 h1 {
@@ -21,7 +21,6 @@ h1 {
 a {
   outline: none;
   color: #f8bdc4;
-  font-style: oblique;
 
   transition: color .2s;
 }
