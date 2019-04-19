@@ -1,73 +1,120 @@
 @font-face {
-  font-family: Ubuntu Mono;
+  font-family: "Ubuntu Mono";
   src: url('../ttf/ubuntumono-regular.ttf');
 }
 
 @font-face {
-  font-family: Ubuntu Mono;
+  font-family: "Ubuntu Mono";
   font-style: italic;
   src: url('../ttf/ubuntumono-italic.ttf');
 }
 
-body {
-  font-family: Ubuntu Mono;
-  font-size: 17pt;
+/* Reset */
+
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Content */
+
+html {
+  font-family: "Ubuntu Mono", monospace;
+
+  /* Set root font size for entire document a factor of user agent font size. */
+  font-size: 1.4em;
+
+  line-height: 1.5;
+
+  /* Color schema */
+  background: #1b4965;
+  color: #fefefe;
+}
+
+main {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
 }
 
 h1 {
-  font-size: 30pt;
+  font-size: 1.8rem;
+  text-decoration: underline;
+  margin-left: 1em;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
 a {
   outline: none;
   color: #f8bdc4;
-
   transition: color .2s;
-}
-
-a:hover {
-  color: unset;
   text-decoration: none;
+}
+a:hover, a:focus {
+  color: unset;
 }
 
 ul {
   list-style: lower-greek;
 }
 
-.bg-dark {
-  background: #1b4965 !important;
+p, ul {
+  margin-top: 0;
+  margin-bottom: 1em;
 }
 
-.text-light {
-  color: #fefefe;
-}
 
-.stable {
+/* Alert */
+
+[role=alert] {
+  padding: 1rem;
+  text-align: center;
   background: #14364a;
 }
 
-.release-list a {
-  font-style: unset;
+
+/* Releases */
+
+.releases {
+  list-style: none;
+  padding: 0;
 }
 
-.list-group-item {
+.release {
   background: #173c53;
-  color: #fefefe;
+  border-bottom: 1px solid rgba(0,0,0,.125);
 
   transition: .2s background;
-}
+  color: #fefefe;
 
-.list-group-item .text-muted {
-  color: #94a3ac !important;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
 }
-
-.list-group-item:hover, .list-group-item:focus {
+.release:hover, .release:focus {
   background: #14364a;
-  color: unset;
+}
+.release time {
+  font-size: 0.8em;
+  color: #94a3ac;
 }
 
-@media (max-width: 767.98px) {
-  .list-group-flush:last-child .list-group-item:last-child {
-    border-bottom: 1px solid rgba(0,0,0,.125);
+@media (min-width: 40rem) {
+  .releases {
+    columns: 2;
   }
 }
