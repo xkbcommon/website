@@ -8,255 +8,229 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body class="bg-dark text-light">
+
+  <body>
     <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 py-5">
 
-            <h1 class="text-center text-md-left ml-md-5 mb-4"><u>xkbcommon</u></h1>
+      <h1>xkbcommon</h1>
 
-            <section>
-              <p>
-                <em>xkbcommon</em> is a library for handling of keyboard descriptions,
-                including loading them from disk, parsing them and handling their state.
-                It's mainly meant for client toolkits, window systems, and other system applications;
-                <br><br>
-                Currently that includes:
+      <section>
+        <p>
+          <em>xkbcommon</em> is a library for handling of keyboard descriptions,
+          including loading them from disk, parsing them and handling their state.
+          It's mainly meant for client toolkits, window systems, and other system applications;
+        </p>
 
-                <ul>
-                  <li>
-                    <a href="https://wayland.freedesktop.org/">
-                      Wayland
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/dvdhrm/kmscon/wiki/KMSCON">
-                      kmscon
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.gtk.org/">
-                      GTK
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.qt.io/">
-                      Qt
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://live.gnome.org/Clutter">
-                      Clutter
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://userbase.kde.org/KWin">
-                      KWin
-                    </a>
-                  </li>
-                  <li>
-                    and others
-                  </li>
-                </ul>
+        <p>
+          Currently that includes:
+        </p>
 
-                It is also used by some XCB applications for proper keyboard support.
-                <br><br>
-                If you're still confused, you might want to take a look at our
-                <a href="http://xkbcommon.org/doc/current/">documentation</a>
-                to find out more.
-              </p>
-            </section>
+        <ul>
+          <li>
+            <a href="https://wayland.freedesktop.org/">
+              Wayland
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/dvdhrm/kmscon/wiki/KMSCON">
+              kmscon
+            </a>
+          </li>
+          <li>
+            <a href="https://www.gtk.org/">
+              GTK
+            </a>
+          </li>
+          <li>
+            <a href="https://www.qt.io/">
+              Qt
+            </a>
+          </li>
+          <li>
+            <a href="https://live.gnome.org/Clutter">
+              Clutter
+            </a>
+          </li>
+          <li>
+            <a href="https://userbase.kde.org/KWin">
+              KWin
+            </a>
+          </li>
+          <li>
+            and others
+          </li>
+        </ul>
 
-            <section>
-              <h3 class="mt-5 mb-3">Releases</h3>
+        <p>
+          It is also used by some XCB applications for proper keyboard support.
+        </p>
 
-              <p>
-                Our
-                <a href="http://github.com/xkbcommon/libxkbcommon">git repository</a>
-                on GitHub always contains the most up-to-date development code.
-                Patches and feedback should ideally be submitted against the latest code in git.
-              </p>
+        <p>
+          If you're still confused, you might want to take a look at
+          <a href="http://xkbcommon.org/doc/current/">our documentation</a>
+          to find out more.
+        </p>
+      </section>
 
-              <p class="stable text-center my-5 p-3">
-                Our latest API- and ABI-stable release is
-                <a href="http://xkbcommon.org/download/libxkbcommon-0.8.4.tar.xz">0.8.4</a>.
-              </p>
+      <section>
+        <h2>Releases</h2>
 
-              <p>
-                You may find the past release announcements, including NEWS and checksums,
-                on the wayland-devel mailing list archives:
-              </p>
+        <p>
+          Our
+          <a href="http://github.com/xkbcommon/libxkbcommon">git repository</a>
+          on GitHub always contains the most up-to-date development code.
+          Patches and feedback should ideally be submitted against the latest code in git.
+        </p>
 
-              <div class="row mt-4 mb-5">
-                <div class="col-md-6">
-                  <div class="release-list list-group list-group-flush">
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2019-February/040102.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.8.4</span>
-                        <small class="text-muted">Fri Feb 22, 2019</small>
-                      </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2019-February/039970.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.8.3</span>
-                        <small class="text-muted">Fri Feb 8, 2019</small>
-                      </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2018-August/039243.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.8.2</span>
-                        <small class="text-muted">Sun Aug 5, 2018</small>
-                      </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2018-August/039232.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.8.1</span>
-                        <small class="text-muted">Fri Aug 3, 2018</small>
-                      </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2017-December/036291.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.8.0</span>
-                        <small class="text-muted">Fri Dec 15, 2017</small>
-                      </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2017-August/034721.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.7.2</span>
-                        <small class="text-muted">Fri Aug 4, 2017</small>
-                      </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2017-January/032725.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.7.1</span>
-                        <small class="text-muted">Wed Jan 18, 2017</small>
-                      </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2016-November/031544.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.7.0</span>
-                        <small class="text-muted">Fri Nov 11, 2016</small>
-                      </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2016-April/027962.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.6.1</span>
-                        <small class="text-muted">Fri Apr 8, 2016</small>
-                      </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2016-March/027483.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.6.0</span>
-                        <small class="text-muted">Wed Mar 16, 2016</small>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="release-list list-group list-group-flush">
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2014-October/017836.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.5.0</span>
-                        <small class="text-muted">Sat Oct 18, 2014</small>
-                      </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2014-August/016647.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.4.3</span>
-                        <small class="text-muted">Tue Aug 19, 2014</small>
-                      </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2014-May/014864.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.4.2</span>
-                        <small class="text-muted">Thu May 15, 2014</small>
-                      </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2014-March/013903.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.4.1</span>
-                        <small class="text-muted">Thu Mar 27, 2014</small>
-                      </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2014-February/013032.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.4.0</span>
-                        <small class="text-muted">Sun Feb 2, 2014</small>
-                      </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2013-November/012182.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.3.2</span>
-                        <small class="text-muted">Fri Nov 22, 2013</small>
-                      </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2013-April/008340.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.3.0</span>
-                        <small class="text-muted">Mon Apr 1, 2013</small>
-                      </div>
-                    </a>
-                    <a class="list-group-item list-group-item-action flex-column align-items-start"
-                       href="https://lists.freedesktop.org/archives/wayland-devel/2012-October/005976.html">
-                      <div class="d-flex justify-content-between align-items-center w-100">
-                        <span>0.2.0</span>
-                        <small class="text-muted">Tue Oct 23, 2012</small>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </section>
+        <p role="alert">
+          Our latest API- and ABI-stable release is
+          <a href="http://xkbcommon.org/download/libxkbcommon-0.8.4.tar.xz">0.8.4</a>.
+        </p>
 
-            <section>
-              <h3 class="my-3">Bugs</h3>
+        <p>
+          You may find the past release announcements, including NEWS and checksums,
+          on the wayland-devel mailing list archives:
+        </p>
 
-              <p>
-                You are welcome to report any bugs you may encounter to the
-                <a href="https://github.com/xkbcommon/libxkbcommon/issues">GitHub</a>
-                issue tracker.
-              </p>
-            </section>
-
-            <section>
-              <h3 class="mt-5 mb-3">Contact</h3>
-
-              <p>
-                <em>xkbcommon</em> is maintained by:
-                <ol>
-                  <li>
-                    Daniel Stone (daniel@fooishbar.org)
-                  </li>
-                  <li>
-                    Ran Benita (ran234@gmail.com)
-                  </li>
-                </ol>
-              </p>
-            </section>
-          </div>
+        <ul class="releases">
+          <li>
+            <a href="https://lists.freedesktop.org/archives/wayland-devel/2019-February/040102.html" class="release">
+                  0.8.4
+                  <time datetime="2019-02-22">Fri Feb 22, 2019</time>
+              </a>
+            </li>
+            <li>
+              <a href="https://lists.freedesktop.org/archives/wayland-devel/2019-February/039970.html" class="release">
+                  0.8.3
+                  <time datetime="2019-02-08">Fri Feb 8, 2019</time>
+              </a>
+            </li>
+            <li>
+              <a href="https://lists.freedesktop.org/archives/wayland-devel/2018-August/039243.html" class="release">
+                  0.8.2
+                  <time datetime="2018-08-05">Sun Aug 5, 2018</time>
+              </a>
+            </li>
+            <li>
+              <a href="https://lists.freedesktop.org/archives/wayland-devel/2018-August/039232.html" class="release">
+                  0.8.1
+                  <time datetime="2018-08-03">Fri Aug 3, 2018</time>
+              </a>
+            </li>
+            <li>
+              <a href="https://lists.freedesktop.org/archives/wayland-devel/2017-December/036291.html" class="release">
+                  0.8.0
+                  <time datetime="2017-12-15">Fri Dec 15, 2017</time>
+              </a>
+            </li>
+            <li>
+              <a href="https://lists.freedesktop.org/archives/wayland-devel/2017-August/034721.html" class="release">
+                  0.7.2
+                  <time datetime="2017-08-04">Fri Aug 4, 2017</time>
+              </a>
+            </li>
+            <li>
+              <a href="https://lists.freedesktop.org/archives/wayland-devel/2017-January/032725.html" class="release">
+                  0.7.1
+                  <time datetime="2017-01-18">Wed Jan 18, 2017</time>
+              </a>
+            </li>
+            <li>
+              <a href="https://lists.freedesktop.org/archives/wayland-devel/2016-November/031544.html" class="release">
+                  0.7.0
+                  <time datetime="2016-11-11">Fri Nov 11, 2016</time>
+              </a>
+            </li>
+            <li>
+              <a href="https://lists.freedesktop.org/archives/wayland-devel/2016-April/027962.html" class="release">
+                  0.6.1
+                  <time datetime="2016-14-08">Fri Apr 8, 2016</time>
+              </a>
+            </li>
+            <li>
+              <a href="https://lists.freedesktop.org/archives/wayland-devel/2016-March/027483.html" class="release">
+                  0.6.0
+                  <time datetime="2016-03-16">Wed Mar 16, 2016</time>
+              </a>
+            </li>
+            <li>
+              <a href="https://lists.freedesktop.org/archives/wayland-devel/2014-October/017836.html" class="release">
+                    0.5.0
+                    <time datetime="2014-10-18">Sat Oct 18, 2014</time>
+                </a>
+              </li>
+              <li>
+                <a href="https://lists.freedesktop.org/archives/wayland-devel/2014-August/016647.html" class="release">
+                    0.4.3
+                    <time datetime="2014-08-19">Tue Aug 19, 2014</time>
+                </a>
+              </li>
+              <li>
+                <a href="https://lists.freedesktop.org/archives/wayland-devel/2014-May/014864.html" class="release">
+                    0.4.2
+                    <time datetime="2014-05-15">Thu May 15, 2014</time>
+                </a>
+              </li>
+              <li>
+                <a href="https://lists.freedesktop.org/archives/wayland-devel/2014-March/013903.html" class="release">
+                    0.4.1
+                    <time datetime="2014-03-27">Thu Mar 27, 2014</time>
+                </a>
+              </li>
+              <li>
+                <a href="https://lists.freedesktop.org/archives/wayland-devel/2014-February/013032.html" class="release">
+                    0.4.0
+                    <time datetime="2014-02-02">Sun Feb 2, 2014</time>
+                </a>
+              </li>
+              <li>
+                <a href="https://lists.freedesktop.org/archives/wayland-devel/2013-November/012182.html" class="release">
+                    0.3.2
+                    <time datetime="2013-11-22">Fri Nov 22, 2013</time>
+                </a>
+              </li>
+              <li>
+                <a href="https://lists.freedesktop.org/archives/wayland-devel/2013-April/008340.html" class="release">
+                    0.3.0
+                    <time datetime="2013-04-01">Mon Apr 1, 2013</time>
+                </a>
+              </li>
+              <li>
+                <a href="https://lists.freedesktop.org/archives/wayland-devel/2012-October/005976.html" class="release">
+                    0.2.0
+                    <time datetime="2013-10-23">Tue Oct 23, 2012</time>
+                </a>
+              </li>
+            </ul>
         </div>
-      </div>
+      </section>
+
+      <section>
+        <h2>Bugs</h2>
+        <p>
+          You are welcome to report any bugs you may encounter to the
+          <a href="https://github.com/xkbcommon/libxkbcommon/issues">GitHub issue tracker</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+
+        <p>
+          <em>xkbcommon</em> is maintained by:
+          <ol>
+            <li>
+              Daniel Stone (daniel@fooishbar.org)
+            </li>
+            <li>
+              Ran Benita (ran234@gmail.com)
+            </li>
+          </ol>
+        </p>
+      </section>
+
     </main>
   </body>
 </html>
