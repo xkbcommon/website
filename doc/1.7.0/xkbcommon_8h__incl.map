@@ -1,0 +1,15 @@
+<map id="include/xkbcommon/xkbcommon.h" name="include/xkbcommon/xkbcommon.h">
+<area shape="rect" id="Node000001" title="Main libxkbcommon API." alt="" coords="178,5,428,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,90,76,117"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,36,172,57,88,84,83,86,81,81,86,78,170,52,247,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="100,90,165,117"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="277,36,175,85,172,80,275,31"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="189,90,263,117"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="293,35,250,80,246,77,289,32"/>
+<area shape="rect" id="Node000005" href="$xkbcommon-names_8h.html" title="Predefined names for common modifiers and LEDs." alt="" coords="287,81,474,126"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="318,32,351,67,348,71,314,35"/>
+<area shape="rect" id="Node000006" href="$xkbcommon-keysyms_8h.html" title="Key symbols (keysyms) definitions." alt="" coords="499,81,686,126"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="350,31,502,74,500,79,349,36"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="711,81,898,126"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="397,31,696,78,695,83,396,36"/>
+</map>
