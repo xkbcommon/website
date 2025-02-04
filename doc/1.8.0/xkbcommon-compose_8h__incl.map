@@ -1,0 +1,10 @@
+<map id="include/xkbcommon/xkbcommon&#45;compose.h" name="include/xkbcommon/xkbcommon&#45;compose.h">
+<area shape="rect" id="node1" title="libxkbcommon Compose API &#45; support for Compose and dead&#45;keys." alt="" coords="187,5,425,47"/>
+<area shape="rect" id="node2" href="$xkbcommon_8h.html" title="Main libxkbcommon API." alt="" coords="206,95,406,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,177,76,203"/>
+<area shape="rect" id="node4" title=" " alt="" coords="101,177,167,203"/>
+<area shape="rect" id="node5" title=" " alt="" coords="191,177,266,203"/>
+<area shape="rect" id="node6" href="$xkbcommon-names_8h.html" title="Predefined names for common modifiers and LEDs." alt="" coords="291,169,479,211"/>
+<area shape="rect" id="node7" href="$xkbcommon-keysyms_8h.html" title="Key symbols (keysyms) definitions." alt="" coords="503,169,691,211"/>
+<area shape="rect" id="node8" title=" " alt="" coords="715,169,903,211"/>
+</map>
