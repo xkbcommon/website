@@ -1,6 +1,9 @@
 <map id="include/xkbcommon/xkbcommon&#45;keysyms.h" name="include/xkbcommon/xkbcommon&#45;keysyms.h">
-<area shape="rect" id="node1" title="Key symbols (keysyms) definitions." alt="" coords="136,5,375,47"/>
-<area shape="rect" id="node2" href="$xkbcommon_8h.html" title="Main libxkbcommon API." alt="" coords="130,95,381,121"/>
-<area shape="rect" id="node3" href="$xkbcommon-compose_8h.html" title="libxkbcommon Compose API &#45; support for Compose and dead&#45;keys." alt="" coords="5,169,244,211"/>
-<area shape="rect" id="node4" href="$xkbcommon-x11_8h.html" title="libxkbcommon&#45;x11 API &#45; Additional X11 support for xkbcommon." alt="" coords="268,169,507,211"/>
+<area shape="rect" id="Node000001" title="Key symbols (keysyms) definitions." alt="" coords="124,5,337,45"/>
+<area shape="rect" id="Node000002" href="$xkbcommon_8h.html" title="Main libxkbcommon API." alt="" coords="119,93,343,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,59,233,93,228,93,228,59"/>
+<area shape="rect" id="Node000003" href="$xkbcommon-compose_8h.html" title="libxkbcommon Compose API &#45; support for Compose and dead&#45;keys." alt="" coords="5,167,219,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="203,129,142,169,139,164,200,124"/>
+<area shape="rect" id="Node000004" href="$xkbcommon-x11_8h.html" title="libxkbcommon&#45;x11 API &#45; Additional X11 support for xkbcommon." alt="" coords="243,167,456,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="261,124,322,164,319,169,258,129"/>
 </map>

@@ -1,5 +1,7 @@
 <map id="include/xkbcommon/xkbcommon.h" name="include/xkbcommon/xkbcommon.h">
-<area shape="rect" id="node1" title="Main libxkbcommon API." alt="" coords="130,5,381,32"/>
-<area shape="rect" id="node2" href="$xkbcommon-compose_8h.html" title="libxkbcommon Compose API &#45; support for Compose and dead&#45;keys." alt="" coords="5,80,244,121"/>
-<area shape="rect" id="node3" href="$xkbcommon-x11_8h.html" title="libxkbcommon&#45;x11 API &#45; Additional X11 support for xkbcommon." alt="" coords="268,80,507,121"/>
+<area shape="rect" id="Node000001" title="Main libxkbcommon API." alt="" coords="119,5,343,31"/>
+<area shape="rect" id="Node000002" href="$xkbcommon-compose_8h.html" title="libxkbcommon Compose API &#45; support for Compose and dead&#45;keys." alt="" coords="5,79,219,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,41,142,81,139,76,200,36"/>
+<area shape="rect" id="Node000003" href="$xkbcommon-x11_8h.html" title="libxkbcommon&#45;x11 API &#45; Additional X11 support for xkbcommon." alt="" coords="243,79,456,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="261,36,322,76,319,81,258,41"/>
 </map>
