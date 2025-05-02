@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['data_20locations_0',['Data locations',['../user-configuration.html#user-config-locations',1,'Data locations'],['../deprecated.html#_deprecated000001',1,'Data locations']]],
+  ['dataset_1',['Dataset',['../index.html#dataset',1,'']]],
+  ['dead_20keys_20support_2',['Compose and dead-keys support',['../group__compose.html',1,'']]],
+  ['debugging_3',['Debugging',['../debugging.html',1,'']]],
+  ['default_20section_4',['XKB-433 – Missing default section',['../error-index.html#XKB-433',1,'']]],
+  ['default_20statement_5',['XKB-254 – Invalid set default statement',['../error-index.html#XKB-254',1,'']]],
+  ['default_20values_6',['Default values',['../keymap-text-format-v1.html#default-values',1,'Default values'],['../todo.html#_todo000003',1,'Default values']]],
+  ['defaults_20wrong_20scope_7',['XKB-428 – Global defaults wrong scope',['../error-index.html#XKB-428',1,'']]],
+  ['define_20and_20use_20a_20modifier_8',['Define and use a modifier',['../keymap-text-format-v1.html#define-and-use-a-modifier',1,'']]],
+  ['defined_9',['Where are the keyboard layouts defined?',['../faq.html#where-are-the-keyboard-layouts-defined',1,'']]],
+  ['definitions_10',['definitions',['../keymap-text-format-v1.html#key-type-statement',1,'Type definitions'],['../error-index.html#XKB-407',1,'XKB-407 – Conflicting key type definitions']]],
+  ['definitions_20examples_11',['Definitions examples',['../keymap-text-format-v1.html#definitions-examples',1,'']]],
+  ['deprecated_20keysym_12',['XKB-301 – Deprecated keysym',['../error-index.html#XKB-301',1,'']]],
+  ['deprecated_20keysym_20name_13',['XKB-302 – Deprecated keysym name',['../error-index.html#XKB-302',1,'']]],
+  ['deprecated_20list_14',['Deprecated List',['../deprecated.html',1,'']]],
+  ['details_15',['Details',['../error-index.html#details',1,'']]],
+  ['development_16',['Development',['../index.html#development',1,'']]],
+  ['discoverable_20layouts_17',['Discoverable layouts',['../user-configuration.html#discoverable-layouts',1,'']]],
+  ['do_20i_20customize_20my_20layout_18',['How do I customize my layout?',['../faq.html#how-do-i-customize-my-layout',1,'']]],
+  ['do_20i_20swap_20some_20keys_19',['How do I swap some keys?',['../faq.html#how-do-i-swap-some-keys',1,'']]],
+  ['do_20my_20keyboard_20shortcuts_20not_20work_20properly_20',['Why do my keyboard shortcuts not work properly?',['../faq.html#why-do-my-keyboard-shortcuts-not-work-properly',1,'']]],
+  ['does_20…_20mean_21',['What does … mean?',['../faq.html#what-does--mean',1,'']]],
+  ['does_20my_20key_20combination_20to_20switch_20between_20layouts_20not_20work_22',['Why does my key combination to switch between layouts not work?',['../faq.html#why-does-my-key-combination-to-switch-between-layouts-not-work',1,'']]],
+  ['does_20my_20keyboard_20layout_20not_20work_20as_20expected_23',['Why does my keyboard layout not work as expected?',['../faq.html#why-does-my-keyboard-layout-not-work-as-expected',1,'']]],
+  ['duplicate_20entry_24',['XKB-378 – Duplicate entry',['../error-index.html#XKB-378',1,'']]]
+];
