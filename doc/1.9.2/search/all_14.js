@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['layout_0',['layout',['../user-configuration.html#user-config-layout',1,'Adding a layout'],['../faq.html#how-do-i-customize-my-layout',1,'How do I customize my layout?'],['../faq.html#keyboard-layout',1,'Keyboard layout'],['../structxkb__rule__names.html#a243bb3aa36b4ea9ca402ed330a757746',1,'xkb_rule_names::layout']]],
+  ['layout_20not_20work_20as_20expected_1',['Why does my keyboard layout not work as expected?',['../faq.html#why-does-my-keyboard-layout-not-work-as-expected',1,'']]],
+  ['layout_20option_20and_20symbols_2',['Example: layout, option and symbols',['../rule-file-format.html#rules-options-example',1,'']]],
+  ['layouts_3',['layouts',['../user-configuration.html#discoverable-layouts',1,'Discoverable layouts'],['../keymap-text-format-v1.html#key-type-mappings-examples',1,'Examples with standard keyboard layouts']]],
+  ['layouts_20defined_4',['Where are the keyboard layouts defined?',['../faq.html#where-are-the-keyboard-layouts-defined',1,'']]],
+  ['layouts_20not_20work_5',['Why does my key combination to switch between layouts not work?',['../faq.html#why-does-my-key-combination-to-switch-between-layouts-not-work',1,'']]],
+  ['layouts_20variants_20and_20symbols_6',['Example: layouts, variants and symbols',['../rule-file-format.html#rules-symbols-example',1,'']]],
+  ['led_20map_20statements_7',['LED map statements',['../keymap-text-format-v1.html#indicator-effect',1,'']]],
+  ['led_20name_20statements_8',['LED name statements',['../keymap-text-format-v1.html#indicator-name',1,'LED name statements'],['../todo.html#_todo000002',1,'LED name statements']]],
+  ['legacy_20actions_9',['Unsupported legacy actions',['../keymap-text-format-v1.html#legacy-actions',1,'']]],
+  ['level_10',['XKB-312 – Unsupported shift level',['../error-index.html#XKB-312',1,'']]],
+  ['level_20names_11',['XKB-239 – Conflicting key type level names',['../error-index.html#XKB-239',1,'']]],
+  ['levels_12',['levels',['../keymap-text-format-v1.html#four-levels',1,'Four levels'],['../keymap-text-format-v1.html#two-levels',1,'Two levels']]],
+  ['library_20context_13',['Library Context',['../group__context.html',1,'']]],
+  ['libxkbcommon_14',['libxkbcommon',['../index.html',1,'']]],
+  ['list_15',['List',['../deprecated.html',1,'Deprecated List'],['../todo.html',1,'Todo List']]],
+  ['list_16',['Example: include path list',['../keymap-text-format-v1.html#example-include-path-list',1,'']]],
+  ['literal_17',['XKB-034 – Malformed number literal',['../error-index.html#XKB-034',1,'']]],
+  ['literals_18',['Literals',['../keymap-text-format-v1.html#literals',1,'']]],
+  ['locale_19',['Compose Locale',['../group__compose.html',1,'']]],
+  ['locations_20',['locations',['../user-configuration.html#user-config-locations',1,'Data locations'],['../deprecated.html#_deprecated000001',1,'Data locations']]],
+  ['logging_20handling_21',['Logging Handling',['../group__logging.html',1,'']]]
+];
