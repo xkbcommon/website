@@ -1,0 +1,19 @@
+<map id="include/xkbcommon/xkbcommon&#45;compose.h" name="include/xkbcommon/xkbcommon&#45;compose.h">
+<area shape="rect" id="Node000001" title="libxkbcommon Compose API &#45; support for Compose and dead&#45;keys." alt="" coords="208,5,421,45"/>
+<area shape="rect" id="Node000002" href="$xkbcommon_8h.html" title="Main libxkbcommon API." alt="" coords="225,93,404,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="317,46,317,79,312,79,312,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,174,80,199"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="267,121,93,169,85,172,83,167,91,164,266,116"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="105,174,170,199"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="290,121,177,171,174,166,288,116"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="195,174,256,199"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="303,121,250,167,247,163,300,117"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="280,174,349,199"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="317,119,317,160,312,160,312,119"/>
+<area shape="rect" id="Node000007" href="$xkbcommon-names_8h.html" title="Predefined names for common modifiers and LEDs." alt="" coords="373,167,541,207"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="337,117,412,158,410,162,334,121"/>
+<area shape="rect" id="Node000008" href="$xkbcommon-keysyms_8h.html" title="Key symbols (keysyms) definitions." alt="" coords="565,167,733,207"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="364,116,556,161,555,166,363,121"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="757,167,925,207"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="405,116,559,136,744,164,743,169,558,141,404,121"/>
+</map>
