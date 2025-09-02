@@ -336,16 +336,17 @@ xev</h2>
 API</h1>
 <h2><a class="anchor" id="modifiers"></a>
 Modifiers</h2>
-<h3><a class="anchor" id="how-to-get-the-virtual-to-real-modifiers-mappings"></a>
-How to get the virtual to real modifiers mappings?</h3>
-<p>The <a class="el" href="keymap-text-format-v1-v2.html#virtual-modifier-def">virtual modifiers</a> mappings to <a class="el" href="keymap-text-format-v1-v2.html#real-modifier-def">real modifiers</a> is an implementation detail. However, some applications may require it in order to interface with legacy code.</p>
+<h3><a class="anchor" id="how-to-get-the-virtual-modifier-encoding"></a>
+How to get the virtual modifier encoding?</h3>
+<p>The <a class="el" href="keymap-text-format-v1-v2.html#virtual-modifier-def">virtual modifiers</a> encoding, (also: mappings to <a class="el" href="keymap-text-format-v1-v2.html#real-modifier-def">real modifiers</a> in X11 jargon) is an implementation detail. However, some applications may require it in order to interface with legacy code.</p>
 <h4><a class="anchor" id="libxkbcommon--110"></a>
 libxkbcommon ≥ 1.10</h4>
-<p>Use the dedicated function <code><a class="el" href="group__components.html#ga5054d57a49a205cee0a01f4079f2fbf7" title="Get the encoding of a modifier by name.">xkb_keymap::xkb_keymap_mod_get_mask()</a></code>.</p>
+<p>Use the dedicated functions <code><a class="el" href="group__components.html#ga5054d57a49a205cee0a01f4079f2fbf7" title="Get the encoding of a modifier by name.">xkb_keymap::xkb_keymap_mod_get_mask()</a></code> (since 1.10) and <code><a class="el" href="group__components.html#ga8f0ed9a71665e1260b7ad509693b1689" title="Get the encoding of a modifier by index.">xkb_keymap::xkb_keymap_mod_get_mask2()</a></code> (since 1.11).</p>
 <h4><a class="anchor" id="libxkbcommon--19"></a>
 libxkbcommon ≤ 1.9</h4>
 <p>Use the following snippet:</p>
 <div class="fragment"><div class="line"><span class="comment">// Find the real modifier mapping of the virtual modifier `LevelThree`</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="xkbcommon_8h.html">xkbcommon/xkbcommon.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="xkbcommon-names_8h.html">xkbcommon/xkbcommon-names.h</a>&gt;</span></div>
 <div class="line"><span class="keyword">const</span> <a class="code hl_typedef" href="xkbcommon_8h.html#a638bf7a52db06f383ce5a4ef99dfe539">xkb_mod_index_t</a> levelThree_idx = xkb_keymap_mod_get_index(keymap, <a class="code hl_define" href="group__virtual-modifier-names.html#gab7e939dd1d78f2abbee84ef149221eae">XKB_VMOD_NAME_LEVEL3</a>);</div>
 <div class="line"><span class="keyword">const</span> <a class="code hl_typedef" href="xkbcommon_8h.html#a41b3ee62ae73ec041b68165bf97869e8">xkb_mod_mask_t</a> levelThree = UINT32_C(1) &lt;&lt; levelThree_idx;</div>
@@ -358,12 +359,59 @@ libxkbcommon ≤ 1.9</h4>
 <div class="ttc" id="agroup__state_html_ga7981d274ae2e1d720bd55e0d81a4da5c"><div class="ttname"><a href="group__state.html#ga7981d274ae2e1d720bd55e0d81a4da5c">xkb_state::xkb_state_new</a></div><div class="ttdeci">XKB_EXPORT struct xkb_state * xkb_state_new(struct xkb_keymap *keymap)</div><div class="ttdoc">Create a new keyboard state object.</div></div>
 <div class="ttc" id="agroup__state_html_gacfdacf066f449b36550e366b398effb8"><div class="ttname"><a href="group__state.html#gacfdacf066f449b36550e366b398effb8">xkb_state::xkb_state_serialize_mods</a></div><div class="ttdeci">XKB_EXPORT xkb_mod_mask_t xkb_state_serialize_mods(struct xkb_state *state, enum xkb_state_component components)</div><div class="ttdoc">The counterpart to xkb_state::xkb_state_update_mask() for modifiers, to be used on the server side of...</div></div>
 <div class="ttc" id="agroup__state_html_gae59cdbcc380013e9f12db359728fa098"><div class="ttname"><a href="group__state.html#gae59cdbcc380013e9f12db359728fa098">xkb_state::xkb_state_update_mask</a></div><div class="ttdeci">XKB_EXPORT enum xkb_state_component xkb_state_update_mask(struct xkb_state *state, xkb_mod_mask_t depressed_mods, xkb_mod_mask_t latched_mods, xkb_mod_mask_t locked_mods, xkb_layout_index_t depressed_layout, xkb_layout_index_t latched_layout, xkb_layout_index_t locked_layout)</div><div class="ttdoc">Update a keyboard state from a set of explicit masks.</div></div>
-<div class="ttc" id="agroup__state_html_gga04e8eac0666cc64dee6f0d5a7a773a03a2357b9f2490e89ab2d549695ea49de4f"><div class="ttname"><a href="group__state.html#gga04e8eac0666cc64dee6f0d5a7a773a03a2357b9f2490e89ab2d549695ea49de4f">XKB_STATE_MODS_EFFECTIVE</a></div><div class="ttdeci">@ XKB_STATE_MODS_EFFECTIVE</div><div class="ttdoc">Effective modifiers, i.e.</div><div class="ttdef"><b>Definition</b> xkbcommon.h:1810</div></div>
+<div class="ttc" id="agroup__state_html_gga04e8eac0666cc64dee6f0d5a7a773a03a2357b9f2490e89ab2d549695ea49de4f"><div class="ttname"><a href="group__state.html#gga04e8eac0666cc64dee6f0d5a7a773a03a2357b9f2490e89ab2d549695ea49de4f">XKB_STATE_MODS_EFFECTIVE</a></div><div class="ttdeci">@ XKB_STATE_MODS_EFFECTIVE</div><div class="ttdoc">Effective modifiers, i.e.</div><div class="ttdef"><b>Definition</b> xkbcommon.h:1812</div></div>
 <div class="ttc" id="agroup__virtual-modifier-names_html_gab7e939dd1d78f2abbee84ef149221eae"><div class="ttname"><a href="group__virtual-modifier-names.html#gab7e939dd1d78f2abbee84ef149221eae">XKB_VMOD_NAME_LEVEL3</a></div><div class="ttdeci">#define XKB_VMOD_NAME_LEVEL3</div><div class="ttdef"><b>Definition</b> xkbcommon-names.h:60</div></div>
 <div class="ttc" id="astructxkb__state_html"><div class="ttname"><a href="structxkb__state.html">xkb_state</a></div><div class="ttdoc">Opaque keyboard state object.</div></div>
 <div class="ttc" id="axkbcommon-names_8h_html"><div class="ttname"><a href="xkbcommon-names_8h.html">xkbcommon-names.h</a></div><div class="ttdoc">Predefined names for common modifiers and LEDs.</div></div>
+<div class="ttc" id="axkbcommon_8h_html"><div class="ttname"><a href="xkbcommon_8h.html">xkbcommon.h</a></div><div class="ttdoc">Main libxkbcommon API.</div></div>
 <div class="ttc" id="axkbcommon_8h_html_a41b3ee62ae73ec041b68165bf97869e8"><div class="ttname"><a href="xkbcommon_8h.html#a41b3ee62ae73ec041b68165bf97869e8">xkb_mod_mask_t</a></div><div class="ttdeci">uint32_t xkb_mod_mask_t</div><div class="ttdoc">A mask of modifier indices.</div><div class="ttdef"><b>Definition</b> xkbcommon.h:226</div></div>
 <div class="ttc" id="axkbcommon_8h_html_a638bf7a52db06f383ce5a4ef99dfe539"><div class="ttname"><a href="xkbcommon_8h.html#a638bf7a52db06f383ce5a4ef99dfe539">xkb_mod_index_t</a></div><div class="ttdeci">uint32_t xkb_mod_index_t</div><div class="ttdoc">Index of a modifier.</div><div class="ttdef"><b>Definition</b> xkbcommon.h:224</div></div>
+</div><!-- fragment --><h3><a class="anchor" id="how-to-get-the-keys-that-trigger-modifiers"></a>
+How to get the keys that trigger modifiers?</h3>
+<p>There is no dedicated API, since the use cases are too diverse or niche. Nevertheless, the following snippet provide a minimal example to achieve it.</p>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="xkbcommon_8h.html">xkbcommon/xkbcommon.h</a>&gt;</span></div>
+<div class="line"><span class="keyword">static</span> ssize_t</div>
+<div class="line">xkb_keymap_mod_get_codes(<span class="keyword">struct</span> <a class="code hl_struct" href="structxkb__keymap.html">xkb_keymap</a> *keymap, <a class="code hl_typedef" href="xkbcommon_8h.html#a638bf7a52db06f383ce5a4ef99dfe539">xkb_mod_index_t</a> mod,</div>
+<div class="line">                         <a class="code hl_typedef" href="xkbcommon_8h.html#ac29aee92124c08d1953910ab28ee1997">xkb_keycode_t</a> *codes_out, <span class="keywordtype">size_t</span> codes_size)</div>
+<div class="line">{</div>
+<div class="line">    <span class="keywordflow">if</span> (mod &gt;= xkb_keymap_num_mods(keymap))</div>
+<div class="line">        <span class="keywordflow">return</span> -1;</div>
+<div class="line"> </div>
+<div class="line">    ssize_t idx = 0;</div>
+<div class="line">    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="xkbcommon_8h.html#ac29aee92124c08d1953910ab28ee1997">xkb_keycode_t</a> k = xkb_keymap_min_keycode(keymap);</div>
+<div class="line">         k &lt;= xkb_keymap_max_keycode(keymap) &amp;&amp; idx &gt;= 0; k++) {</div>
+<div class="line">        <span class="comment">/*</span></div>
+<div class="line"><span class="comment">         * We only test the first level of the first group.</span></div>
+<div class="line"><span class="comment">         *</span></div>
+<div class="line"><span class="comment">         * Since there is currently no way to reset the state, use a new one to</span></div>
+<div class="line"><span class="comment">         * avoid side effects (latches, etc.)</span></div>
+<div class="line"><span class="comment">         */</span></div>
+<div class="line">        <span class="keyword">struct </span><a class="code hl_struct" href="structxkb__state.html">xkb_state</a> * <span class="keyword">const</span> state = <a class="code hl_function" href="group__state.html#ga7981d274ae2e1d720bd55e0d81a4da5c">xkb_state_new</a>(keymap);</div>
+<div class="line">        assert(state);</div>
+<div class="line"> </div>
+<div class="line">        <span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">enum</span> <a class="code hl_enumeration" href="group__state.html#ga631f03db07f30774659ab3f787b152e7">xkb_key_direction</a> directions[] = {</div>
+<div class="line">            <a class="code hl_enumvalue" href="group__state.html#gga631f03db07f30774659ab3f787b152e7a10b02b45f1fceae1b43bc69162f84678">XKB_KEY_DOWN</a>,</div>
+<div class="line">            <a class="code hl_enumvalue" href="group__state.html#gga631f03db07f30774659ab3f787b152e7aa685cb474cd090014d1049f74c3e3ec5">XKB_KEY_UP</a></div>
+<div class="line">        };</div>
+<div class="line"> </div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> d = 0; d &lt; ARRAY_SIZE(directions); d++) {</div>
+<div class="line">            <span class="keywordflow">if</span> (<a class="code hl_function" href="group__state.html#ga3134cc3645cea6063bfb7e27d9a24d58">xkb_state_update_key</a>(state, k, directions[d]) &amp;&amp;</div>
+<div class="line">                <a class="code hl_function" href="group__state.html#gaa856e0ad47b0aaa0240a5afe9963f835">xkb_state_mod_index_is_active</a>(state, mod,</div>
+<div class="line">                                              <a class="code hl_enumvalue" href="group__state.html#gga04e8eac0666cc64dee6f0d5a7a773a03a2357b9f2490e89ab2d549695ea49de4f">XKB_STATE_MODS_EFFECTIVE</a>)) {</div>
+<div class="line">                <span class="keywordflow">if</span> ((<span class="keywordtype">size_t</span>) idx &lt; codes_size) {</div>
+<div class="line">                    assert(idx &lt; (ssize_t) (SIZE_MAX / 2));</div>
+<div class="line">                    codes_out[idx++] = k;</div>
+<div class="line">                } <span class="keywordflow">else</span> {</div>
+<div class="line">                    idx = -2;</div>
+<div class="line">                }</div>
+<div class="line">                <span class="keywordflow">break</span>;</div>
+<div class="line">            }</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        <a class="code hl_function" href="group__state.html#ga3f905c1383b32dcceb5feb9b9fdd0ce4">xkb_state_unref</a>(state);</div>
+<div class="line">    }</div>
+<div class="line">    <span class="keywordflow">return</span> idx;</div>
+<div class="line">}</div>
 </div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->

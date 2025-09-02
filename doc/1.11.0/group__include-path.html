@@ -114,10 +114,10 @@ XKB_EXPORT unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>xk
 <p>Manipulating the include paths in a context. </p>
 <p>The include paths are the file-system paths that are searched when an include statement is encountered during keymap compilation.</p>
 <p>The default include paths are, in that lookup order:</p><ul>
-<li>The path <code>$XDG_CONFIG_HOME/xkb</code>, with the usual <code>XDG_CONFIG_HOME</code> fallback to <code>$HOME/.config/</code> if unset.</li>
-<li>The path <code>$HOME/.xkb</code>, where $HOME is the value of the environment variable <code>HOME</code>.</li>
+<li>The path <code>$XDG_CONFIG_HOME/xkb</code>, where <code>$XDG_CONFIG_HOME</code> is the value of the environment variable <code>XDG_CONFIG_HOME</code>, with the usual fallback to <code>$HOME/.config/</code> if unset.</li>
+<li>The path <code>$HOME/.xkb</code>, where <code>$HOME</code> is the value of the environment variable <code>HOME</code>.</li>
 <li>The <code>XKB_CONFIG_EXTRA_PATH</code> environment variable, if defined, otherwise the system configuration directory, defined at library configuration time (usually <code>/etc/xkb</code>).</li>
-<li>The <code>XKB_CONFIG_ROOT</code> environment variable, if defined, otherwise the system XKB root, defined at library configuration time. </li>
+<li>The <code>XKB_CONFIG_ROOT</code> environment variable, if defined, otherwise the system XKB root, defined at library configuration time (usually <code>/usr/share/X11/xkb</code>). </li>
 </ul>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga936bed6869d76fee6f432dfb9778a3b6" name="ga936bed6869d76fee6f432dfb9778a3b6"></a>

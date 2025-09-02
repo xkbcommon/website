@@ -1160,7 +1160,7 @@ Two levels</h4>
 <div class="line">    level_name[Level1] = <span class="stringliteral">&quot;Base&quot;</span>;</div>
 <div class="line">    level_name[Level2] = <span class="stringliteral">&quot;Shift&quot;</span>;</div>
 <div class="line">};</div>
-</div><!-- fragment --> </figcaption> <figure><figcaption><p> Mapping test </p></figcaption> <table class="markdownTable">
+</div><!-- fragment --> </figure> <figure><figcaption><p> Mapping test </p></figcaption> <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone"><em>Active</em> modifiers   </th><th class="markdownTableHeadNone"><em>Filtered</em> modifiers   </th><th class="markdownTableHeadNone">Match?   </th><th class="markdownTableHeadNone">Shift level    </th></tr>
 <tr class="markdownTableRowOdd">
@@ -1172,7 +1172,7 @@ Two levels</h4>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><code>Shift + Lock</code>   </td><td class="markdownTableBodyNone"><code>Shift</code>   </td><td class="markdownTableBodyNone">Yes   </td><td class="markdownTableBodyNone">2   </td></tr>
 </table>
-</figcaption> </div> </div> <div class="example"> <div class="example-inner"> <div class="example-title"><code>ALPHABETIC</code><a class="anchor" id="ALPHABETIC"></a></div> <figure><figcaption><p> Definition code (<a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/022c3ca1db12e505cbd5ce8bf19c432d6a70c7e5/types/basic#L21">source</a>) </p></figcaption> <div class="fragment"><div class="line">type <span class="stringliteral">&quot;ALPHABETIC&quot;</span> {</div>
+</figure> </div> </div> <div class="example"> <div class="example-inner"> <div class="example-title"><code>ALPHABETIC</code><a class="anchor" id="ALPHABETIC"></a></div> <figure><figcaption><p> Definition code (<a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/022c3ca1db12e505cbd5ce8bf19c432d6a70c7e5/types/basic#L21">source</a>) </p></figcaption> <div class="fragment"><div class="line">type <span class="stringliteral">&quot;ALPHABETIC&quot;</span> {</div>
 <div class="line">    <span class="comment">// Only care about Shift and Lock</span></div>
 <div class="line">    modifiers = Shift + Lock;</div>
 <div class="line">    <span class="comment">// Define mapping</span></div>
@@ -1183,7 +1183,7 @@ Two levels</h4>
 <div class="line">    level_name[Level1] = <span class="stringliteral">&quot;Base&quot;</span>;</div>
 <div class="line">    level_name[Level2] = <span class="stringliteral">&quot;Caps&quot;</span>;</div>
 <div class="line">};</div>
-</div><!-- fragment --> </figcaption> <figure><figcaption><p> Mapping test </p></figcaption> <table class="markdownTable">
+</div><!-- fragment --> </figure> <figure><figcaption><p> Mapping test </p></figcaption> <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone"><em>Active</em> modifiers   </th><th class="markdownTableHeadNone"><em>Filtered</em> modifiers   </th><th class="markdownTableHeadNone">Match?   </th><th class="markdownTableHeadNone">Shift level    </th></tr>
 <tr class="markdownTableRowOdd">
@@ -1195,7 +1195,7 @@ Two levels</h4>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><code>Shift + Lock</code>   </td><td class="markdownTableBodyNone"><code>Shift + Lock</code>   </td><td class="markdownTableBodyNone">No   </td><td class="markdownTableBodyNone">1   </td></tr>
 </table>
-</figcaption> </div> </div> </div><h4><a class="anchor" id="four-levels"></a>
+</figure> </div> </div> </div><h4><a class="anchor" id="four-levels"></a>
 Four levels</h4>
 <p>The following examples compare basic types with <em>four levels</em>: <a class="el" href="#FOUR_LEVEL"><code>FOUR_LEVEL</code></a>, <a class="el" href="#FOUR_LEVEL_SEMIALPHABETIC"><code>FOUR_LEVEL_SEMIALPHABETIC</code></a> and <a class="el" href="#FOUR_LEVEL_ALPHABETIC"><code>FOUR_LEVEL_ALPHABETIC</code></a>. They differ on their handling of the <code>Lock</code> modifier. See the <a class="el" href="#key-type-mappings-examples">next section</a> for an illustration with concrete layouts.</p>
 <div class="example-container"> <div class="example"> <div class="example-inner"> <div class="example-title"><code>FOUR_LEVEL</code><a class="anchor" id="FOUR_LEVEL"></a></div> <figure><figcaption><p> Definition code (<a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/022c3ca1db12e505cbd5ce8bf19c432d6a70c7e5/types/extra#L8">source</a>) </p></figcaption> <div class="fragment"><div class="line">type <span class="stringliteral">&quot;FOUR_LEVEL&quot;</span> {</div>
@@ -1215,7 +1215,7 @@ Four levels</h4>
 <div class="line">    level_name[Level3] = <span class="stringliteral">&quot;AltGr&quot;</span>;</div>
 <div class="line">    level_name[Level4] = <span class="stringliteral">&quot;Shift AltGr&quot;</span>;</div>
 <div class="line">};</div>
-</div><!-- fragment --> </figcaption> <figure><figcaption><p> Mapping test </p></figcaption> <table class="markdownTable">
+</div><!-- fragment --> </figure> <figure><figcaption><p> Mapping test </p></figcaption> <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone"><em>Active</em> modifiers   </th><th class="markdownTableHeadNone"><em>Filtered</em> modifiers   </th><th class="markdownTableHeadNone">Match?   </th><th class="markdownTableHeadNone">Shift level    </th></tr>
 <tr class="markdownTableRowOdd">
@@ -1235,7 +1235,7 @@ Four levels</h4>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><code>LevelThree+Shift+Lock</code>   </td><td class="markdownTableBodyNone"><code>LevelThree+Shift</code>   </td><td class="markdownTableBodyNone">Yes   </td><td class="markdownTableBodyNone">4   </td></tr>
 </table>
-</figcaption> </div> </div> <div class="example"> <div class="example-inner"> <div class="example-title"><code>FOUR_LEVEL_SEMIALPHABETIC</code><a class="anchor" id="FOUR_LEVEL_SEMIALPHABETIC"></a></div> <figure><figcaption><p> Definition code (<a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/022c3ca1db12e505cbd5ce8bf19c432d6a70c7e5/types/extra#L36">source</a>) </p></figcaption> <div class="fragment"><div class="line">type <span class="stringliteral">&quot;FOUR_LEVEL_SEMIALPHABETIC&quot;</span> {</div>
+</figure> </div> </div> <div class="example"> <div class="example-inner"> <div class="example-title"><code>FOUR_LEVEL_SEMIALPHABETIC</code><a class="anchor" id="FOUR_LEVEL_SEMIALPHABETIC"></a></div> <figure><figcaption><p> Definition code (<a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/022c3ca1db12e505cbd5ce8bf19c432d6a70c7e5/types/extra#L36">source</a>) </p></figcaption> <div class="fragment"><div class="line">type <span class="stringliteral">&quot;FOUR_LEVEL_SEMIALPHABETIC&quot;</span> {</div>
 <div class="line">    modifiers = Shift + Lock + LevelThree;</div>
 <div class="line">    map[None] = Level1;</div>
 <div class="line">    map[Shift] = Level2;</div>
@@ -1252,7 +1252,7 @@ Four levels</h4>
 <div class="line">    level_name[Level3] = <span class="stringliteral">&quot;AltGr&quot;</span>;</div>
 <div class="line">    level_name[Level4] = <span class="stringliteral">&quot;Shift AltGr&quot;</span>;</div>
 <div class="line">};</div>
-</div><!-- fragment --> </figcaption> <figure><figcaption><p> Mapping test </p></figcaption> <table class="markdownTable">
+</div><!-- fragment --> </figure> <figure><figcaption><p> Mapping test </p></figcaption> <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone"><em>Active</em> modifiers   </th><th class="markdownTableHeadNone"><em>Filtered</em> modifiers   </th><th class="markdownTableHeadNone">Match?   </th><th class="markdownTableHeadNone">Shift level    </th></tr>
 <tr class="markdownTableRowOdd">
@@ -1272,7 +1272,7 @@ Four levels</h4>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><code>LevelThree+Shift+Lock</code>   </td><td class="markdownTableBodyNone"><code>LevelThree+Shift+Lock</code>   </td><td class="markdownTableBodyNone">Yes   </td><td class="markdownTableBodyNone">4   </td></tr>
 </table>
-</figcaption> </div> </div> <div class="example"> <div class="example-inner"> <div class="example-title"><code>FOUR_LEVEL_ALPHABETIC</code><a class="anchor" id="FOUR_LEVEL_ALPHABETIC"></a></div> <figure><figcaption><p> Definition code (<a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/022c3ca1db12e505cbd5ce8bf19c432d6a70c7e5/types/extra#L20">source</a>) </p></figcaption> <div class="fragment"><div class="line">type <span class="stringliteral">&quot;FOUR_LEVEL_ALPHABETIC&quot;</span> {</div>
+</figure> </div> </div> <div class="example"> <div class="example-inner"> <div class="example-title"><code>FOUR_LEVEL_ALPHABETIC</code><a class="anchor" id="FOUR_LEVEL_ALPHABETIC"></a></div> <figure><figcaption><p> Definition code (<a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/022c3ca1db12e505cbd5ce8bf19c432d6a70c7e5/types/extra#L20">source</a>) </p></figcaption> <div class="fragment"><div class="line">type <span class="stringliteral">&quot;FOUR_LEVEL_ALPHABETIC&quot;</span> {</div>
 <div class="line">    modifiers = Shift + Lock + LevelThree;</div>
 <div class="line">    map[None] = Level1;</div>
 <div class="line">    map[Shift] = Level2;</div>
@@ -1289,7 +1289,7 @@ Four levels</h4>
 <div class="line">    level_name[Level3] = <span class="stringliteral">&quot;AltGr&quot;</span>;</div>
 <div class="line">    level_name[Level4] = <span class="stringliteral">&quot;Shift AltGr&quot;</span>;</div>
 <div class="line">};</div>
-</div><!-- fragment --> </figcaption> <figure><figcaption><p> Mapping test </p></figcaption> <table class="markdownTable">
+</div><!-- fragment --> </figure> <figure><figcaption><p> Mapping test </p></figcaption> <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone"><em>Active</em> modifiers   </th><th class="markdownTableHeadNone"><em>Filtered</em> modifiers   </th><th class="markdownTableHeadNone">Match?   </th><th class="markdownTableHeadNone">Shift level    </th></tr>
 <tr class="markdownTableRowOdd">
@@ -1309,7 +1309,7 @@ Four levels</h4>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><code>LevelThree+Shift+Lock</code>   </td><td class="markdownTableBodyNone"><code>LevelThree+Shift+Lock</code>   </td><td class="markdownTableBodyNone">Yes   </td><td class="markdownTableBodyNone">3   </td></tr>
 </table>
-</figcaption> </div> </div> </div><h3><a class="anchor" id="key-type-mappings-examples"></a>
+</figure> </div> </div> </div><h3><a class="anchor" id="key-type-mappings-examples"></a>
 Examples with standard keyboard layouts</h3>
 <details >
 <summary >
