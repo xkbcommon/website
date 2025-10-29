@@ -1,0 +1,7 @@
+<map id="Predefined names for common modifiers and LEDs" name="Predefined names for common modifiers and LEDs">
+<area shape="rect" id="Node000005" href="$group__led-names.html" title="LEDs names are encoded in xkeyboard&#45;config, in the keycodes and compat files." alt="" coords="304,5,406,33"/>
+<area shape="rect" id="Node000004" href="$group__legacy-virtual-modifier-names.html" title="Usual virtual modifiers mappings to real modifiers." alt="" coords="269,57,441,102"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,88,218,132"/>
+<area shape="rect" id="Node000002" href="$group__real-modifier-names.html" title="Real modifiers names are hardcoded in libxkbcommon." alt="" coords="273,125,437,153"/>
+<area shape="rect" id="Node000003" href="$group__virtual-modifier-names.html" title="Common virtual modifiers, encoded in xkeyboard&#45;config in the compat and symbols files." alt="" coords="266,177,444,205"/>
+</map>
