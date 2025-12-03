@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['encoding_0',['encoding',['../faq.html#how-to-get-the-virtual-modifier-encoding',1,'How to get the virtual modifier encoding?'],['../keymap-text-format-v1-v2.html#modifiers-encoding',1,'Modifiers encoding'],['../error-index.html#XKB-542',1,'XKB-542 – Invalid file encoding']]],
+  ['entries_1',['XKB-043 – Conflicting key type preserve entries',['../error-index.html#XKB-043',1,'']]],
+  ['entry_2',['entry',['../error-index.html#XKB-077',1,'XKB-077 – Expected array entry'],['../error-index.html#XKB-206',1,'XKB-206 – Invalid modmap entry'],['../error-index.html#XKB-266',1,'XKB-266 – Conflicting key type map entry'],['../error-index.html#XKB-378',1,'XKB-378 – Duplicate entry'],['../error-index.html#XKB-901',1,'XKB-901 – Conflicting key symbols entry']]],
+  ['entry_20statements_3',['“map” entry statements',['../keymap-text-format-v1-v2.html#key-type-map',1,'']]],
+  ['environment_20variables_4',['Environment Variables',['../group__context.html',1,'']]],
+  ['error_5',['XKB-550 – Allocation error',['../error-index.html#XKB-550',1,'']]],
+  ['error_20index_6',['Error index',['../error-index.html',1,'']]],
+  ['escape_20sequence_7',['escape sequence',['../error-index.html#XKB-193',1,'XKB-193 – Invalid escape sequence'],['../error-index.html#XKB-607',1,'XKB-607 – Invalid unicode escape sequence'],['../error-index.html#XKB-645',1,'XKB-645 – Unknown char escape sequence']]],
+  ['example_3a_20define_20and_20use_20a_20modifier_20step_20by_20step_8',['Example: define and use a modifier, step by step',['../keymap-text-format-v1-v2.html#example-define-and-use-a-modifier-step-by-step',1,'']]],
+  ['example_3a_20include_20path_20list_9',['Example: include path list',['../keymap-text-format-v1-v2.html#example-include-path-list',1,'']]],
+  ['example_3a_20key_20codes_10',['Example: key codes',['../rule-file-format.html#example-key-codes',1,'']]],
+  ['example_3a_20layout_20option_20and_20symbols_11',['Example: layout, option and symbols',['../rule-file-format.html#rules-options-example',1,'']]],
+  ['example_3a_20layout_20specific_20options_12',['Example: layout-specific options',['../rule-file-format.html#rules-layout-specific-options-example',1,'']]],
+  ['example_3a_20layouts_20variants_20and_20symbols_13',['Example: layouts, variants and symbols',['../rule-file-format.html#rules-symbols-example',1,'']]],
+  ['example_3a_20merge_20modes_14',['Example: merge modes',['../keymap-text-format-v1-v2.html#example-merge-modes',1,'']]],
+  ['example_3a_20simple_20include_15',['Example: simple include',['../keymap-text-format-v1-v2.html#example-simple-include',1,'']]],
+  ['examples_16',['Examples',['../rule-file-format.html#examples',1,'Examples'],['../error-index.html#examples-1',1,'Examples'],['../error-index.html#examples-2',1,'Examples'],['../error-index.html#examples-3',1,'Examples']]],
+  ['examples_17',['examples',['../keymap-text-format-v1-v2.html#definitions-examples',1,'Definitions examples'],['../keymap-text-format-v1-v2.html#key-type-examples',1,'Key types examples']]],
+  ['examples_20with_20standard_20keyboard_20layouts_18',['Examples with standard keyboard layouts',['../keymap-text-format-v1-v2.html#key-type-mappings-examples',1,'']]],
+  ['expansion_19',['XKB-762 – Rules invalid layout index percent expansion',['../error-index.html#XKB-762',1,'']]],
+  ['expected_20',['Why does my keyboard layout not work as expected?',['../faq.html#why-does-my-keyboard-layout-not-work-as-expected',1,'']]],
+  ['expected_20array_20entry_21',['XKB-077 – Expected array entry',['../error-index.html#XKB-077',1,'']]],
+  ['expression_20type_22',['XKB-784 – Invalid expression type',['../error-index.html#XKB-784',1,'']]],
+  ['extensions_20directories_23',['The extensions directories',['../packaging-keyboard-layouts.html#the-extensions-directories',1,'']]],
+  ['extra_20symbols_20ignored_24',['XKB-516 – Extra symbols ignored',['../error-index.html#XKB-516',1,'']]]
+];
