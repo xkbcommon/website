@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['data_20locations_0',['Data locations',['../user-configuration.html#user-config-locations',1,'Data locations'],['../deprecated.html#_deprecated000001',1,'Data locations']]],
+  ['data_20locations_0',['data locations',['../user-configuration.html#xkb-data-locations',1,'XKB data locations'],['../deprecated.html#_deprecated000001',1,'XKB data locations']]],
   ['dataset_1',['Dataset',['../index.html#dataset',1,'']]],
   ['dead_20keys_20support_2',['Compose and dead-keys support',['../group__compose.html',1,'']]],
   ['debugging_3',['Debugging',['../debugging.html',1,'']]],

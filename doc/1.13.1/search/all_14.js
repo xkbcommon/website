@@ -90,7 +90,7 @@ How to report an issue or propose a patch?',['../faq.html#where-are-the-standard
   ['locale_86',['Compose Locale',['../group__compose.html',1,'']]],
   ['locale_87',['XKB-679 – Invalid compose locale',['../error-index.html#XKB-679',1,'']]],
   ['located_88',['Where are the system keyboard layouts located?',['../faq.html#where-are-the-system-keyboard-layouts-located',1,'']]],
-  ['locations_89',['locations',['../user-configuration.html#user-config-locations',1,'Data locations'],['../deprecated.html#_deprecated000001',1,'Data locations']]],
+  ['locations_89',['locations',['../user-configuration.html#xkb-data-locations',1,'XKB data locations'],['../deprecated.html#_deprecated000001',1,'XKB data locations']]],
   ['lock_90',['lock',['../faq.html#how-do-i-break-a-latch-before-triggering-another-latch-or-lock',1,'How do I break a latch before triggering another latch or lock?'],['../keymap-text-format-v1-v2.html#iso-lock',1,'ISO lock'],['../todo.html#_todo000015',1,'ISO lock']]],
   ['logging_20handling_91',['Logging Handling',['../group__logging.html',1,'']]],
   ['lookup_20mechanism_92',['Lookup mechanism',['../packaging-keyboard-layouts.html#lookup-mechanism',1,'']]]
