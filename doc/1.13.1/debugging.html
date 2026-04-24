@@ -171,7 +171,7 @@ Advanced tools</h2>
 Testing a custom configuration</h1>
 <dl class="section note"><dt>Note</dt><dd>An erroneous XKB configuration may make your keyboard unusable. Therefore it is advised to try custom configurations safely with the following workflow:</dd></dl>
 <ol type="1">
-<li>Create a directory for the custom configuration, e.g. <span class="tt">~/xkb-test</span>. Note that in order to test it safely, it should <em>not</em> be one of the locations that <a class="el" href="user-configuration.html#xkb-data-locations" title="XKB data locations">xkbcommon searches</a>.</li>
+<li>Create a directory for the custom configuration, e.g. <span class="tt">~/xkb-test</span>. Note that in order to test it safely, it should <em>not</em> be one of the locations that <a class="el" href="custom-configuration.html#xkb-data-locations" title="XKB data locations">xkbcommon searches</a>.</li>
 <li>Create the relevant sub-directories and files, e.g. <span class="tt">~/xkb-test/symbols/my-layout</span>.</li>
 <li><p class="startli">Test if your changes <em>compile</em> successfully:</p>
 <div class="fragment"><div class="line">xkbcli compile-keymap --include ~/xkb-test --include-defaults --test --layout my-layout</div>
@@ -183,7 +183,7 @@ Testing a custom configuration</h1>
 </div><!-- fragment --></li>
 <li>Repeat steps 3 and 4 with your <em>full</em> keyboard configuration, i.e. all your model, layouts and options.</li>
 <li>If everything works as expected, it is time to test in real conditions:<ul>
-<li>Wayland: , move <span class="tt">~/xkb-test</span> to one of the <a class="el" href="user-configuration.html#xkb-data-locations" title="XKB data locations">user-configuration locations</a>, restart your session, update the keyboard configuration using your usual UI and enjoy your XKB customization!</li>
+<li>Wayland: , move <span class="tt">~/xkb-test</span> to one of the <a class="el" href="custom-configuration.html#xkb-data-locations" title="XKB data locations">user-configuration locations</a>, restart your session, update the keyboard configuration using your usual UI and enjoy your XKB customization!</li>
 <li><p class="startli">X11: Unfortunately Xorg does not support alternative paths, so the next best option is to use the venerable <span class="tt">xkbcomp</span> tool.</p>
 <div class="fragment"><div class="line">xkbcli compile-keymap --include ~/xkb-test --include-defaults --layout my-layout \</div>
 <div class="line">  | xkbcomp - $DISPLAY</div>

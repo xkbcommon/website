@@ -13,5 +13,6 @@ var searchData=
   ['433_20–_20missing_20default_20section_10',['XKB-433 – Missing default section',['../error-index.html#XKB-433',1,'']]],
   ['461_20–_20conflicting_20key_20symbol_11',['XKB-461 – Conflicting key symbol',['../error-index.html#XKB-461',1,'']]],
   ['478_20–_20invalid_20operation_12',['XKB-478 – Invalid operation',['../error-index.html#XKB-478',1,'']]],
-  ['489_20–_20numeric_20keysym_13',['XKB-489 – Numeric keysym',['../error-index.html#XKB-489',1,'']]]
+  ['489_20–_20numeric_20keysym_13',['XKB-489 – Numeric keysym',['../error-index.html#XKB-489',1,'']]],
+  ['4_3a_20use_20the_20layout_14',['Step 4: Use the layout',['../custom-configuration.html#step-4-use-the-layout',1,'']]]
 ];

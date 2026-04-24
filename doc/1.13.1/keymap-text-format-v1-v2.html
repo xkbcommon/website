@@ -322,7 +322,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </dl>
 <dl class="section see"><dt>See also</dt><dd>For an overview of the role of this format, please see “<a class="el" href="xkb-intro.html#xkb-the-config" title="XKB the keyboard keymap configuration">XKB the keyboard keymap configuration</a>”.</dd>
 <dd>
-For examples of keymaps in this format, please see “<a class="el" href="user-configuration.html" title="User-configuration">User-configuration</a>”. For further examples see <a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config">xkeyboard-config</a>, the standard database of keyboard configuration data.</dd></dl>
+For examples of keymaps in this format, please see “<a class="el" href="custom-configuration.html" title="Custom configuration">Custom configuration</a>”. For further examples see <a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config">xkeyboard-config</a>, the standard database of keyboard configuration data.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Due to the complexity of the format, this document is still is construction. Some additional resources are:</dd>
 <dd>
 <ul>
@@ -500,7 +500,7 @@ Terminology</h1>
 <p class="enddd">See <a class="el" href="#keymap-components-intro" title="Keymap components">Keymap components</a> and <a class="el" href="#the-xkb_keymap-block" title="The “xkb_keymap” block">xkb_keymap</a> for further details.  </p>
 </dd>
 <dt>Keyboard configuration database<a class="anchor" id="database-def"></a> </dt>
-<dd>A database that provides the <a class="el" href="#keymap-components-intro" title="Keymap components">keymap components</a>. *nix OSs uses the <em>standard</em> database <a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config">xkeyboard-config</a>. One may extend this database with <em>custom</em> layouts: see “<a class="el" href="user-configuration.html" title="User-configuration">User-configuration</a>” for further details.  </dd>
+<dd>A database that provides the <a class="el" href="#keymap-components-intro" title="Keymap components">keymap components</a>. *nix OSs uses the <em>standard</em> database <a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config">xkeyboard-config</a>. One may extend this database with <em>custom</em> layouts: see “<a class="el" href="custom-configuration.html" title="Custom configuration">Custom configuration</a>” for further details.  </dd>
 </dl>
 <h1 class="doxsection"><a class="anchor" id="introduction-to-the-xkb-text-format"></a>
 Introduction to the XKB text format</h1>
@@ -512,7 +512,7 @@ Introduction to the XKB text format</h1>
 <dd>
 <a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config">xkeyboard-config</a> for the implementation of the <em>standard</em> <a class="el" href="group__keymap.html" title="Creating and destroying keymaps.">Keymap Creation</a> configuration database.</dd>
 <dd>
-“<a class="el" href="user-configuration.html" title="User-configuration">User-configuration</a>” to add a <em>custom</em> layout or option.</dd></dl>
+“<a class="el" href="custom-configuration.html" title="Custom configuration">Custom configuration</a>” to add a <em>custom</em> layout or option.</dd></dl>
 </li>
 <li><p class="startli"><b>Client:</b> Load the active keymap from the server, then handle update events sent by the server. The <b><a class="el" href="xkb-intro.html#keymap-intro" title="keymap-intro">complete keymap</a></b> is directly available in a <em>self-contained</em> file.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__keymap.html#ga8d47182d367aa041b380fb49a61660bd" title="Create a keymap from a keymap string.">xkb_keymap::xkb_keymap_new_from_string</a></dd></dl>
@@ -820,14 +820,14 @@ Syntax</h3>
 <div class="line">include <span class="stringliteral">&quot;&lt;PATH&gt;(&lt;SECTION_NAME&gt;)&quot;</span></div>
 </div><!-- fragment --><p>will merge data from another <a class="el" href="#keymap-section-def" title="keymap-section-def">section</a> of the <em>same type</em>, possibly located in another file. Note that the statement does not have a trailing semicolon.</p>
 <p>If no section name is provided, the <a class="el" href="#default-map-def" title="default-map-def">default map</a> is looked up.</p>
-<p>The path is usually relative to its corresponding directory in a XKB configuration: e.g. given the configuration directory <span class="tt">&lt;XKB&gt;</span>, files of section type <span class="tt">xkb_symbols</span> are looked up in <span class="tt">&lt;XKB&gt;/symbols</span>. Since 1.11, the paths can also be absolute or use <b>%-expansion</b>: <a class="anchor" id="keymap-include-percent-expansion"></a>     </p><dl>
+<p>The path is usually relative to its corresponding directory in an XKB configuration: e.g. given the configuration directory <span class="tt">&lt;XKB&gt;</span>, files of section type <span class="tt">xkb_symbols</span> are looked up in <span class="tt">&lt;XKB&gt;/symbols</span>. Since 1.11, the paths can also be absolute or use <b>%-expansion</b>: <a class="anchor" id="keymap-include-percent-expansion"></a>     </p><dl>
 <dt><span class="tt">%%</span> </dt>
 <dd>A literal %. </dd>
 <dt><code>%H</code> </dt>
 <dd>The value of the <span class="tt">$HOME</span> environment variable. </dd>
 <dt><code>%S</code> </dt>
 <dd><p class="startdd">The <em>main</em> system-installed XKB directory of the corresponding <a class="el" href="#keymap-components-table" title="keymap-components-table">component</a> (usually <span class="tt">/usr/share/X11/xkb/&lt;component&gt;</span>).</p>
-<p class="interdd">This enables e.g. to override a system file using <a class="el" href="user-configuration.html" title="User-configuration">User-configuration</a> with the exact <em>same name</em>:</p>
+<p class="interdd">This enables e.g. to override a system file using <a class="el" href="custom-configuration.html" title="Custom configuration">Custom configuration</a> with the exact <em>same name</em>:</p>
 <div class="fragment"><div class="line"><span class="comment">// File: ~/.config/xkb/symbols/de</span></div>
 <div class="line">xkb_symbols <span class="stringliteral">&quot;basic&quot;</span> {</div>
 <div class="line">    <span class="comment">// Include the system file /usr/share/X11/xkb.</span></div>
@@ -890,7 +890,7 @@ Since xkbcommon 1.9.0 local merge modes are <em>not</em> propagated outside the 
 <h3 class="doxsection"><a class="anchor" id="example-include-path-list"></a>
 Example: include path list</h3>
 <p>Let’s illustrate using the following <a class="el" href="group__include-path.html#ga936bed6869d76fee6f432dfb9778a3b6" title="xkb_context::xkb_context_include_path_append()">XKB configuration path list</a>:</p><ol type="1">
-<li><span class="tt">/home/&lt;USER&gt;/.config/xkb</span>: user configuration directory (see <a class="el" href="user-configuration.html" title="User-configuration">User-configuration</a>).</li>
+<li><span class="tt">/home/&lt;USER&gt;/.config/xkb</span>: user configuration directory (see <a class="el" href="custom-configuration.html#user-configuration" title="user-configuration">user-configuration</a>).</li>
 <li><span class="tt">/usr/share/X11/xkb</span>: system directory.</li>
 </ol>
 <p>The relevant directory structure is:</p><ul>
@@ -1085,6 +1085,8 @@ Keycode statements</h2>
 <p>Statements of the form: </p><pre class="fragment">&lt;TLDE&gt; = 49;
 &lt;AE01&gt; = 10;
 </pre><p>The above would let 49 and 10 be valid keycodes in the keymap, and assign them the names <span class="tt">TLDE</span> and <span class="tt">AE01</span> respectively. The format <span class="tt">&lt;WXYZ&gt;</span> is always used to refer to a key by name.</p>
+<h3 class="doxsection"><a class="anchor" id="keycode-naming-convention"></a>
+Keycode naming convention</h3>
 <p>The naming convention <span class="tt">&lt;AE01&gt;</span> is based on the <a href="https://en.wikipedia.org/wiki/ISO/IEC_9995#ISO/IEC_9995-1">standard ISO/IEC&#160;9995-1</a>. It denotes the position of the key in the keyboard grid. It means: the main alphanumeric section (<span class="tt">A</span>), row <span class="tt">E</span> and column <span class="tt">01</span>.</p>
 <p>The following figure illustrates the grid on a staggered standard US QWERTY keyboard. <span class="tt">&lt;AE01&gt;</span> corresponds to the key <span class="tt">1</span>.</p>
 <div class="fragment"><div class="line">   \ 99 \ 00 \ 01 \ 02 \ 03 \ 04 \ 05…</div>
@@ -1100,10 +1102,14 @@ Keycode statements</h2>
 <div class="line">---------------------------------------------</div>
 <div class="line">A         \Ctrl\GUI \Alt \Space…</div>
 <div class="line">----------------------------------------------</div>
-</div><!-- fragment --><p>In the common case this just maps to the evdev scancodes from <span class="tt">/usr/include/linux/input.h</span>, e.g. the following definitions: </p><pre class="fragment">#define KEY_GRAVE            41
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="keycode-values"></a>
+Keycode values</h3>
+<p>In the common case this just maps to the evdev scancodes from <span class="tt">/usr/include/linux/input.h</span>, e.g. the following definitions: </p><pre class="fragment">#define KEY_GRAVE            41
 #define KEY_1                2
-</pre><p>correspond to the ones above. Similar definitions appear in the xf86-input-keyboard driver. Note that in all current keymaps there’s a constant offset of 8 (for historical reasons).</p>
+</pre><p>correspond to the ones above. Similar definitions appear in the X11’s <span class="tt">xf86-input-keyboard</span> driver. Note that in all current keymaps there’s a constant offset of 8 (for historical reasons).</p>
 <p>Note that contrary to xkbcommon, the X11 protocol supports keycodes only up to <span class="tt">255</span>. Therefore, when interfacing with X11, keymaps and applications using keycodes beyond <span class="tt">255</span> should expect warnings.</p>
+<h3 class="doxsection"><a class="anchor" id="keycode-conflicts"></a>
+Keycode conflicts</h3>
 <p>If there’s a conflict, like the same name given to different keycodes, or same keycode given different names, it is resolved according to the <a class="el" href="#merge-mode-def" title="Merge modes">merge mode</a> which applies to the definitions.</p>
 <h2 class="doxsection"><a class="anchor" id="keycode-alias"></a>
 Alias statements</h2>
@@ -1114,7 +1120,7 @@ LED name statements</h2>
 <p>Statements of the form: </p><pre class="fragment">indicator 1 = "Caps Lock";
 indicator 2 = "Num Lock";
 indicator 3 = "Scroll Lock";
-</pre><p>Assigns a name to the keyboard LED (AKA <a class="el" href="#indicator-def" title="indicator-def">indicator</a>) with the given index. The LED may be referred by this name later in the compat section and by the user.</p>
+</pre><p>Assigns a name to the keyboard LED (AKA <a class="el" href="#indicator-def" title="indicator-def">indicator</a>) with the given index. The LED may be referred by this name later in the [compat section][<a class="el" href="#the-xkb_compat-section" title="The “xkb_compat” section">The “xkb_compat” section</a>] and by the user.</p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo</a></b></dt><dd><span class="tt">virtual</span> flag</dd></dl>
 <h1 class="doxsection"><a class="anchor" id="the-xkb_types-section"></a>
 The “xkb_types” section</h1>
@@ -2536,7 +2542,7 @@ Group actions</h2>
 <tr>
 <th><span class="tt">group</span></th><td>Group index (see <a class="el" href="#set-group-action" title="set-group-action"><span class="tt">SetGroup</span></a>)</td><td>0</td><td>Target group or group delta</td></tr>
 <tr>
-<th><span class="tt">lockOnRelease</span></th><td>boolean</td><td>false</td><td><p class="starttd">Control whether to trigger the group change on key press (default) or release. See further details <a class="el" href="#lock-group-action-effects" title="lock-group-action-effects">hereinafter</a></p>
+<th><span class="tt">lockOnRelease</span><a class="anchor" id="lockOnRelease"></a></th><td>boolean</td><td>false</td><td><p class="starttd">Control whether to trigger the group change on key press (default) or release. See further details <a class="el" href="#lock-group-action-effects" title="lock-group-action-effects">hereinafter</a></p>
 <dl class="section note"><dt>Note</dt><dd>Available since 1.11, only with <span class="tt"><a class="el" href="group__keymap.html#ggab0f75d6cc5773e5dd404e2c3f61366a3a3a8d8e0c27ea5b4dc56a30b973ce6402" title="Xkbcommon extensions of the classic XKB text format, incompatible with X11.">XKB_KEYMAP_FORMAT_TEXT_V2</a></span>. </dd></dl>
 </td></tr>
 </table>

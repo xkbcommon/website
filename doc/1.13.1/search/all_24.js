@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['≤_201_209_0',['libxkbcommon ≤ 1.9',['../faq.html#libxkbcommon--19',1,'']]]
+  ['…_20mean_0',['What does … mean?',['../faq.html#what-does--mean',1,'']]]
 ];

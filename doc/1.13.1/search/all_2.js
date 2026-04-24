@@ -70,5 +70,6 @@ var searchData=
   ['266_20–_20conflicting_20key_20type_20map_20entry_67',['XKB-266 – Conflicting key type map entry',['../error-index.html#XKB-266',1,'']]],
   ['27_68',['27',['../release-notes.html#libxkbcommon-041--2014-03-27',1,'libxkbcommon 0.4.1 – 2014-03-27'],['../release-notes.html#libxkbcommon-110--2021-02-27',1,'libxkbcommon 1.1.0 – 2021-02-27']]],
   ['286_20–_20undefined_20key_20type_69',['XKB-286 – Undefined key type',['../error-index.html#XKB-286',1,'']]],
-  ['29_70',['libxkbcommon &lt;a href=&quot;https://github.com/xkbcommon/libxkbcommon/tree/xkbcommon-1.12.3&quot;&gt;1.12.3&lt;/a&gt; – 2025-10-29',['../release-notes.html#libxkbcommon-1123--2025-10-29',1,'']]]
+  ['29_70',['libxkbcommon &lt;a href=&quot;https://github.com/xkbcommon/libxkbcommon/tree/xkbcommon-1.12.3&quot;&gt;1.12.3&lt;/a&gt; – 2025-10-29',['../release-notes.html#libxkbcommon-1123--2025-10-29',1,'']]],
+  ['2_3a_20define_20a_20symbols_20file_71',['Step 2: Define a symbols file',['../custom-configuration.html#step-2-define-a-symbols-file',1,'']]]
 ];

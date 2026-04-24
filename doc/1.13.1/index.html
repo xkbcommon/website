@@ -145,21 +145,47 @@ document.addEventListener('DOMContentLoaded', () => {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_README"></a></p>
-<p><b>libxkbcommon</b> is a keyboard keymap compiler and support library which processes a reduced subset of keymaps as defined by the <a class="el" href="xkb-intro.html#md_doc_2introduction-to-xkb" title="doc/introduction-to-xkb.md">XKB</a> (X Keyboard Extension) specification. It also contains a module for handling <em>Compose</em> and dead keys, a separate <em>registry</em> library for listing available keyboard layouts and a fair set of  <!-- --><abbr title="Command-Line Interface">CLI</abbr><!--!
---> <em>tools</em>.</p>
+<p><b>libxkbcommon</b> is a keyboard keymap compiler and support library which processes keymaps as defined by the <a class="el" href="xkb-intro.html#md_doc_2introduction-to-xkb" title="doc/introduction-to-xkb.md">XKB</a> (X Keyboard Extension) specification (minus some legacy features). It also contains a module for handling <em>Compose</em> and dead keys, a separate <em>registry</em> library for listing available keyboard layouts and a fair set of  <!-- --><abbr title="Command-Line Interface">CLI</abbr><!--!
+--> <em>tools</em> to support keyboard layouts development.</p>
+<p>libxkbcommon is the standard keymap handling library on Wayland and is used by compositors, toolkits, and applications to handle keyboard state and translate key events into characters and actions.</p>
 <h1 class="doxsection"><a class="anchor" id="quick-guide"></a>
 Quick Guide</h1>
-<ul>
-<li><a class="el" href="xkb-intro.html#md_doc_2introduction-to-xkb" title="doc/introduction-to-xkb.md">Introduction to XKB</a>: to learn the essentials of XKB.</li>
-<li><a class="el" href="user-configuration.html#md_doc_2user-configuration" title="doc/user-configuration.md">User-configuration</a>: instructions to add a <em>custom layout</em> or option.</li>
-<li><a class="el" href="keymap-text-format-v1-v2.html#md_doc_2keymap-text-format-v1-v2" title="doc/keymap-text-format-v1-v2.md">Keymap format</a>: keymap components and keymap text syntax documentation.</li>
-<li><a class="el" href="md_doc_2quick-guide.html" title="Quick Guide">Library quick Guide</a>: introduction on how to use this library.</li>
-<li><a class="el" href="#tools" title="Tools">Tools</a>: introduction to the <span class="tt">xkbcli</span> application.</li>
-<li><a class="el" href="release-notes.html#md_doc_2release-notes" title="doc/release-notes.md">Release notes</a>.</li>
-<li><a class="el" href="faq.html#md_doc_2faq" title="doc/faq.md">Frequently Asked Question (FAQ)</a>.</li>
-</ul>
+<h2 class="doxsection"><a class="anchor" id="introduction-to-xkb"></a>
+Introduction to XKB</h2>
+<p>See <a class="el" href="xkb-intro.html#md_doc_2introduction-to-xkb" title="doc/introduction-to-xkb.md">Introduction to XKB</a> for the essentials of XKB concepts and how a keymap is built.</p>
+<h2 class="doxsection"><a class="anchor" id="using-the-library"></a>
+Using the library</h2>
+<dl>
+<dt><a class="el" href="md_doc_2quick-guide.html" title="Quick Guide">Library quick guide</a>  </dt>
+<dd>Introduction on how to use this library </dd>
+<dt><a href="https://xkbcommon.org/doc/current/topics.html">API Documentation</a>  </dt>
+<dd>Full API reference </dd>
+<dt><a class="el" href="release-notes.html#md_doc_2release-notes" title="doc/release-notes.md">Release notes</a>  </dt>
+<dd>History of the libxkbcommon changes by version </dd>
+<dt><a class="el" href="#api" title="API">FAQ</a>  </dt>
+<dd>Frequently Asked Questions </dd>
+</dl>
+<h2 class="doxsection"><a class="anchor" id="developing-keyboard-layouts"></a>
+Developing keyboard layouts</h2>
+<dl>
+<dt><a class="el" href="custom-configuration.html#md_doc_2custom-configuration" title="doc/custom-configuration.md">Custom layouts</a>  </dt>
+<dd>Quick start for adding a <em>custom layout</em> or option </dd>
+<dt><a class="el" href="keymap-text-format-v1-v2.html#md_doc_2keymap-text-format-v1-v2" title="doc/keymap-text-format-v1-v2.md">Keymap format</a>  </dt>
+<dd>Documentation of keymap components and keymap text syntax </dd>
+<dt><a class="el" href="#tools" title="Tools">Tools</a>  </dt>
+<dd>Introduction to the <span class="tt">xkbcli</span> application </dd>
+<dt><a class="el" href="faq.html#md_doc_2faq" title="doc/faq.md">FAQ</a>  </dt>
+<dd>Frequently Asked Questions </dd>
+</dl>
 <h1 class="doxsection"><a class="anchor" id="building"></a>
 Building</h1>
+<p>libxkbcommon requires:</p>
+<ul>
+<li>a C compiler supporting C11</li>
+<li>XKB registry (optional): <span class="tt">libxml2</span></li>
+<li>X11 features (optional): <span class="tt">libxcb</span> and <span class="tt">libxcb-xkb</span></li>
+<li>Wayland features (optional): <span class="tt">wayland-client</span>, <span class="tt">wayland-protocols</span>, <span class="tt">wayland-scanner</span></li>
+</ul>
 <p>libxkbcommon is built with <a href="http://mesonbuild.com">Meson</a>:</p>
 <div class="fragment"><div class="line">meson setup build</div>
 <div class="line">meson compile -C build</div>
@@ -283,7 +309,7 @@ API</h1>
 <h1 class="doxsection"><a class="anchor" id="tools"></a>
 Tools</h1>
 <p> <!-- -->
-Libxkbcommon has a fair set of <abbr title="Command-Line Interface">CLI</abbr>
+Libxkbcommon offers a set of <abbr title="Command-Line Interface">CLI</abbr>
 <code>tools</code>, grouped under the <code>xkbcli</code> application:
 <!--! --></p>
 <dl>
@@ -300,31 +326,51 @@ Libxkbcommon has a fair set of <abbr title="Command-Line Interface">CLI</abbr>
 <dt><code>xkbcli interactive-evdev</code> </dt>
 <dd>Interactive debugger for XKB keymaps for evdev </dd>
 <dt><code>xkbcli dump-keymap-wayland</code> </dt>
-<dd>Dump a XKB keymap from a Wayland compositor </dd>
+<dd>Dump an XKB keymap from a Wayland compositor </dd>
 <dt><code>xkbcli dump-keymap-x11</code> </dt>
-<dd>Dump a XKB keymap from a X server </dd>
+<dd>Dump an XKB keymap from an X server </dd>
 <dt><code>xkbcli list</code> </dt>
 <dd>List available layouts and more </dd>
 </dl>
 <p>It may require the installation of the package <span class="tt">libxkbcommon-tools</span> or similar name.</p>
-<h1 class="doxsection"><a class="anchor" id="dataset"></a>
-Dataset</h1>
-<p>libxkbcommon <em>does not distribute a keyboard layout dataset itself</em>, other than for testing purposes. The most common dataset is <b>xkeyboard-config</b>, which is used by all current distributions for their X11 XKB data. Further information on xkeyboard-config is available at its <a href="https://www.freedesktop.org/wiki/Software/XKeyboardConfig">homepage</a> and at its <a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config">repository</a>.</p>
+<h1 class="doxsection"><a class="anchor" id="layouts-database"></a>
+Layouts database</h1>
+<p>libxkbcommon <em>does not distribute a keyboard layout dataset itself</em>, other than for testing purposes. The most common dataset is <b>xkeyboard-config</b>, which is used by all current distributions for their XKB data. Further information on xkeyboard-config is available at its <a href="https://www.freedesktop.org/wiki/Software/XKeyboardConfig">homepage</a> and at its <a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config">repository</a>.</p>
 <p>The dataset for <em>Compose</em> is distributed in <a href="https://gitlab.freedesktop.org/xorg/lib/libx11">libX11</a>, as part of the X locale data.</p>
-<h1 class="doxsection"><a class="anchor" id="relation-to-x11"></a>
-Relation to X11</h1>
-<p>See <a class="el" href="xkbcommon-compatibility.html#md_doc_2compatibility" title="doc/compatibility.md">Compatibility</a> notes.</p>
+<h1 class="doxsection"><a class="anchor" id="compatibility-with-x11"></a>
+Compatibility with X11</h1>
+<p>libxkbcommon is compatible with X11, except for some obscure features.</p>
+<p>See the <a class="el" href="xkbcommon-compatibility.html#md_doc_2compatibility" title="doc/compatibility.md">Compatibility</a> page for further details.</p>
 <h1 class="doxsection"><a class="anchor" id="development"></a>
 Development</h1>
-<p>An project’s homepage can be found at <a href="https://xkbcommon.org">https://xkbcommon.org</a>.</p>
-<p>xkbcommon is maintained in git at: <a href="https://github.com/xkbcommon/libxkbcommon">https://github.com/xkbcommon/libxkbcommon</a></p>
-<p>Patches are always welcome, and may be sent to either <a href="#" onclick="location.href='mai'+'lto:'+'xor'+'g-'+'dev'+'el'+'@li'+'st'+'s.x'+'.o'+'rg'; return false;">xorg-<span class="obfuscator">.nosp@m.</span>deve<span class="obfuscator">.nosp@m.</span>l@lis<span class="obfuscator">.nosp@m.</span>ts.x<span class="obfuscator">.nosp@m.</span>.org</a> or <a href="#" onclick="location.href='mai'+'lto:'+'way'+'la'+'nd-'+'de'+'vel'+'@l'+'ist'+'s.'+'fre'+'ed'+'esk'+'to'+'p.o'+'rg'; return false;">wayla<span class="obfuscator">.nosp@m.</span>nd-d<span class="obfuscator">.nosp@m.</span>evel@<span class="obfuscator">.nosp@m.</span>list<span class="obfuscator">.nosp@m.</span>s.fre<span class="obfuscator">.nosp@m.</span>edes<span class="obfuscator">.nosp@m.</span>ktop.<span class="obfuscator">.nosp@m.</span>org</a> or in a <a href="https://github.com/xkbcommon/libxkbcommon">GitHub</a> pull request.</p>
-<p>Bug reports (and usage questions) are also welcome, and may be filed at <a href="https://github.com/xkbcommon/libxkbcommon/issues">GitHub</a>.</p>
-<p>The maintainers are:</p><ul>
-<li><a href="#" onclick="location.href='mai'+'lto:'+'dan'+'ie'+'l@f'+'oo'+'ish'+'ba'+'r.o'+'rg'; return false;">Daniel Stone</a></li>
-<li><a href="#" onclick="location.href='mai'+'lto:'+'ran'+'@u'+'nus'+'ed'+'var'+'.c'+'om'; return false;">Ran Benita</a></li>
-<li><a href="#" onclick="location.href='mai'+'lto:'+'dev'+'@w'+'ism'+'il'+'l.e'+'u'; return false;">Pierre Le Marre</a></li>
+<dl>
+<dt>Project’s homepage </dt>
+<dd><a href="https://xkbcommon.org">https://xkbcommon.org</a> </dd>
+<dt>Repository </dt>
+<dd><a href="https://github.com/xkbcommon/libxkbcommon">https://github.com/xkbcommon/libxkbcommon</a> </dd>
+<dt>Contributions </dt>
+<dd><p class="startdd"></p>
+<p class="interdd">Patches are always welcome, and may be filed at:</p>
+<ul>
+<li><a href="https://github.com/xkbcommon/libxkbcommon">GitHub</a> pull request (<em>preferred</em>)</li>
+<li><a href="#" onclick="location.href='mai'+'lto:'+'way'+'la'+'nd-'+'de'+'vel'+'@l'+'ist'+'s.'+'fre'+'ed'+'esk'+'to'+'p.o'+'rg'; return false;">wayla<span class="obfuscator">.nosp@m.</span>nd-d<span class="obfuscator">.nosp@m.</span>evel@<span class="obfuscator">.nosp@m.</span>list<span class="obfuscator">.nosp@m.</span>s.fre<span class="obfuscator">.nosp@m.</span>edes<span class="obfuscator">.nosp@m.</span>ktop.<span class="obfuscator">.nosp@m.</span>org</a> </li>
 </ul>
+</dd>
+<dt>Bug reports, questions </dt>
+<dd><p class="startdd"></p>
+<p class="interdd">Bug reports and questions are also welcome, and may be filed at <a href="https://github.com/xkbcommon/libxkbcommon/issues">GitHub</a>.</p>
+<p class="interdd">For general topics, prefer opening a <a href="https://github.com/xkbcommon/libxkbcommon/discussions">discussion</a>.</p>
+<p class="enddd"></p>
+</dd>
+<dt>Maintainers </dt>
+<dd><p class="startdd"></p>
+<ul>
+<li><a href="#" onclick="location.href='mai'+'lto:'+'dev'+'@w'+'ism'+'il'+'l.e'+'u'; return false;">Pierre Le Marre</a></li>
+<li><a href="#" onclick="location.href='mai'+'lto:'+'ran'+'@u'+'nus'+'ed'+'var'+'.c'+'om'; return false;">Ran Benita</a></li>
+<li><a href="#" onclick="location.href='mai'+'lto:'+'dan'+'ie'+'l@f'+'oo'+'ish'+'ba'+'r.o'+'rg'; return false;">Daniel Stone</a> </li>
+</ul>
+</dd>
+</dl>
 <h1 class="doxsection"><a class="anchor" id="license"></a>
 License</h1>
 <p>See the <a class="el" href="detailed-license.html#md_doc_2license" title="doc/license.md">LICENSE</a> file.</p>

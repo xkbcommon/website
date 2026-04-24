@@ -17,5 +17,6 @@ var searchData=
   ['345_20–_20unknown_20operator_14',['XKB-345 – Unknown operator',['../error-index.html#XKB-345',1,'']]],
   ['362_20–_20unsupported_20legacy_20action_15',['XKB-362 – Unsupported legacy action',['../error-index.html#XKB-362',1,'']]],
   ['378_20–_20duplicate_20entry_16',['XKB-378 – Duplicate entry',['../error-index.html#XKB-378',1,'']]],
-  ['386_20–_20recursive_20include_17',['XKB-386 – Recursive include',['../error-index.html#XKB-386',1,'']]]
+  ['386_20–_20recursive_20include_17',['XKB-386 – Recursive include',['../error-index.html#XKB-386',1,'']]],
+  ['3_3a_20test_20the_20layout_18',['Step 3: Test the layout',['../custom-configuration.html#step-3-test-the-layout',1,'']]]
 ];

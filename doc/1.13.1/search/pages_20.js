@@ -1,11 +1,11 @@
 var searchData=
 [
   ['x_20tools_20replacement_0',['Legacy X tools replacement',['../faq.html#legacy-x-tools-replacement',1,'']]],
-  ['x11_1',['Relation to X11',['../index.html#relation-to-x11',1,'']]],
+  ['x11_1',['Compatibility with X11',['../index.html#compatibility-with-x11',1,'']]],
   ['x11_20actions_2',['X11 actions',['../keymap-text-format-v1-v2.html#legacy-x11-actions',1,'Legacy X11 actions'],['../keymap-text-format-v1-v2.html#unsupported-legacy-x11-actions',1,'Unsupported legacy X11 actions']]],
-  ['x11_20implementation_3',['What are the differences with the Xorg/X11 implementation?',['../faq.html#what-are-the-differences-with-the-xorgx11-implementation',1,'']]],
+  ['x11_20implementations_3',['What are the differences with the Xorg/X11 implementations?',['../faq.html#what-are-the-differences-with-the-xorgx11-implementations',1,'']]],
   ['xev_4',['xev',['../faq.html#xev',1,'']]],
-  ['xkb_5',['XKB',['../xkb-intro.html',1,'Introduction to XKB'],['../faq.html#what-is-xkb',1,'What is XKB?'],['../faq.html#xkb',1,'XKB']]],
+  ['xkb_5',['XKB',['../xkb-intro.html',1,'Introduction to XKB'],['../index.html#introduction-to-xkb',1,'Introduction to XKB'],['../faq.html#what-is-xkb',1,'What is XKB?'],['../faq.html#xkb',1,'XKB']]],
   ['xkb_20034_20–_20malformed_20number_20literal_6',['XKB-034 – Malformed number literal',['../error-index.html#XKB-034',1,'']]],
   ['xkb_20043_20–_20conflicting_20key_20type_20preserve_20entries_7',['XKB-043 – Conflicting key type preserve entries',['../error-index.html#XKB-043',1,'']]],
   ['xkb_20052_20–_20integer_20overflow_8',['XKB-052 – Integer overflow',['../error-index.html#XKB-052',1,'']]],
@@ -82,7 +82,7 @@ var searchData=
   ['xkb_20967_20–_20invalid_20rules_20syntax_79',['XKB-967 – Invalid rules syntax',['../error-index.html#XKB-967',1,'']]],
   ['xkb_20971_20–_20undeclared_20modifiers_20in_20key_20type_80',['XKB-971 – Undeclared modifiers in key type',['../error-index.html#XKB-971',1,'']]],
   ['xkb_20compatibility_81',['XKB Compatibility',['../xkbcommon-compatibility.html',1,'']]],
-  ['xkb_20data_20locations_82',['XKB data locations',['../user-configuration.html#xkb-data-locations',1,'XKB data locations'],['../deprecated.html#_deprecated000001',1,'XKB data locations']]],
+  ['xkb_20data_20locations_82',['XKB data locations',['../custom-configuration.html#xkb-data-locations',1,'XKB data locations'],['../deprecated.html#_deprecated000001',1,'XKB data locations']]],
   ['xkb_20file_83',['XKB file',['../keymap-text-format-v1-v2.html#xkb-file',1,'']]],
   ['xkb_20keymap_20text_20format_20v1_20and_20v2_84',['The XKB keymap text format, V1 and V2',['../keymap-text-format-v1-v2.html',1,'']]],
   ['xkb_20syntax_85',['XKB-769 – Invalid xkb syntax',['../error-index.html#XKB-769',1,'']]],
@@ -93,5 +93,5 @@ var searchData=
   ['xkbcomp_90',['xkbcomp',['../faq.html#xkbcomp',1,'']]],
   ['xkbcomp_20and_20libxkbcommon_20implementations_91',['xkbcomp and libxkbcommon implementations',['../keymap-text-format-v1-v2.html#xkbcommon-vmod-encoding',1,'']]],
   ['xmodmap_92',['xmodmap',['../faq.html#xmodmap',1,'']]],
-  ['xorg_20x11_20implementation_93',['What are the differences with the Xorg/X11 implementation?',['../faq.html#what-are-the-differences-with-the-xorgx11-implementation',1,'']]]
+  ['xorg_20x11_20implementations_93',['What are the differences with the Xorg/X11 implementations?',['../faq.html#what-are-the-differences-with-the-xorgx11-implementations',1,'']]]
 ];

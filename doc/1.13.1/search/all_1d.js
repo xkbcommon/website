@@ -20,8 +20,9 @@ var searchData=
   ['unsupported_20shift_20level_17',['XKB-312 – Unsupported shift level',['../error-index.html#XKB-312',1,'']]],
   ['unsupported_20symbols_20field_18',['XKB-711 – Unsupported symbols field',['../error-index.html#XKB-711',1,'']]],
   ['use_20a_20modifier_20step_20by_20step_19',['Example: define and use a modifier, step by step',['../keymap-text-format-v1-v2.html#example-define-and-use-a-modifier-step-by-step',1,'']]],
-  ['user_20configuration_20',['User-configuration',['../user-configuration.html',1,'']]],
+  ['use_20the_20layout_20',['Step 4: Use the layout',['../custom-configuration.html#step-4-use-the-layout',1,'']]],
   ['using_20numeric_20modifier_20masks_21',['Avoid using numeric modifier masks',['../keymap-text-format-v1-v2.html#avoid-using-numeric-modifier-masks',1,'']]],
-  ['using_20system_20file_20names_22',['Using system file names',['../user-configuration.html#user-config-system-file-names',1,'']]],
-  ['usual_20modifiers_20and_20associated_20keysyms_23',['Usual modifiers and associated keysyms',['../keymap-text-format-v1-v2.html#usual-modifiers-keysyms',1,'']]]
+  ['using_20system_20file_20names_22',['Using system file names',['../custom-configuration.html#custom-config-system-file-names',1,'']]],
+  ['using_20the_20library_23',['Using the library',['../index.html#using-the-library',1,'']]],
+  ['usual_20modifiers_20and_20associated_20keysyms_24',['Usual modifiers and associated keysyms',['../keymap-text-format-v1-v2.html#usual-modifiers-keysyms',1,'']]]
 ];

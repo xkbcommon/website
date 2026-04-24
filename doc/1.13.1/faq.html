@@ -156,13 +156,16 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="#what-does--mean">What does … mean? </a>
       </li>
       <li class="level2">
-        <a href="#what-are-the-differences-with-the-xorgx11-implementation">What are the differences with the Xorg/X11 implementation? </a>
+        <a href="#what-are-the-differences-with-the-xorgx11-implementations">What are the differences with the Xorg/X11 implementations? </a>
       </li>
     </ul>
   </li>
   <li class="level1">
     <a href="#keyboard-layouts">Keyboard layouts </a>
     <ul>
+      <li class="level2">
+        <a href="#is-there-a-quick-guide">Is there a quick guide? </a>
+      </li>
       <li class="level2">
         <a href="#where-are-the-standard-keyboard-layouts-designedbrhow-to-report-an-issue-or-propose-a-patch">Where are the standard keyboard layouts designed?<br  />
 How to report an issue or propose a patch? </a>
@@ -171,19 +174,22 @@ How to report an issue or propose a patch? </a>
         <a href="#where-are-the-system-keyboard-layouts-located">Where are the system keyboard layouts located? </a>
       </li>
       <li class="level2">
-        <a href="#why-do-my-keyboard-shortcuts-not-work-properly">Why do my keyboard shortcuts not work properly? </a>
+        <a href="#how-do-i-customize-my-layout">How do I customize my layout? </a>
+      </li>
+      <li class="level2">
+        <a href="#how-do-i-test-my-custom-layout-without-installing-it">How do I test my custom layout without installing it? </a>
+      </li>
+      <li class="level2">
+        <a href="#how-can-i-create-a-package-for-my-layout">How can I create a package for my layout? </a>
       </li>
       <li class="level2">
         <a href="#why-does-my-key-combination-to-switch-between-layouts-not-work">Why does my key combination to switch between layouts not work? </a>
       </li>
       <li class="level2">
+        <a href="#why-do-my-keyboard-shortcuts-not-work-properly">Why do my keyboard shortcuts not work properly? </a>
+      </li>
+      <li class="level2">
         <a href="#why-does-my-keyboard-layout-not-work-as-expected">Why does my keyboard layout not work as expected? </a>
-      </li>
-      <li class="level2">
-        <a href="#how-do-i-customize-my-layout">How do I customize my layout? </a>
-      </li>
-      <li class="level2">
-        <a href="#how-do-i-test-my-custom-layout-without-installing-it">How do I test my custom layout without installing it? </a>
       </li>
       <li class="level2">
         <a href="#how-do-i-swap-some-keys">How do I swap some keys? </a>
@@ -219,6 +225,9 @@ How to report an issue or propose a patch? </a>
       <li class="level2">
         <a href="#modifiers">Modifiers </a>
       </li>
+      <li class="level2">
+        <a href="#keys">Keys </a>
+      </li>
     </ul>
   </li>
 </ul>
@@ -232,8 +241,8 @@ What is XKB?</h2>
 <h2 class="doxsection"><a class="anchor" id="what-does--mean"></a>
 What does … mean?</h2>
 <p>See: <a class="el" href="keymap-text-format-v1-v2.html#terminology" title="Terminology">terminology</a>.</p>
-<h2 class="doxsection"><a class="anchor" id="what-are-the-differences-with-the-xorgx11-implementation"></a>
-What are the differences with the Xorg/X11 implementation?</h2>
+<h2 class="doxsection"><a class="anchor" id="what-are-the-differences-with-the-xorgx11-implementations"></a>
+What are the differences with the Xorg/X11 implementations?</h2>
 <dl>
 <dt>Features </dt>
 <dd>See <a class="el" href="xkbcommon-compatibility.html" title="XKB Compatibility">XKB Compatibility</a>. </dd>
@@ -242,27 +251,52 @@ What are the differences with the Xorg/X11 implementation?</h2>
 </dl>
 <h1 class="doxsection"><a class="anchor" id="keyboard-layouts"></a>
 Keyboard layouts</h1>
+<h2 class="doxsection"><a class="anchor" id="is-there-a-quick-guide"></a>
+Is there a quick guide?</h2>
+<p>Yes, see the <a class="el" href="custom-configuration.html#md_doc_2custom-configuration" title="doc/custom-configuration.md">custom configuration</a>.</p>
 <h2 class="doxsection"><a class="anchor" id="where-are-the-standard-keyboard-layouts-designedbrhow-to-report-an-issue-or-propose-a-patch"></a>
 Where are the standard keyboard layouts designed?<br  />
 How to report an issue or propose a patch?</h2>
 <p>The xkbcommon project does not provide keyboard layouts. Standard keyboard layouts are provided by the <a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config">xkeyboard-config</a> project. See <a href="https://xkeyboard-config.freedesktop.org/doc/contributing/">contributing to xkeyboard-config</a> for further information.</p>
 <h2 class="doxsection"><a class="anchor" id="where-are-the-system-keyboard-layouts-located"></a>
 Where are the system keyboard layouts located?</h2>
-<p>They are usually located at <span class="tt">/usr/share/xkeyboard-config-2</span>, or <span class="tt">/usr/share/X11/xkb</span> on older setups.</p>
+<p>They are usually located at <span class="tt">/usr/share/xkeyboard-config-&lt;VERSION&gt;</span>, or <span class="tt">/usr/share/X11/xkb</span> on older setups.</p>
 <dl class="section note"><dt>Note</dt><dd>Do not modify system files! See <a class="el" href="#how-do-i-customize-my-layout" title="How do I customize my layout?">How do I customize my layout?</a> for further instructions.</dd></dl>
-<h2 class="doxsection"><a class="anchor" id="why-do-my-keyboard-shortcuts-not-work-properly"></a>
-Why do my keyboard shortcuts not work properly?</h2>
-<ul>
-<li>🚧 TODO: Setups with multiple layout and/or non-Latin keyboard layouts may have some issues.</li>
-<li>🚧 TODO: <a href="https://github.com/xkbcommon/libxkbcommon/issues/420">#420</a></li>
+<h2 class="doxsection"><a class="anchor" id="how-do-i-customize-my-layout"></a>
+How do I customize my layout?</h2>
+<p>This project does not provide any keyboard layout database:</p><ul>
+<li>If you want to modify only your <em>user</em> keyboard configuration, see: <a class="el" href="custom-configuration.html#md_doc_2custom-configuration" title="doc/custom-configuration.md">custom configuration</a>.</li>
+<li>If you want to modify the <em>system-wide</em> keyboard configuration, follow the <a class="el" href="custom-configuration.html#md_doc_2custom-configuration" title="doc/custom-configuration.md">custom configuration</a> but <em>replace <span class="tt">$XDG_CONFIG_HOME</span> with <span class="tt">&lt;sysconfdir&gt;</span> (usually <span class="tt">/etc</span>) in the file locations</em>.</li>
+<li>If you want to modify the <em>standard keyboard layout database</em>, please first try it <em>locally</em> (see our <a class="el" href="debugging.html#md_doc_2debugging" title="doc/debugging.md">debugging tools</a>) and then file a merge request at the <a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config">xkeyboard-config</a> project.</li>
 </ul>
+<p>See also the <a class="el" href="keymap-text-format-v1-v2.html#md_doc_2keymap-text-format-v1-v2" title="doc/keymap-text-format-v1-v2.md">keymap text format</a> documentation for the syntax and the <a class="el" href="xkbcommon-compatibility.html#md_doc_2compatibility" title="doc/compatibility.md">compatibility</a> page for the supported features.</p>
+<h2 class="doxsection"><a class="anchor" id="how-do-i-test-my-custom-layout-without-installing-it"></a>
+How do I test my custom layout without installing it?</h2>
+<p>Use our <a class="el" href="debugging.html#md_doc_2debugging" title="doc/debugging.md">debugging tools</a>.</p>
+<h2 class="doxsection"><a class="anchor" id="how-can-i-create-a-package-for-my-layout"></a>
+How can I create a package for my layout?</h2>
+<p>See <a class="el" href="packaging-keyboard-layouts.html" title="Packaging keyboard layouts">Packaging keyboard layouts</a>.</p>
 <h2 class="doxsection"><a class="anchor" id="why-does-my-key-combination-to-switch-between-layouts-not-work"></a>
 Why does my key combination to switch between layouts not work?</h2>
-<p>There are currently some issue with modifier-only shortcuts. See <a href="https://github.com/xkbcommon/libxkbcommon/issues/420">this issue</a>.</p>
+<p>There are some issues with <em>modifier-only</em> shortcuts: see <a href="https://github.com/xkbcommon/libxkbcommon/issues/420">this bug report</a>.</p>
+<p>This can be fixed by using the new parameter <code><a class="el" href="keymap-text-format-v1-v2.html#lockOnRelease" title="lockOnRelease">lockOnRelease</a></code> in <span class="tt">LockGroup()</span>, available since libxkbcommon 1.11. This will be done at some point in <a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config">xkeyboard-config</a>.</p>
+<div class="fragment"><div class="line"> xkb_compatibility {</div>
+<div class="line">     interpret ISO_Next_Group {</div>
+<div class="line">         useModMapMods= level1;</div>
+<div class="line">         virtualModifier= AltGr;</div>
+<div class="line">-        action= LockGroup(group=+1);</div>
+<div class="line">+        action= LockGroup(group=+1, lockOnRelease);</div>
+<div class="line">     };</div>
+<div class="line"> };</div>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="why-do-my-keyboard-shortcuts-not-work-properly"></a>
+Why do my keyboard shortcuts not work properly?</h2>
+<p>Users have different expectations when it comes to keyboard shortcuts. However, the reference use case is usually a single Latin keyboard layout, with fallbacks for other configurations. These fallbacks may not match users’ expectations nor even be consistent across applications. See <a href="https://github.com/xkbcommon/libxkbcommon/issues/753">this issue</a>.</p>
 <h2 class="doxsection"><a class="anchor" id="why-does-my-keyboard-layout-not-work-as-expected"></a>
 Why does my keyboard layout not work as expected?</h2>
 <p>There could be many reasons!</p>
 <dl>
+<dt>Wrong keyboard model </dt>
+<dd>Nowadays most keyboards follow standards, so prefer using one of the “generic” keyboard models in the XKB configuration to avoid vendor-specific mappings.  </dd>
 <dt>There is an issue with your keyboard layout database </dt>
 <dd><p class="startdd">libxkbcommon may not be able to load your configuration due to an issue (file not found, syntax error, unsupported keysym, etc.). Please use our <a class="el" href="debugging.html#md_doc_2debugging" title="doc/debugging.md">debugging tools</a> to get further information.</p>
 <p class="enddd">Note that the xkbcommon project does not provide keyboard layouts. See the <a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config">xkeyboard-config</a> project for further information.  </p>
@@ -280,17 +314,6 @@ Why does my keyboard layout not work as expected?</h2>
 <dt>None of the previous </dt>
 <dd>If none of the previous is conclusive, then this may an issue with libxkbcommon. Please use our <a class="el" href="debugging.html#md_doc_2debugging" title="doc/debugging.md">debugging tools</a> to provide the maximum information (setup, log, expected/got results) and file a <a href="https://github.com/xkbcommon/libxkbcommon/issues/new">bug report</a>!  </dd>
 </dl>
-<h2 class="doxsection"><a class="anchor" id="how-do-i-customize-my-layout"></a>
-How do I customize my layout?</h2>
-<p>This project does not provide any keyboard layout database:</p><ul>
-<li>If you want to modify only your <em>local</em> keyboard configuration, see: <a class="el" href="user-configuration.html#md_doc_2user-configuration" title="doc/user-configuration.md">User-configuration</a>.</li>
-<li>If you want to modify the <em>system-wide</em> keyboard configuration, follow the <a class="el" href="user-configuration.html#md_doc_2user-configuration" title="doc/user-configuration.md">User-configuration</a> instructions but <em>replace <span class="tt">$XDG_CONFIG_HOME</span> with <span class="tt">&lt;sysconfdir&gt;</span> (usually <span class="tt">/etc</span>) in the file locations</em>.</li>
-<li>If you want to modify the <em>standard keyboard layout database</em>, please first try it <em>locally</em> (see our <a class="el" href="debugging.html#md_doc_2debugging" title="doc/debugging.md">debugging tools</a>) and then file an issue or a merge request at the <a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config">xkeyboard-config</a> project.</li>
-</ul>
-<p>See also the <a class="el" href="keymap-text-format-v1-v2.html#md_doc_2keymap-text-format-v1-v2" title="doc/keymap-text-format-v1-v2.md">keymap text format</a> documentation for the syntax and the <a class="el" href="xkbcommon-compatibility.html#md_doc_2compatibility" title="doc/compatibility.md">compatibility</a> page for the supported features.</p>
-<h2 class="doxsection"><a class="anchor" id="how-do-i-test-my-custom-layout-without-installing-it"></a>
-How do I test my custom layout without installing it?</h2>
-<p>Use our <a class="el" href="debugging.html#md_doc_2debugging" title="doc/debugging.md">debugging tools</a>.</p>
 <h2 class="doxsection"><a class="anchor" id="how-do-i-swap-some-keys"></a>
 How do I swap some keys?</h2>
 <p>🚧 TODO</p>
@@ -319,7 +342,8 @@ How do I define multiple groups per key?</h2>
 <div class="line">    key &lt;AD01&gt; { [    q,     Q] };</div>
 <div class="line">    <span class="comment">// …</span></div>
 <div class="line">};</div>
-</div><!-- fragment --><p class="enddd">See also <a class="el" href="user-configuration.html" title="User-configuration">User-configuration</a> to make the layouts discoverable for easy configuration in your keyboard settings app.  </p>
+</div><!-- fragment --><p class="interdd">See also the instructions to make the <a class="el" href="custom-configuration.html#discoverable-layouts" title="Discoverable layouts">layouts discoverable</a> for easy configuration in your keyboard settings app.</p>
+<p class="enddd"></p>
 </dd>
 <dt>Option for multiple layouts </dt>
 <dd><p class="startdd">If you define an option that affect multiple groups at once in a single <span class="tt">xkb_symbols</span> section, you should split that section and update the corresponding rules for each layout index.</p>
@@ -452,7 +476,7 @@ setxkbmap</h2>
 </dd>
 <dt><span class="tt">setxkbmap -layout …</span> </dt>
 <dd><p class="startdd">No equivalent: <span class="tt">xkbcli</span> does not modify the display server keymap. One must use the tools <em>specific</em> to each display server in order order to achieve it.</p>
-<p class="enddd">If you use a custom layout, please have a look at <a class="el" href="user-configuration.html" title="User-configuration">User-configuration</a>, which enables making custom layouts <em>discoverable</em> by keyboard configuration GUI.  </p>
+<p class="enddd">If you use a custom layout, please have a look at <a class="el" href="custom-configuration.html" title="Custom configuration">Custom configuration</a>, which enables making custom layouts <em>discoverable</em> by keyboard configuration GUI.  </p>
 </dd>
 </dl>
 <h2 class="doxsection"><a class="anchor" id="xkbcomp"></a>
@@ -483,7 +507,7 @@ xkbcomp</h2>
 <dd></dd>
 <dt><span class="tt">xkbcomp /path/to/keymap/file $DISPLAY</span> </dt>
 <dd><p class="startdd"></p>
-<p class="enddd">No equivalent: <span class="tt">xkbcli</span> does not modify the display server keymap. One must use the tools <em>specific</em> to each display server in order order to achieve it. Please have a look at <a class="el" href="user-configuration.html" title="User-configuration">User-configuration</a>, which enables making custom layouts <em>discoverable</em> by keyboard configuration GUI.  </p>
+<p class="enddd">No equivalent: <span class="tt">xkbcli</span> does not modify the display server keymap. One must use the tools <em>specific</em> to each display server in order order to achieve it. Please have a look at <a class="el" href="custom-configuration.html" title="Custom configuration">Custom configuration</a>, which enables making custom layouts <em>discoverable</em> by keyboard configuration GUI.  </p>
 </dd>
 </dl>
 <h2 class="doxsection"><a class="anchor" id="xev"></a>
@@ -586,7 +610,27 @@ How to get the keys that trigger modifiers?</h3>
 <div class="line">    }</div>
 <div class="line">    <span class="keywordflow">return</span> idx;</div>
 <div class="line">}</div>
-</div><!-- fragment --> </div></div><!-- contents -->
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="keys"></a>
+Keys</h2>
+<h3 class="doxsection"><a class="anchor" id="how-to-check-if-a-keymap-definesbinds-a-keycode"></a>
+How to check if a keymap defines/binds a keycode?</h3>
+<dl>
+<dt>Check if a keymaps <em>defines</em> a keycode</dt>
+<dd></dd>
+<dt></dt>
+<dd><p class="startdd"><span class="tt"><a class="el" href="group__components.html#ga9bd5f47e261c0b6dfda4abc86b0928f5" title="Find the name of the key with the given keycode.">xkb_keymap::xkb_keymap_key_get_name()</a></span> returns <span class="tt">NULL</span> if the keycode is not defined in the corresponding keymap:</p>
+<div class="fragment"><div class="line"><span class="keywordflow">if</span> (xkb_keymap_key_get_name(keymap, keycode) != NULL)</div>
+<div class="line">    <span class="comment">// use existing key ...</span></div>
+</div><!-- fragment -->  </dd>
+<dt>Check if a keymaps <em>binds</em> a keycode</dt>
+<dd></dd>
+<dt></dt>
+<dd><p class="startdd"><span class="tt"><a class="el" href="group__components.html#gae71bb3e293e5889fa76e0f10d28c0b0d" title="Get the number of layouts for a specific key.">xkb_keymap::xkb_keymap_num_layouts_for_key()</a></span> returns <span class="tt">0</span> if the keycode is either not defined or unbound:</p>
+<div class="fragment"><div class="line"><span class="keywordflow">if</span> (xkb_keymap_num_layouts_for_key(keymap, keycode))</div>
+<div class="line">    <span class="comment">// use bound key ...</span></div>
+</div><!-- fragment -->  </dd>
+</dl>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
