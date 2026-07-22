@@ -1,0 +1,4 @@
+<map id="Keymap Creation" name="Keymap Creation">
+<area shape="rect" id="Node000001" title="Creating and destroying keymaps." alt="" coords="5,5,139,33"/>
+<area shape="rect" id="Node000002" href="$group__xkb__keymap__format__enum.html" title="Keymap formats for parsing and serializing keymaps." alt="" coords="187,5,316,33"/>
+</map>

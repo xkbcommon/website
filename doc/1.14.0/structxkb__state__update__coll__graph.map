@@ -1,0 +1,7 @@
+<map id="xkb_state_update" name="xkb_state_update">
+<area shape="rect" id="Node000001" title="Request to process an out&#45;of&#45;band atomic update through an xkb_machine or xkb_state." alt="" coords="126,123,263,151"/>
+<area shape="rect" id="Node000002" href="$structxkb__state__components__update.html" title="Latched and locked state components for an out&#45;of&#45;band state update." alt="" coords="5,5,178,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,59,184,122,179,123,122,64"/>
+<area shape="rect" id="Node000003" href="$structxkb__layout__policy__update.html" title="Configures the policy used to bring out&#45;of&#45;range layout indices into range." alt="" coords="201,14,392,42"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,54,271,79,253,101,221,125,219,120,250,97,267,76,281,57"/>
+</map>

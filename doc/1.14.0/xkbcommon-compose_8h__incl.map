@@ -1,0 +1,21 @@
+<map id="include/xkbcommon/xkbcommon&#45;compose.h" name="include/xkbcommon/xkbcommon&#45;compose.h">
+<area shape="rect" id="Node000001" title="libxkbcommon Compose API &#45; support for Compose and dead&#45;keys." alt="" coords="290,5,528,50"/>
+<area shape="rect" id="Node000002" href="$xkbcommon_8h.html" title="Main libxkbcommon API." alt="" coords="309,98,508,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="410,48,411,84,406,81,407,53"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,182,87,210"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="316,127,213,148,100,176,91,179,89,174,99,171,212,143,321,125"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="111,182,181,210"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="356,126,277,149,194,176,188,178,186,173,192,171,276,144,351,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="205,182,271,210"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="384,126,280,178,278,173,379,127"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="294,182,368,210"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="399,125,355,173,352,169,394,127"/>
+<area shape="rect" id="Node000007" href="$xkbcommon-errors_8h.html" title="Error&#45;handling related features." alt="" coords="392,174,580,218"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="422,124,458,163,452,161,420,129"/>
+<area shape="rect" id="Node000008" href="$xkbcommon-names_8h.html" title="Predefined names for common modifiers and LEDs." alt="" coords="604,174,792,218"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="456,124,609,169,604,169,455,129"/>
+<area shape="rect" id="Node000009" href="$xkbcommon-keysyms_8h.html" title="Key symbols (keysyms) definitions." alt="" coords="816,174,1004,218"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="502,124,804,173,798,174,502,129"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1028,174,1216,218"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="509,118,735,137,1015,173,1010,174,735,143,509,123"/>
+</map>

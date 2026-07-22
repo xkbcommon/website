@@ -1,0 +1,5 @@
+<map id="Keymap formats" name="Keymap formats">
+<area shape="rect" id="Node000002" href="$group__keymap.html" title="Creating and destroying keymaps." alt="" coords="18,5,152,33"/>
+<area shape="rect" id="Node000001" title="Keymap formats for parsing and serializing keymaps." alt="" coords="213,32,342,60"/>
+<area shape="rect" id="Node000003" href="$group__keymap-serialization.html" title="Serializing keymaps." alt="" coords="5,57,165,85"/>
+</map>

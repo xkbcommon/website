@@ -1,0 +1,4 @@
+<map id="Keymap Serialization" name="Keymap Serialization">
+<area shape="rect" id="Node000001" title="Serializing keymaps." alt="" coords="5,5,165,33"/>
+<area shape="rect" id="Node000002" href="$group__xkb__keymap__format__enum.html" title="Keymap formats for parsing and serializing keymaps." alt="" coords="213,5,342,33"/>
+</map>

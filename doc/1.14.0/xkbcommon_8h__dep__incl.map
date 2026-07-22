@@ -1,0 +1,9 @@
+<map id="include/xkbcommon/xkbcommon.h" name="include/xkbcommon/xkbcommon.h">
+<area shape="rect" id="Node000001" title="Main libxkbcommon API." alt="" coords="262,5,512,33"/>
+<area shape="rect" id="Node000002" href="$xkbcommon-compose_8h.html" title="libxkbcommon Compose API &#45; support for Compose and dead&#45;keys." alt="" coords="5,81,244,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="333,38,195,83,194,78,328,39"/>
+<area shape="rect" id="Node000003" href="$xkbcommon-features_8h.html" title="Test features availability." alt="" coords="268,81,506,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="389,47,389,82,385,79,385,51"/>
+<area shape="rect" id="Node000004" href="$xkbcommon-x11_8h.html" title="libxkbcommon&#45;x11 API &#45; Additional X11 support for xkbcommon." alt="" coords="531,81,769,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="444,35,583,80,577,80,444,41"/>
+</map>
