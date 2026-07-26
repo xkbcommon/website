@@ -18,5 +18,5 @@ How to report an issue or propose a patch?',['../faq.html#where-are-the-standard
   ['overlay_14',['XKB-355 – Overlapping overlay',['../error-index.html#XKB-355',1,'']]],
   ['overlay_20index_15',['XKB-588 – Unsupported overlay index',['../error-index.html#XKB-588',1,'']]],
   ['overriding_20the_20system_20sections_16',['Overriding the system sections',['../custom-configuration.html#overriding-the-system-sections',1,'']]],
-  ['overview_17',['Overview',['../group__compose.html',1,'Overview'],['../group__x11-support.html',1,'Overview']]]
+  ['overview_17',['Overview',['../group__compose.html',1,'Overview'],['../group__x11-support.html',1,'Overview'],['../group__keysym-encoding.html#overview',1,'Overview']]]
 ];

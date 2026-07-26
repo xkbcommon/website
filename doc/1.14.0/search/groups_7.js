@@ -6,5 +6,7 @@ var searchData=
   ['keymap_20formats_3',['Keymap formats',['../group__xkb__keymap__format__enum.html',1,'']]],
   ['keymap_20serialization_4',['Keymap Serialization',['../group__keymap-serialization.html',1,'']]],
   ['keys_20support_5',['Compose and dead-keys support',['../group__compose.html',1,'']]],
-  ['keysyms_6',['Keysyms',['../group__keysyms.html',1,'']]]
+  ['keysym_20encoding_6',['Keysym encoding',['../group__keysym-encoding.html',1,'']]],
+  ['keysyms_7',['Keysyms',['../group__keysyms.html',1,'']]],
+  ['keysyms_8',['Predefined keysyms',['../group__predefined-keysyms.html',1,'']]]
 ];

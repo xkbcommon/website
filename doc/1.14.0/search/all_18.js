@@ -14,16 +14,17 @@ How to report an issue or propose a patch?',['../faq.html#where-are-the-standard
   ['pointer_20actions_10',['Pointer actions',['../keymap-text-format-v1-v2.html#pointer-actions',1,'Pointer actions'],['../todo.html#_todo000014',1,'Pointer actions'],['../todo.html#_todo000015',1,'Pointer actions'],['../todo.html#_todo000016',1,'Pointer actions'],['../todo.html#_todo000017',1,'Pointer actions']]],
   ['policy_11',['policy',['../structxkb__layout__policy__update.html#a8bb5cad46a162e3bc1f0cde617ce8ae2',1,'xkb_layout_policy_update::policy'],['../error-index.html#XKB-214',1,'XKB-214 – Unsupported layout out of range policy']]],
   ['portability_12',['Modifiers portability',['../keymap-text-format-v1-v2.html#modifiers-portability',1,'']]],
-  ['predefined_20names_20for_20common_20modifiers_20and_20leds_13',['Predefined names for common modifiers and LEDs',['../group__modifier-names.html',1,'']]],
-  ['preserve_20entries_14',['XKB-043 – Conflicting key type preserve entries',['../error-index.html#XKB-043',1,'']]],
-  ['preserve_20result_15',['XKB-195 – Illegal key type preserve result',['../error-index.html#XKB-195',1,'']]],
-  ['private_20action_16',['Private action',['../keymap-text-format-v1-v2.html#private-action',1,'']]],
-  ['process_17',['Process',['../rule-file-format.html#process',1,'']]],
-  ['process_18',['RMLVO resolution process',['../rule-file-format.html#rmlvo-resolution',1,'']]],
-  ['processing_19',['Processing',['../keymap-text-format-v1-v2.html#processing',1,'']]],
-  ['properly_20',['Why do my keyboard shortcuts not work properly?',['../faq.html#why-do-my-keyboard-shortcuts-not-work-properly',1,'']]],
-  ['properties_21',['Keymap properties',['../release-notes.html#keymap-properties',1,'']]],
-  ['propose_20a_20patch_22',['Where are the standard keyboard layouts designed?&lt;br  /&gt;
+  ['predefined_20keysyms_13',['Predefined keysyms',['../group__predefined-keysyms.html',1,'']]],
+  ['predefined_20names_20for_20common_20modifiers_20and_20leds_14',['Predefined names for common modifiers and LEDs',['../group__modifier-names.html',1,'']]],
+  ['preserve_20entries_15',['XKB-043 – Conflicting key type preserve entries',['../error-index.html#XKB-043',1,'']]],
+  ['preserve_20result_16',['XKB-195 – Illegal key type preserve result',['../error-index.html#XKB-195',1,'']]],
+  ['private_20action_17',['Private action',['../keymap-text-format-v1-v2.html#private-action',1,'']]],
+  ['process_18',['Process',['../rule-file-format.html#process',1,'']]],
+  ['process_19',['RMLVO resolution process',['../rule-file-format.html#rmlvo-resolution',1,'']]],
+  ['processing_20',['Processing',['../keymap-text-format-v1-v2.html#processing',1,'']]],
+  ['properly_21',['Why do my keyboard shortcuts not work properly?',['../faq.html#why-do-my-keyboard-shortcuts-not-work-properly',1,'']]],
+  ['properties_22',['Keymap properties',['../release-notes.html#keymap-properties',1,'']]],
+  ['propose_20a_20patch_23',['Where are the standard keyboard layouts designed?&lt;br  /&gt;
 How to report an issue or propose a patch?',['../faq.html#where-are-the-standard-keyboard-layouts-designedbrhow-to-report-an-issue-or-propose-a-patch',1,'']]],
-  ['protocol_23',['XKB the protocol',['../xkb-intro.html#xkb-the-protocol',1,'']]]
+  ['protocol_24',['XKB the protocol',['../xkb-intro.html#xkb-the-protocol',1,'']]]
 ];

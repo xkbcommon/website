@@ -41,7 +41,7 @@ var searchData=
   ['modifiers_20key_20bindings_38',['Modifiers key bindings',['../keymap-text-format-v1-v2.html#modifiers-bindings',1,'']]],
   ['modifiers_20names_39',['modifiers names',['../group__real-modifier-names.html',1,'Real modifiers names'],['../group__virtual-modifier-names.html',1,'Virtual modifiers names']]],
   ['modifiers_20portability_40',['Modifiers portability',['../keymap-text-format-v1-v2.html#modifiers-portability',1,'']]],
-  ['modmap_41',['modmap',['../error-index.html#XKB-800',1,'XKB-800 – Conflicting modmap'],['../todo.html#_todo000025',1,'XKB-800 – Conflicting modmap']]],
+  ['modmap_41',['modmap',['../error-index.html#XKB-800',1,'XKB-800 – Conflicting modmap'],['../todo.html#_todo000027',1,'XKB-800 – Conflicting modmap']]],
   ['modmap_20entry_42',['XKB-206 – Invalid modmap entry',['../error-index.html#XKB-206',1,'']]],
   ['more_20than_204_20layouts_43',['How to handle more than 4 layouts?',['../faq.html#how-to-handle-more-than-4-layouts',1,'']]],
   ['multiple_20groups_44',['Multiple groups',['../keymap-text-format-v1-v2.html#key-groups',1,'']]],

@@ -37,7 +37,7 @@ var searchData=
   ['modifiers_20in_20key_20type_34',['XKB-971 – Undeclared modifiers in key type',['../error-index.html#XKB-971',1,'']]],
   ['modifiers_20key_20bindings_35',['Modifiers key bindings',['../keymap-text-format-v1-v2.html#modifiers-bindings',1,'']]],
   ['modifiers_20portability_36',['Modifiers portability',['../keymap-text-format-v1-v2.html#modifiers-portability',1,'']]],
-  ['modmap_37',['modmap',['../error-index.html#XKB-800',1,'XKB-800 – Conflicting modmap'],['../todo.html#_todo000025',1,'XKB-800 – Conflicting modmap']]],
+  ['modmap_37',['modmap',['../error-index.html#XKB-800',1,'XKB-800 – Conflicting modmap'],['../todo.html#_todo000027',1,'XKB-800 – Conflicting modmap']]],
   ['modmap_20entry_38',['XKB-206 – Invalid modmap entry',['../error-index.html#XKB-206',1,'']]],
   ['more_20than_204_20layouts_39',['How to handle more than 4 layouts?',['../faq.html#how-to-handle-more-than-4-layouts',1,'']]],
   ['multiple_20groups_40',['Multiple groups',['../keymap-text-format-v1-v2.html#key-groups',1,'']]],

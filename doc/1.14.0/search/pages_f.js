@@ -2,7 +2,7 @@ var searchData=
 [
   ['failed_0',['XKB-822 – Keymap compilation failed',['../error-index.html#XKB-822',1,'']]],
   ['faq_1',['Frequently Asked Question (FAQ)',['../faq.html',1,'']]],
-  ['features_2',['features',['../xkbcommon-compatibility.html#general-features',1,'General features'],['../todo.html#_todo000003',1,'General features']]],
+  ['features_2',['features',['../xkbcommon-compatibility.html#general-features',1,'General features'],['../todo.html#_todo000002',1,'General features']]],
   ['field_3',['field',['../error-index.html#XKB-563',1,'XKB-563 – Invalid action field'],['../error-index.html#XKB-639',1,'XKB-639 – Unknown default field'],['../error-index.html#XKB-711',1,'XKB-711 – Unsupported symbols field'],['../error-index.html#XKB-812',1,'XKB-812 – Unknown field']]],
   ['field_20type_4',['XKB-578 – Wrong field type',['../error-index.html#XKB-578',1,'']]],
   ['fields_5',['XKB-935 – Conflicting key fields',['../error-index.html#XKB-935',1,'']]],
@@ -19,7 +19,7 @@ var searchData=
   ['for_20keyboard_20layout_20packagers_16',['Instructions for keyboard layout packagers',['../packaging-keyboard-layouts.html#instructions-for-keyboard-layout-packagers',1,'']]],
   ['for_20my_20layout_17',['How can I create a package for my layout?',['../faq.html#how-can-i-create-a-package-for-my-layout',1,'']]],
   ['for_20testing_18',['Step 1: Create directory for testing',['../custom-configuration.html#step-1-create-directory-for-testing',1,'']]],
-  ['format_19',['format',['../keymap-text-format-v1-v2.html#introduction-to-the-xkb-text-format',1,'Introduction to the XKB text format'],['../xkbcommon-compatibility.html#keymap-text-format',1,'Keymap text format'],['../todo.html#_todo000004',1,'Keymap text format'],['../release-notes.html#keymap-text-format-1',1,'Keymap text format'],['../release-notes.html#keymap-text-format-2',1,'Keymap text format'],['../release-notes.html#rules-text-format',1,'Rules text format'],['../xkb-intro.html#xkb-the-text-format',1,'XKB the text format'],['../todo.html#_todo000001',1,'XKB the text format'],['../error-index.html#XKB-277',1,'XKB-277 – Unsupported keymap format'],['../error-index.html#XKB-742',1,'XKB-742 – Incompatible keymap text format']]],
+  ['format_19',['format',['../keymap-text-format-v1-v2.html#introduction-to-the-xkb-text-format',1,'Introduction to the XKB text format'],['../xkbcommon-compatibility.html#keymap-text-format',1,'Keymap text format'],['../todo.html#_todo000003',1,'Keymap text format'],['../release-notes.html#keymap-text-format-1',1,'Keymap text format'],['../release-notes.html#keymap-text-format-2',1,'Keymap text format'],['../release-notes.html#rules-text-format',1,'Rules text format'],['../xkb-intro.html#xkb-the-text-format',1,'XKB the text format'],['../todo.html#_todo000007',1,'XKB the text format'],['../error-index.html#XKB-277',1,'XKB-277 – Unsupported keymap format'],['../error-index.html#XKB-742',1,'XKB-742 – Incompatible keymap text format']]],
   ['format_20of_20the_20file_20',['Format of the file',['../rule-file-format.html#format-of-the-file',1,'']]],
   ['format_20v1_20and_20v2_21',['The XKB keymap text format, V1 and V2',['../keymap-text-format-v1-v2.html',1,'']]],
   ['forward_20compat_22',['XKB-876 – Abi forward compat',['../error-index.html#XKB-876',1,'']]],
@@ -28,5 +28,6 @@ var searchData=
   ['frequently_20asked_20question_20faq_25',['Frequently Asked Question (FAQ)',['../faq.html',1,'']]],
   ['from_20a_20different_20layout_26',['How to use keyboard shortcuts from a different layout?',['../faq.html#how-to-use-keyboard-shortcuts-from-a-different-layout',1,'']]],
   ['full_20changelog_27',['Full changelog',['../release-notes.html#full-changelog',1,'']]],
-  ['further_28',['Step 5: Going further',['../custom-configuration.html#step-5-going-further',1,'']]]
+  ['function_20keysyms_28',['Function keysyms',['../group__keysym-encoding.html#function-keysyms',1,'Function keysyms'],['../todo.html#_todo000025',1,'Function keysyms']]],
+  ['further_29',['Step 5: Going further',['../custom-configuration.html#step-5-going-further',1,'']]]
 ];

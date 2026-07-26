@@ -7,7 +7,7 @@ var searchData=
   ['real_20modifier_20map_4',['Setting the real modifier map',['../keymap-text-format-v1-v2.html#set-real-mod-map',1,'']]],
   ['recursive_20include_5',['XKB-386 – Recursive include',['../error-index.html#XKB-386',1,'']]],
   ['redirectkey_6',['RedirectKey',['../keymap-text-format-v1-v2.html#redirect-key-action',1,'']]],
-  ['registry_7',['registry',['../xkbcommon-compatibility.html#registry-support',1,'Keyboard layout registry'],['../todo.html#_todo000005',1,'Keyboard layout registry']]],
+  ['registry_7',['registry',['../xkbcommon-compatibility.html#registry-support',1,'Keyboard layout registry'],['../todo.html#_todo000004',1,'Keyboard layout registry']]],
   ['release_20notes_8',['Release notes',['../release-notes.html',1,'']]],
   ['repeat_9',['Repeat',['../keymap-text-format-v1-v2.html#key-repeat',1,'']]],
   ['replacement_10',['Legacy X tools replacement',['../faq.html#legacy-x-tools-replacement',1,'']]],

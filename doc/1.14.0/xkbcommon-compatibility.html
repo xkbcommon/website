@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="#keymap-text-format">Keymap text format </a>
       </li>
       <li class="level2">
-        <a href="#api-2">API </a>
+        <a href="#api-1">API </a>
       </li>
     </ul>
   </li>
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <p>This page presents the differences between the <a href="https://www.x.org/releases/current/doc/kbproto/xkbproto.html">XKB 1.0 specification</a> implemented in current X servers and its implementation in libxkbcommon.</p>
 <p>xkbcommon has <em>removed</em> support for some parts of the specification which introduced unnecessary complications. Many of these removals were in fact not implemented, or half-implemented at best, as well as being totally unused in the standard keyboard layout database, <a href="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config">xkeyboard-config</a>.</p>
 <p>On the other hand, xkbcommon has notable additions that lift hard-coded limitation of the <a href="https://www.x.org/releases/current/doc/xproto/x11protocol.html#Keyboards">X11 Protocol</a>.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo</a></b></dt><dd>This page is work in progress. It aims to be exhaustive. Please <a href="https://github.com/xkbcommon/libxkbcommon/issues">report any issue</a>.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo</a></b></dt><dd>This page is work in progress. It aims to be exhaustive. Please <a href="https://github.com/xkbcommon/libxkbcommon/issues">report any issue</a>.</dd></dl>
 <h1 class="doxsection"><a class="anchor" id="keymap-support"></a>
 Keymap support</h1>
 <h2 class="doxsection"><a class="anchor" id="general-features"></a>
@@ -353,7 +353,7 @@ General features</h2>
 <summary >
 ✅ Full support</summary>
 <p></p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo</a></b></dt><dd>rationale </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo</a></b></dt><dd>rationale </dd></dl>
 </details>
 </td></tr>
 <tr>
@@ -742,7 +742,7 @@ Keymap text format</h2>
 <summary >
 ❌️ No support</summary>
 <p></p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo</a></b></dt><dd>syntax description </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo</a></b></dt><dd>syntax description </dd></dl>
 </details>
 </td></tr>
 <tr>
@@ -761,7 +761,7 @@ Keymap text format</h2>
 </details>
 </td></tr>
 </table>
-<h2 class="doxsection"><a class="anchor" id="api-2"></a>
+<h2 class="doxsection"><a class="anchor" id="api-1"></a>
 API</h2>
 <table class="doxtable">
 <caption>API compatibility table</caption>
@@ -865,7 +865,7 @@ Keyboard layout registry</h1>
 <summary >
 ✅ Full support</summary>
 <p></p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo</a></b></dt><dd>rationale </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo</a></b></dt><dd>rationale </dd></dl>
 </details>
 </td></tr>
 </table>
@@ -882,7 +882,7 @@ Compose support</h1>
 ❌️ Parsing only</summary>
 <p>Syntax: <span class="tt">[([!] ([~] MODIFIER)...) | None] &lt;keysym&gt;</span></p>
 <p>If the modifier list is preceded by <span class="tt">!</span> it must match exactly. MODIFIER may be one of <span class="tt">Ctrl</span>, <span class="tt">Lock</span>, <span class="tt">Caps</span>, <span class="tt">Shift</span>, <span class="tt">Alt</span> or <span class="tt">Meta</span>. Each modifier may be preceded by a <span class="tt">~</span> character to indicate that the modifier must not be present. If <span class="tt">None</span> is specified, no modifier may be present.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo</a></b></dt><dd>removal rationale </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo</a></b></dt><dd>removal rationale </dd></dl>
 </details>
 </td></tr>
 <tr>
@@ -897,7 +897,7 @@ Compose support</h1>
 <summary >
 ❌️ No support</summary>
 <p></p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo</a></b></dt><dd>feature description, removal rationale </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo</a></b></dt><dd>feature description, removal rationale </dd></dl>
 </details>
 </td></tr>
 </table>

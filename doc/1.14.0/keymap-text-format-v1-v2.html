@@ -354,7 +354,7 @@ Terminology</h1>
 </dd>
 <dt><a class="anchor" id="keysym-def"></a>Symbols </dt>
 <dd><p class="startdd">A <em>keysym</em> (short for “key symbol”) is a numeric encoding of a symbol on the cap of a key.</p>
-<p class="interdd">Some keysyms have a canonical name for convenience. The complete list of canonical names is defined in <span class="tt"><a class="el" href="xkbcommon-keysyms_8h.html" title="Key symbols (keysyms) definitions.">xkbcommon/xkbcommon-keysyms.h</a></span>.</p>
+<p class="interdd">Some keysyms have a canonical name for convenience. The complete list of canonical names is defined in <span class="tt"><a class="el" href="xkbcommon-keysyms_8h.html" title="Key symbols (keysyms) definitions.">xkbcommon/xkbcommon-keysyms.h</a></span> and conveniently consultable at <a class="el" href="group__predefined-keysyms.html" title="Predefined keysyms">Predefined keysyms</a>.</p>
 <p class="interdd">Common types of keysyms are:</p>
 <ul>
 <li>A <em>character:</em> e.g. <span class="tt">a</span> and <span class="tt">A</span> for Latin scripts, <span class="tt">alpha</span> “α” and <span class="tt">ALPHA</span> “Α” for Greek, etc.</li>
@@ -366,7 +366,9 @@ Terminology</h1>
 </ul>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="#the-xkb_symbols-section" title="The “xkb_symbols” section">xkb_symbols</a> for further details on binding <a class="el" href="group__keysyms.html" title="Utility functions related to keysyms (short for “key symbols”).">Keysyms</a> to keycodes. </dd>
 <dd>
-[Keysym syntax][<a class="el" href="#keysym-syntax" title="Keysyms">Keysyms</a>]  </dd></dl>
+<a class="el" href="#keysym-syntax" title="Keysyms">Keysym syntax</a> </dd>
+<dd>
+<a class="el" href="group__predefined-keysyms.html" title="Predefined keysyms">Predefined keysyms</a>  </dd></dl>
 </dd>
 <dt><a class="anchor" id="modifier-def"></a>Modifier </dt>
 <dd><p class="startdd">A <em>modifier key</em> is a key that modifies the effect of other keys: e.g. Shift, Control, Caps Lock, etc.</p>
@@ -576,7 +578,8 @@ Keymap components</h2>
 <dl class="section attention"><dt>Attention</dt><dd>This legacy feature is <a class="el" href="xkbcommon-compatibility.html#geometry-support" title="geometry-support">not supported</a> by <em>xkbcommon</em>.</dd></dl>
 </td></tr>
 <tr>
-<th>Key <u>s</u>ymbols</th><td><a class="el" href="#the-xkb_symbols-section" title="The “xkb_symbols” section">xkb_symbols</a></td><td><span class="tt">symbols</span></td><td>A translation of symbolic <a class="el" href="#keycode-def" title="keycode-def">key codes</a> into actual <a class="el" href="#keysym-def" title="keysym-def">key symbols</a> (keysyms). </td></tr>
+<th>Key <u>s</u>ymbols</th><td><a class="el" href="#the-xkb_symbols-section" title="The “xkb_symbols” section">xkb_symbols</a></td><td><span class="tt">symbols</span></td><td>A translation of symbolic <a class="el" href="#keycode-def" title="keycode-def">key codes</a> into actual <a class="el" href="#keysym-def" title="keysym-def">key symbols</a> (<em>keysyms</em>). <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__predefined-keysyms.html" title="Predefined keysyms">Predefined keysyms</a> </dd></dl>
+</td></tr>
 <tr>
 <th>Key <u>t</u>ypes</th><td><a class="el" href="#the-xkb_types-section" title="The “xkb_types” section">xkb_types</a></td><td><span class="tt">types</span></td><td>Types describe how a pressed key is affected by active <a class="el" href="#modifier-def" title="modifier-def">modifiers</a> such as Shift, Control, Alt, etc. </td></tr>
 </table>
@@ -634,8 +637,8 @@ Keysyms</h2>
 <dl>
 <dt>Name </dt>
 <dd><p class="startdd"></p>
-<p class="interdd">Keysym names are defined in <span class="tt"><a class="el" href="xkbcommon-keysyms_8h.html" title="Key symbols (keysyms) definitions.">xkbcommon/xkbcommon-keysyms.h</a></span>; remove the <span class="tt">XKB_KEY_</span> prefix to get the name.</p>
-<p class="enddd">Example: the keysym <span class="tt">0xffbe = XKB_KEY_F1</span> has the name <span class="tt">F1</span>.  </p>
+<p class="interdd">Keysym names are defined in <span class="tt"><a class="el" href="xkbcommon-keysyms_8h.html" title="Key symbols (keysyms) definitions.">xkbcommon/xkbcommon-keysyms.h</a></span> and the list is conveniently consultable at <a class="el" href="group__predefined-keysyms.html" title="Predefined keysyms">Predefined keysyms</a>.</p>
+<dl class="section remark"><dt>Remarks</dt><dd>Remove the <span class="tt">XKB_KEY_</span> prefix to get the name. Example: the keysym <span class="tt">0xffbe = <a class="el" href="group__predefined-keysyms.html#ga61c7e0572d8e797a6841a2dd4ff627d6" title="Keysym F1.">XKB_KEY_F1</a></span> has the name <span class="tt">F1</span>.  </dd></dl>
 </dd>
 <dt>Unicode </dt>
 <dd><p class="startdd"></p>
@@ -1761,7 +1764,7 @@ Example of 2 overlapping overlays</summary>
 Symbols</h3>
 <p>The main part of the key description is the <em>symbols table</em>. It maps shift levels to keysyms, e.g.:</p>
 <div class="fragment"><div class="line">key &lt;AD01&gt; { [ q, Q ] }; <span class="comment">// Level 1 → `q`, Level 2 → `Q`</span></div>
-</div><!-- fragment --><p>Symbols are named using the symbolic names from the <span class="tt"><a class="el" href="xkbcommon-keysyms_8h.html" title="Key symbols (keysyms) definitions.">xkbcommon/xkbcommon-keysyms.h</a></span> file. See the <a class="el" href="#keysym-syntax" title="Keysyms">keysym syntax</a> for further information. A group of symbols is enclosed in brackets and separated by commas. Each element of the symbol arrays corresponds to a different <a class="el" href="#level-def" title="level-def">shift level</a>. In this example, the symbol (keysym) <span class="tt">XKB_KEY_q</span> for level 1 and <span class="tt">XKB_KEY_Q</span> for level 2. These levels are configured by the <a class="el" href="#key-type-setting" title="Type">key type</a>, presented in the next section.</p>
+</div><!-- fragment --><p>Symbols are named using the symbolic names from the <span class="tt"><a class="el" href="xkbcommon-keysyms_8h.html" title="Key symbols (keysyms) definitions.">xkbcommon/xkbcommon-keysyms.h</a></span> file. See the <a class="el" href="#keysym-syntax" title="Keysyms">keysym syntax</a> for further information. A group of symbols is enclosed in brackets and separated by commas. Each element of the symbol arrays corresponds to a different <a class="el" href="#level-def" title="level-def">shift level</a>. In this example, the symbol (keysym) <span class="tt"><a class="el" href="group__predefined-keysyms.html#ga55029a922a278c22d9e57985f5ef8b1d" title="Keysym q.">XKB_KEY_q</a></span> for level 1 and <span class="tt"><a class="el" href="group__predefined-keysyms.html#ga4ba50e297472bca266e0195af11b7a23" title="Keysym Q.">XKB_KEY_Q</a></span> for level 2. These levels are configured by the <a class="el" href="#key-type-setting" title="Type">key type</a>, presented in the next section.</p>
 <dl class="section remark"><dt>Remarks</dt><dd>Remember that <a class="el" href="group__keysyms.html" title="Keysym Transformations">Keysym Transformations</a> may affect the resulting keysym when some modifiers are not <a class="el" href="group__state.html" title="Consumed Modifiers">consumed</a>.</dd>
 <dd>
 Trailing <span class="tt">NoSymbol</span> are dropped.</dd></dl>
@@ -1770,7 +1773,7 @@ Trailing <span class="tt">NoSymbol</span> are dropped.</dd></dl>
 <div class="line">key &lt;AC05&gt; { [ {g, U0303}    , {G, U0303}    ] }; <span class="comment">// G̃ Guarani letter</span></div>
 <div class="line">key &lt;AB05&gt; { [ {U0644, U0627}, {U0644, U0622}] }; <span class="comment">// ⁧لا⁩ ⁧لآ⁩ Arabic Lam-Alef ligatures decomposed</span></div>
 <div class="line">key &lt;AD01&gt; { [ {c, U2019, h} , {C, U2019, h} ] }; <span class="comment">// C’H Breton trigraph</span></div>
-</div><!-- fragment --><p>In this example, the keycode <span class="tt">&lt;AD08&gt;</span> produces two symbols on level 1 (<span class="tt">XKB_KEY_i</span> and <span class="tt">XKB_KEY_j</span>) and one symbol (Unicode keysym <span class="tt">U0132</span> for “Ĳ”) on level 2. <span class="tt">&lt;AD08&gt;</span> and <span class="tt">&lt;AD01&gt;</span> produce letters that have no <em>precomposed</em> code point in Unicode. Key <span class="tt">&lt;AB05&gt;</span> avoids the need of using Compose.</p>
+</div><!-- fragment --><p>In this example, the keycode <span class="tt">&lt;AD08&gt;</span> produces two symbols on level 1 (<span class="tt"><a class="el" href="group__predefined-keysyms.html#ga7d8e0fc34345474383a8b9da51f03a9d" title="Keysym i.">XKB_KEY_i</a></span> and <span class="tt"><a class="el" href="group__predefined-keysyms.html#ga286a9e8da30c093a17c5363cfc77dcb6" title="Keysym j.">XKB_KEY_j</a></span>) and one symbol (Unicode keysym <span class="tt">U0132</span> for “Ĳ”) on level 2. <span class="tt">&lt;AD08&gt;</span> and <span class="tt">&lt;AD01&gt;</span> produce letters that have no <em>precomposed</em> code point in Unicode. Key <span class="tt">&lt;AB05&gt;</span> avoids the need of using Compose.</p>
 <p><a class="anchor" id="keysyms-string"></a>Since 1.9.0, UTF-8-encoded <em>strings</em> may be used to denote a list of keysyms corresponding to the encoded Unicode code points. E.g. the previous example can be also written more intuitively as:</p>
 <div class="fragment"><div class="line">key &lt;AD08&gt; { [ <span class="stringliteral">&quot;ij&quot;</span> , <span class="stringliteral">&quot;Ĳ&quot;</span>   ] }; <span class="comment">// IJ Dutch digraph</span></div>
 <div class="line">key &lt;AC05&gt; { [ <span class="stringliteral">&quot;g̃&quot;</span>  , <span class="stringliteral">&quot;G̃&quot;</span>   ] }; <span class="comment">// G̃ Guarani letter</span></div>

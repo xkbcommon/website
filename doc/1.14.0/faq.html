@@ -223,7 +223,7 @@ How to report an issue or propose a patch? </a>
     </ul>
   </li>
   <li class="level1">
-    <a href="#api-1">API </a>
+    <a href="#api-2">API </a>
     <ul>
       <li class="level2">
         <a href="#modifiers">Modifiers </a>
@@ -552,7 +552,7 @@ xev</h2>
 </dl>
 </dd>
 </dl>
-<h1 class="doxsection"><a class="anchor" id="api-1"></a>
+<h1 class="doxsection"><a class="anchor" id="api-2"></a>
 API</h1>
 <h2 class="doxsection"><a class="anchor" id="modifiers"></a>
 Modifiers</h2>
@@ -579,13 +579,13 @@ libxkbcommon ≤ 1.9</h4>
 <div class="ttc" id="agroup__state_html_ga7981d274ae2e1d720bd55e0d81a4da5c"><div class="ttname"><a href="group__state.html#ga7981d274ae2e1d720bd55e0d81a4da5c">xkb_state::xkb_state_new</a></div><div class="ttdeci">XKB_EXPORT struct xkb_state * xkb_state_new(struct xkb_keymap *keymap)</div><div class="ttdoc">Create a new keyboard state object.</div></div>
 <div class="ttc" id="agroup__state_html_gacfdacf066f449b36550e366b398effb8"><div class="ttname"><a href="group__state.html#gacfdacf066f449b36550e366b398effb8">xkb_state::xkb_state_serialize_mods</a></div><div class="ttdeci">XKB_EXPORT xkb_mod_mask_t xkb_state_serialize_mods(struct xkb_state *state, enum xkb_state_component components)</div><div class="ttdoc">The counterpart to xkb_state::xkb_state_update_mask() for modifiers, to be used on the server side of...</div></div>
 <div class="ttc" id="agroup__state_html_gae59cdbcc380013e9f12db359728fa098"><div class="ttname"><a href="group__state.html#gae59cdbcc380013e9f12db359728fa098">xkb_state::xkb_state_update_mask</a></div><div class="ttdeci">XKB_EXPORT enum xkb_state_component xkb_state_update_mask(struct xkb_state *state, xkb_mod_mask_t depressed_mods, xkb_mod_mask_t latched_mods, xkb_mod_mask_t locked_mods, xkb_layout_index_t depressed_layout, xkb_layout_index_t latched_layout, xkb_layout_index_t locked_layout)</div><div class="ttdoc">Update a keyboard state from a set of explicit masks.</div></div>
-<div class="ttc" id="agroup__state_html_gga04e8eac0666cc64dee6f0d5a7a773a03a2357b9f2490e89ab2d549695ea49de4f"><div class="ttname"><a href="group__state.html#gga04e8eac0666cc64dee6f0d5a7a773a03a2357b9f2490e89ab2d549695ea49de4f">XKB_STATE_MODS_EFFECTIVE</a></div><div class="ttdeci">@ XKB_STATE_MODS_EFFECTIVE</div><div class="ttdef"><b>Definition</b> xkbcommon.h:2612</div></div>
+<div class="ttc" id="agroup__state_html_gga04e8eac0666cc64dee6f0d5a7a773a03a2357b9f2490e89ab2d549695ea49de4f"><div class="ttname"><a href="group__state.html#gga04e8eac0666cc64dee6f0d5a7a773a03a2357b9f2490e89ab2d549695ea49de4f">XKB_STATE_MODS_EFFECTIVE</a></div><div class="ttdeci">@ XKB_STATE_MODS_EFFECTIVE</div><div class="ttdef"><b>Definition</b> xkbcommon.h:2616</div></div>
 <div class="ttc" id="agroup__virtual-modifier-names_html_gab7e939dd1d78f2abbee84ef149221eae"><div class="ttname"><a href="group__virtual-modifier-names.html#gab7e939dd1d78f2abbee84ef149221eae">XKB_VMOD_NAME_LEVEL3</a></div><div class="ttdeci">#define XKB_VMOD_NAME_LEVEL3</div><div class="ttdef"><b>Definition</b> xkbcommon-names.h:60</div></div>
 <div class="ttc" id="astructxkb__state_html"><div class="ttname"><a href="structxkb__state.html">xkb_state</a></div><div class="ttdoc">Opaque keyboard state object.</div></div>
 <div class="ttc" id="axkbcommon-names_8h_html"><div class="ttname"><a href="xkbcommon-names_8h.html">xkbcommon-names.h</a></div><div class="ttdoc">Predefined names for common modifiers and LEDs.</div></div>
 <div class="ttc" id="axkbcommon_8h_html"><div class="ttname"><a href="xkbcommon_8h.html">xkbcommon.h</a></div><div class="ttdoc">Main libxkbcommon API.</div></div>
-<div class="ttc" id="axkbcommon_8h_html_a41b3ee62ae73ec041b68165bf97869e8"><div class="ttname"><a href="xkbcommon_8h.html#a41b3ee62ae73ec041b68165bf97869e8">xkb_mod_mask_t</a></div><div class="ttdeci">uint32_t xkb_mod_mask_t</div><div class="ttdef"><b>Definition</b> xkbcommon.h:335</div></div>
-<div class="ttc" id="axkbcommon_8h_html_a638bf7a52db06f383ce5a4ef99dfe539"><div class="ttname"><a href="xkbcommon_8h.html#a638bf7a52db06f383ce5a4ef99dfe539">xkb_mod_index_t</a></div><div class="ttdeci">uint32_t xkb_mod_index_t</div><div class="ttdoc">Index of a modifier.</div><div class="ttdef"><b>Definition</b> xkbcommon.h:314</div></div>
+<div class="ttc" id="axkbcommon_8h_html_a41b3ee62ae73ec041b68165bf97869e8"><div class="ttname"><a href="xkbcommon_8h.html#a41b3ee62ae73ec041b68165bf97869e8">xkb_mod_mask_t</a></div><div class="ttdeci">uint32_t xkb_mod_mask_t</div><div class="ttdef"><b>Definition</b> xkbcommon.h:336</div></div>
+<div class="ttc" id="axkbcommon_8h_html_a638bf7a52db06f383ce5a4ef99dfe539"><div class="ttname"><a href="xkbcommon_8h.html#a638bf7a52db06f383ce5a4ef99dfe539">xkb_mod_index_t</a></div><div class="ttdeci">uint32_t xkb_mod_index_t</div><div class="ttdoc">Index of a modifier.</div><div class="ttdef"><b>Definition</b> xkbcommon.h:315</div></div>
 </div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="how-to-get-the-keys-that-trigger-modifiers"></a>
 How to get the keys that trigger modifiers?</h3>
 <p>There is no dedicated API, since the use cases are too diverse or niche. Nevertheless, the following snippet provide a minimal example to achieve it.</p>
@@ -684,7 +684,7 @@ Custom and consistent shortcuts behavior using libxkbcommon</h4>
 <div class="line">        …</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-<div class="ttc" id="axkbcommon_8h_html_ad37512642806c55955e1cd5a30efcc39"><div class="ttname"><a href="xkbcommon_8h.html#ad37512642806c55955e1cd5a30efcc39">xkb_layout_index_t</a></div><div class="ttdeci">uint32_t xkb_layout_index_t</div><div class="ttdoc">Index of a keyboard layout.</div><div class="ttdef"><b>Definition</b> xkbcommon.h:272</div></div>
+<div class="ttc" id="axkbcommon_8h_html_ad37512642806c55955e1cd5a30efcc39"><div class="ttname"><a href="xkbcommon_8h.html#ad37512642806c55955e1cd5a30efcc39">xkb_layout_index_t</a></div><div class="ttdeci">uint32_t xkb_layout_index_t</div><div class="ttdoc">Index of a keyboard layout.</div><div class="ttdef"><b>Definition</b> xkbcommon.h:273</div></div>
 </div><!-- fragment -->  </dd>
 </dl>
 <p class="enddd"></p>
@@ -747,12 +747,12 @@ Serialiazing</h4>
 <div class="line">free(result.<a class="code hl_variable" href="structxkb__keymap__serialize__result.html#aa8ea03c297c14f398ad8330da58cdb00">serialized</a>);</div>
 <div class="ttc" id="agroup__error-api_html_ga9c7d0e72bd5e94ba04e9e990d5a5bfd3"><div class="ttname"><a href="group__error-api.html#ga9c7d0e72bd5e94ba04e9e990d5a5bfd3">xkb_error_code</a></div><div class="ttdeci">xkb_error_code</div><div class="ttdoc">Error codes returned by the API.</div><div class="ttdef"><b>Definition</b> xkbcommon-errors.h:53</div></div>
 <div class="ttc" id="agroup__error-api_html_gga9c7d0e72bd5e94ba04e9e990d5a5bfd3a2314a631954eba6e37ea0b41831fb826"><div class="ttname"><a href="group__error-api.html#gga9c7d0e72bd5e94ba04e9e990d5a5bfd3a2314a631954eba6e37ea0b41831fb826">XKB_SUCCESS</a></div><div class="ttdeci">@ XKB_SUCCESS</div><div class="ttdoc">The operation completed successfully.</div><div class="ttdef"><b>Definition</b> xkbcommon-errors.h:68</div></div>
-<div class="ttc" id="astructxkb__keymap__serialize__config_html"><div class="ttname"><a href="structxkb__keymap__serialize__config.html">xkb_keymap_serialize_config</a></div><div class="ttdoc">Serialization configuration for xkb_keymap::xkb_keymap_serialize().</div><div class="ttdef"><b>Definition</b> xkbcommon.h:1680</div></div>
-<div class="ttc" id="astructxkb__keymap__serialize__config_html_a978944bfad143353974c46d4e66a8521"><div class="ttname"><a href="structxkb__keymap__serialize__config.html#a978944bfad143353974c46d4e66a8521">xkb_keymap_serialize_config::layouts</a></div><div class="ttdeci">xkb_layout_mask_t layouts</div><div class="ttdoc">Mask of layouts to serialize.</div><div class="ttdef"><b>Definition</b> xkbcommon.h:1718</div></div>
-<div class="ttc" id="astructxkb__keymap__serialize__config_html_aae7728633623383df6b494a171bea104"><div class="ttname"><a href="structxkb__keymap__serialize__config.html#aae7728633623383df6b494a171bea104">xkb_keymap_serialize_config::format</a></div><div class="ttdeci">uint32_t format</div><div class="ttdoc">Target keymap format.</div><div class="ttdef"><b>Definition</b> xkbcommon.h:1710</div></div>
-<div class="ttc" id="astructxkb__keymap__serialize__result_html"><div class="ttname"><a href="structxkb__keymap__serialize__result.html">xkb_keymap_serialize_result</a></div><div class="ttdoc">Result of xkb_keymap::xkb_keymap_serialize().</div><div class="ttdef"><b>Definition</b> xkbcommon.h:1737</div></div>
-<div class="ttc" id="astructxkb__keymap__serialize__result_html_aa8ea03c297c14f398ad8330da58cdb00"><div class="ttname"><a href="structxkb__keymap__serialize__result.html#aa8ea03c297c14f398ad8330da58cdb00">xkb_keymap_serialize_result::serialized</a></div><div class="ttdeci">char * serialized</div><div class="ttdoc">A newly allocated keymap serialization, or NULL on failure.</div><div class="ttdef"><b>Definition</b> xkbcommon.h:1755</div></div>
-<div class="ttc" id="axkbcommon_8h_html_gab0f75d6cc5773e5dd404e2c3f61366a3ad63ee709a87611a89b42c3e1275347ed"><div class="ttname"><a href="xkbcommon_8h.html#gab0f75d6cc5773e5dd404e2c3f61366a3ad63ee709a87611a89b42c3e1275347ed">XKB_KEYMAP_FORMAT_TEXT_V1</a></div><div class="ttdeci">@ XKB_KEYMAP_FORMAT_TEXT_V1</div><div class="ttdoc">The classic XKB text format, as generated by xkbcomp -xkb.</div><div class="ttdef"><b>Definition</b> xkbcommon.h:1401</div></div>
+<div class="ttc" id="astructxkb__keymap__serialize__config_html"><div class="ttname"><a href="structxkb__keymap__serialize__config.html">xkb_keymap_serialize_config</a></div><div class="ttdoc">Serialization configuration for xkb_keymap::xkb_keymap_serialize().</div><div class="ttdef"><b>Definition</b> xkbcommon.h:1684</div></div>
+<div class="ttc" id="astructxkb__keymap__serialize__config_html_a978944bfad143353974c46d4e66a8521"><div class="ttname"><a href="structxkb__keymap__serialize__config.html#a978944bfad143353974c46d4e66a8521">xkb_keymap_serialize_config::layouts</a></div><div class="ttdeci">xkb_layout_mask_t layouts</div><div class="ttdoc">Mask of layouts to serialize.</div><div class="ttdef"><b>Definition</b> xkbcommon.h:1722</div></div>
+<div class="ttc" id="astructxkb__keymap__serialize__config_html_aae7728633623383df6b494a171bea104"><div class="ttname"><a href="structxkb__keymap__serialize__config.html#aae7728633623383df6b494a171bea104">xkb_keymap_serialize_config::format</a></div><div class="ttdeci">uint32_t format</div><div class="ttdoc">Target keymap format.</div><div class="ttdef"><b>Definition</b> xkbcommon.h:1714</div></div>
+<div class="ttc" id="astructxkb__keymap__serialize__result_html"><div class="ttname"><a href="structxkb__keymap__serialize__result.html">xkb_keymap_serialize_result</a></div><div class="ttdoc">Result of xkb_keymap::xkb_keymap_serialize().</div><div class="ttdef"><b>Definition</b> xkbcommon.h:1741</div></div>
+<div class="ttc" id="astructxkb__keymap__serialize__result_html_aa8ea03c297c14f398ad8330da58cdb00"><div class="ttname"><a href="structxkb__keymap__serialize__result.html#aa8ea03c297c14f398ad8330da58cdb00">xkb_keymap_serialize_result::serialized</a></div><div class="ttdeci">char * serialized</div><div class="ttdoc">A newly allocated keymap serialization, or NULL on failure.</div><div class="ttdef"><b>Definition</b> xkbcommon.h:1759</div></div>
+<div class="ttc" id="axkbcommon_8h_html_gab0f75d6cc5773e5dd404e2c3f61366a3ad63ee709a87611a89b42c3e1275347ed"><div class="ttname"><a href="xkbcommon_8h.html#gab0f75d6cc5773e5dd404e2c3f61366a3ad63ee709a87611a89b42c3e1275347ed">XKB_KEYMAP_FORMAT_TEXT_V1</a></div><div class="ttdeci">@ XKB_KEYMAP_FORMAT_TEXT_V1</div><div class="ttdoc">The classic XKB text format, as generated by xkbcomp -xkb.</div><div class="ttdef"><b>Definition</b> xkbcommon.h:1405</div></div>
 </div><!-- fragment --> </figure>  </dd>
 </dl>
 </div></div><!-- contents -->

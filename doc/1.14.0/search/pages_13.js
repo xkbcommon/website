@@ -28,7 +28,7 @@ var searchData=
   ['keyboard_20layout_20and_20options_20names_20map_20to_20keyboard_20data_20rmlvo_20vs_20kccgst_25',['How keyboard layout and options names map to keyboard data (RMLVO vs KcCGST)',['../custom-configuration.html#custom-config-rmlvo-kccgst',1,'']]],
   ['keyboard_20layout_20not_20work_20as_20expected_26',['Why does my keyboard layout not work as expected?',['../faq.html#why-does-my-keyboard-layout-not-work-as-expected',1,'']]],
   ['keyboard_20layout_20packagers_27',['Instructions for keyboard layout packagers',['../packaging-keyboard-layouts.html#instructions-for-keyboard-layout-packagers',1,'']]],
-  ['keyboard_20layout_20registry_28',['Keyboard layout registry',['../xkbcommon-compatibility.html#registry-support',1,'Keyboard layout registry'],['../todo.html#_todo000005',1,'Keyboard layout registry']]],
+  ['keyboard_20layout_20registry_28',['Keyboard layout registry',['../xkbcommon-compatibility.html#registry-support',1,'Keyboard layout registry'],['../todo.html#_todo000004',1,'Keyboard layout registry']]],
   ['keyboard_20layouts_29',['Keyboard layouts',['../faq.html#keyboard-layouts',1,'']]],
   ['keyboard_20layouts_30',['keyboard layouts',['../index.html#developing-keyboard-layouts',1,'Developing keyboard layouts'],['../keymap-text-format-v1-v2.html#key-type-mappings-examples',1,'Examples with standard keyboard layouts'],['../packaging-keyboard-layouts.html',1,'Packaging keyboard layouts']]],
   ['keyboard_20layouts_20designed_20how_20to_20report_20an_20issue_20or_20propose_20a_20patch_31',['Where are the standard keyboard layouts designed?&lt;br  /&gt;
@@ -54,7 +54,7 @@ How to report an issue or propose a patch?',['../faq.html#where-are-the-standard
   ['keymap_20serialization_20flags_50',['XKB-829 – Unsupported keymap serialization flags',['../error-index.html#XKB-829',1,'']]],
   ['keymap_20support_51',['Keymap support',['../xkbcommon-compatibility.html#keymap-support',1,'']]],
   ['keymap_20symbol_52',['XKB-965 – Unresolved keymap symbol',['../error-index.html#XKB-965',1,'']]],
-  ['keymap_20text_20format_53',['Keymap text format',['../xkbcommon-compatibility.html#keymap-text-format',1,'Keymap text format'],['../todo.html#_todo000004',1,'Keymap text format'],['../release-notes.html#keymap-text-format-1',1,'Keymap text format'],['../release-notes.html#keymap-text-format-2',1,'Keymap text format']]],
+  ['keymap_20text_20format_53',['Keymap text format',['../xkbcommon-compatibility.html#keymap-text-format',1,'Keymap text format'],['../todo.html#_todo000003',1,'Keymap text format'],['../release-notes.html#keymap-text-format-1',1,'Keymap text format'],['../release-notes.html#keymap-text-format-2',1,'Keymap text format']]],
   ['keymap_20text_20format_54',['XKB-742 – Incompatible keymap text format',['../error-index.html#XKB-742',1,'']]],
   ['keymap_20text_20format_20v1_20and_20v2_55',['The XKB keymap text format, V1 and V2',['../keymap-text-format-v1-v2.html',1,'']]],
   ['keys_56',['Keys',['../faq.html#keys',1,'']]],
@@ -64,7 +64,7 @@ How to report an issue or propose a patch?',['../faq.html#where-are-the-standard
   ['keysym_20name_60',['XKB-302 – Deprecated keysym name',['../error-index.html#XKB-302',1,'']]],
   ['keysym_20transformations_61',['Keysym Transformations',['../group__keysyms.html',1,'']]],
   ['keysyms_62',['Keysyms',['../keymap-text-format-v1-v2.html#keysym-syntax',1,'Keysyms'],['../release-notes.html#keysyms',1,'Keysyms']]],
-  ['keysyms_63',['Usual modifiers and associated keysyms',['../keymap-text-format-v1-v2.html#usual-modifiers-keysyms',1,'']]],
+  ['keysyms_63',['keysyms',['../group__keysym-encoding.html#function-keysyms',1,'Function keysyms'],['../todo.html#_todo000025',1,'Function keysyms'],['../group__keysym-encoding.html#latin-1-keysyms',1,'Latin-1 keysyms'],['../group__keysym-encoding.html#legacy-keysyms',1,'Legacy keysyms'],['../todo.html#_todo000024',1,'Legacy keysyms'],['../group__keysym-encoding.html#special-keysyms',1,'Special keysyms'],['../group__keysym-encoding.html#unicode-keysyms',1,'Unicode keysyms'],['../keymap-text-format-v1-v2.html#usual-modifiers-keysyms',1,'Usual modifiers and associated keysyms'],['../group__keysym-encoding.html#vendor-keysyms',1,'Vendor keysyms']]],
   ['keysyms_20count_64',['XKB-693 – Incompatible actions and keysyms count',['../error-index.html#XKB-693',1,'']]],
   ['keywords_65',['Keywords',['../keymap-text-format-v1-v2.html#keywords',1,'']]]
 ];

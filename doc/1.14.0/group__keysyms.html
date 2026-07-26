@@ -142,6 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="header">
   <div class="summary">
+<a href="#groups">Topics</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
@@ -149,7 +150,17 @@ document.addEventListener('DOMContentLoaded', () => {
   <div class="headertitle"><div class="title">Keysyms </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for Keysyms:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group__keysyms.svg" width="292" height="91"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-groups" class="groupheader"><a id="groups" name="groups"></a>
+Topics</h2></td></tr>
+<tr class="memitem:keysym-encoding" id="r_keysym-encoding"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="group__keysym-encoding.html">Keysym encoding</a></td></tr>
+<tr class="memitem:predefined-keysyms" id="r_predefined-keysyms"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="group__predefined-keysyms.html">Predefined keysyms</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:gad54a22fd582c0a0f0efc34f1ea527930" id="r_gad54a22fd582c0a0f0efc34f1ea527930"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#gad54a22fd582c0a0f0efc34f1ea527930">XKB_KEYSYM_MAX</a>&#160;&#160;&#160;0x1fffffff</td></tr>
@@ -180,6 +191,9 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Utility functions related to <a class="el" href="#ga79e604a22703391bdfe212cfc10ea007" title="xkb_keysym_t"><em>keysyms</em></a> (short for “key symbols”). </p>
+<dl class="section see"><dt>See also</dt><dd>keysym-encoding </dd>
+<dd>
+predefined-keysyms </dd></dl>
 </div>
 
 <h3 class="doxsection"><a id="keysym-transformations" name="keysym-transformations"></a>Keysym Transformations</h3><div class="textblock"><p>These are:</p>
@@ -229,13 +243,17 @@ Functions</h2></td></tr>
 
 <p>A number used to represent the symbols generated from a key on a keyboard. </p>
 <p>A key, represented by a keycode, may generate different symbols according to keyboard state. For example, on a QWERTY keyboard, pressing the key labled &lt;A&gt; generates the symbol ‘a’. If the Shift key is held, it generates the symbol ‘A’. If a different layout is used, say Greek, it generates the symbol ‘α’. And so on.</p>
-<p>Each such symbol is represented by a <em>keysym</em> (short for “key symbol”). Note that keysyms are somewhat more general, in that they can also represent some “function”, such as “Left” or “Right” for the arrow keys. For more information, see: Appendix A <a href="https://www.x.org/releases/current/doc/xproto/x11protocol.html#keysym_encoding">“KEYSYM Encoding”</a> of the X Window System Protocol.</p>
+<p>Each such symbol is represented by a <em>keysym</em> (short for “key symbol”). Note that keysyms are somewhat more general, in that they can also represent some “function”, such as “Left” or “Right” for the arrow keys. For more information, see: <a class="el" href="group__keysym-encoding.html" title="Keysym encoding">Keysym encoding</a>.</p>
 <p>Specifically named keysyms can be found in the <a class="el" href="xkbcommon-keysyms_8h.html" title="Key symbols (keysyms) definitions.">xkbcommon/xkbcommon-keysyms.h</a> header file. Their name does not include the <span class="tt">XKB_KEY_</span> prefix.</p>
 <p>Besides those, any Unicode/ISO&#160;10646 character in the range <span class="tt">U+0100</span> to <span class="tt">U+10FFFF</span> can be represented by a keysym value in the range <span class="tt">0x01000100</span> to <span class="tt">0x0110FFFF</span>. The name of Unicode keysyms is <span class="tt">U&lt;codepoint&gt;</span>, e.g. <span class="tt">UA1B2</span>.</p>
 <p>The name of other unnamed keysyms is the hexadecimal representation of their value, e.g. <span class="tt">0xabcd1234</span>.</p>
 <p>Keysym names are case-sensitive.</p>
-<dl class="section note"><dt>Note</dt><dd><b>Encoding:</b> Keysyms are 32-bit integers with the 3 most significant bits always set to zero. Thus valid keysyms are in the range <span class="tt">0 .. 0x1fffffff</span> = <a class="el" href="#gad54a22fd582c0a0f0efc34f1ea527930" title="XKB_KEYSYM_MAX">XKB_KEYSYM_MAX</a>. See: Appendix A <a href="https://www.x.org/releases/current/doc/xproto/x11protocol.html#keysym_encoding">“KEYSYM Encoding”</a> of the X Window System Protocol.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><span class="tt"><a class="el" href="#gad54a22fd582c0a0f0efc34f1ea527930" title="Maximum keysym value.">XKB_KEYSYM_MAX</a></span> </dd></dl>
+<dl class="section note"><dt>Note</dt><dd><b>Encoding:</b> Keysyms are 32-bit integers with the 3 most significant bits always set to zero. Thus valid keysyms are in the range <span class="tt">0 .. 0x1fffffff</span> = <a class="el" href="#gad54a22fd582c0a0f0efc34f1ea527930" title="XKB_KEYSYM_MAX">XKB_KEYSYM_MAX</a>. See <a class="el" href="group__keysym-encoding.html" title="Keysym encoding">Keysym encoding</a> for further details.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><span class="tt"><a class="el" href="#gad54a22fd582c0a0f0efc34f1ea527930" title="Maximum keysym value.">XKB_KEYSYM_MAX</a></span> </dd>
+<dd>
+<a class="el" href="group__keysym-encoding.html" title="Keysym encoding">Keysym encoding</a> </dd>
+<dd>
+<a class="el" href="group__predefined-keysyms.html" title="Predefined keysyms">Predefined keysyms</a> </dd></dl>
 
 </div>
 </div>
@@ -327,13 +345,13 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>The name of a keysym. See remarks in <span class="tt"><a class="el" href="#ga2a06b575bfc0fef9655bb7f860737965" title="Get the name of a keysym.">xkb_keysym_get_name()</a></span>; this function will accept any name returned by that function. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>A set of flags controlling how the search is done. If invalid flags are passed, this will fail with <span class="tt">XKB_KEY_NoSymbol</span>.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flags</td><td>A set of flags controlling how the search is done. If invalid flags are passed, this will fail with <span class="tt"><a class="el" href="group__predefined-keysyms.html#ga97f51967fc74b73a474550b634bc753c" title="Keysym NoSymbol: Special KeySym.">XKB_KEY_NoSymbol</a></span>.</td></tr>
   </table>
   </dd>
 </dl>
-<p>If you use the <span class="tt"><a class="el" href="#gga0b4e78037b911489b68fe8b2a11f5487a9f7133fedc8e627fe663021ea7d9087d" title="Find keysym by case-insensitive search.">XKB_KEYSYM_CASE_INSENSITIVE</a></span> flag and two keysym names differ only by case, then the lower-case keysym name is returned. For instance, for <span class="tt">XKB_KEY_a</span> and <span class="tt">XKB_KEY_A</span>, this function would return <span class="tt">XKB_KEY_a</span> for the case-insensitive search. If this functionality is needed, it is recommended to first call this function without this flag; and if that fails, only then to try with this flag, while possibly warning the user he had misspelled the name, and might get wrong results.</p>
+<p>If you use the <span class="tt"><a class="el" href="#gga0b4e78037b911489b68fe8b2a11f5487a9f7133fedc8e627fe663021ea7d9087d" title="Find keysym by case-insensitive search.">XKB_KEYSYM_CASE_INSENSITIVE</a></span> flag and two keysym names differ only by case, then the lower-case keysym name is returned. For instance, for <span class="tt"><a class="el" href="group__predefined-keysyms.html#ga5a00dcc411f117387f0a3f0d4845d19e" title="Keysym a.">XKB_KEY_a</a></span> and <span class="tt"><a class="el" href="group__predefined-keysyms.html#gade542ed5618f1dcc444af5e7cd08deab" title="Keysym A.">XKB_KEY_A</a></span>, this function would return <span class="tt"><a class="el" href="group__predefined-keysyms.html#ga5a00dcc411f117387f0a3f0d4845d19e" title="Keysym a.">XKB_KEY_a</a></span> for the case-insensitive search. If this functionality is needed, it is recommended to first call this function without this flag; and if that fails, only then to try with this flag, while possibly warning the user he had misspelled the name, and might get wrong results.</p>
 <p>Case folding is done according to the C locale; the current locale is not consulted.</p>
-<dl class="section return"><dt>Returns</dt><dd>The keysym. If the name is invalid, returns <span class="tt">XKB_KEY_NoSymbol</span>.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The keysym. If the name is invalid, returns <span class="tt"><a class="el" href="group__predefined-keysyms.html#ga97f51967fc74b73a474550b634bc753c" title="Keysym NoSymbol: Special KeySym.">XKB_KEY_NoSymbol</a></span>.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="#ga79e604a22703391bdfe212cfc10ea007" title="A number used to represent the symbols generated from a key on a keyboard.">xkb_keysym_t</a> </dd></dl>
 <dl class="section since"><dt>Since</dt><dd>1.9.0: Enable support for <a href="https://en.wikipedia.org/wiki/C0_and_C1_control_codes">C0 and C1 control characters</a> in the Unicode notation. </dd></dl>
 
@@ -366,7 +384,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The keysym corresponding to the specified Unicode codepoint, or <span class="tt">XKB_KEY_NoSymbol</span> if there is none.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The keysym corresponding to the specified Unicode codepoint, or <span class="tt"><a class="el" href="group__predefined-keysyms.html#ga97f51967fc74b73a474550b634bc753c" title="Keysym NoSymbol: Special KeySym.">XKB_KEY_NoSymbol</a></span> if there is none.</dd></dl>
 <p>This function is the inverse of <span class="tt"><a class="el" href="#ga55d6ce9127d42d37402d6df08a138de2" title="Get the Unicode/UTF-8 representation of a keysym.">xkb_keysym_to_utf8()</a></span>. In cases where a single codepoint corresponds to multiple keysyms, returns the keysym with the lowest value.</p>
 <p>Unicode codepoints which do not have a special (legacy) keysym encoding use a direct encoding scheme. These keysyms don’t usually have an associated keysym constant (<span class="tt">XKB_KEY_*</span>).</p>
 <dl class="section see"><dt>See also</dt><dd><span class="tt"><a class="el" href="#ga55d6ce9127d42d37402d6df08a138de2" title="Get the Unicode/UTF-8 representation of a keysym.">xkb_keysym_to_utf8()</a></span> </dd></dl>
@@ -451,7 +469,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the keysym corresponding to a Unicode/UTF-32 codepoint. </p>
-<dl class="section return"><dt>Returns</dt><dd>The keysym corresponding to the specified Unicode codepoint, or <span class="tt">XKB_KEY_NoSymbol</span> if there is none.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The keysym corresponding to the specified Unicode codepoint, or <span class="tt"><a class="el" href="group__predefined-keysyms.html#ga97f51967fc74b73a474550b634bc753c" title="Keysym NoSymbol: Special KeySym.">XKB_KEY_NoSymbol</a></span> if there is none.</dd></dl>
 <p>This function is the inverse of <span class="tt"><a class="el" href="#gaa21f81e097317fa9074fefeb0b265507" title="Get the Unicode/UTF-32 representation of a keysym.">xkb_keysym_to_utf32()</a></span>. In cases where a single codepoint corresponds to multiple keysyms, returns the keysym with the lowest value.</p>
 <p>Unicode codepoints which do not have a special (legacy) keysym encoding use a direct encoding scheme. These keysyms don’t usually have an associated keysym constant (<span class="tt">XKB_KEY_*</span>).</p>
 <dl class="section see"><dt>See also</dt><dd><span class="tt"><a class="el" href="#gaa21f81e097317fa9074fefeb0b265507" title="Get the Unicode/UTF-32 representation of a keysym.">xkb_keysym_to_utf32()</a></span> </dd></dl>

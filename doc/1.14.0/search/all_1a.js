@@ -9,7 +9,7 @@ var searchData=
   ['recursive_20include_6',['XKB-386 – Recursive include',['../error-index.html#XKB-386',1,'']]],
   ['redirect_7',['redirect',['../structxkb__layout__policy__update.html#ae4197381155e9b8182a73ee7068ee027',1,'xkb_layout_policy_update']]],
   ['redirectkey_8',['RedirectKey',['../keymap-text-format-v1-v2.html#redirect-key-action',1,'']]],
-  ['registry_9',['registry',['../xkbcommon-compatibility.html#registry-support',1,'Keyboard layout registry'],['../todo.html#_todo000005',1,'Keyboard layout registry']]],
+  ['registry_9',['registry',['../xkbcommon-compatibility.html#registry-support',1,'Keyboard layout registry'],['../todo.html#_todo000004',1,'Keyboard layout registry']]],
   ['release_20notes_10',['Release notes',['../release-notes.html',1,'']]],
   ['repeat_11',['Repeat',['../keymap-text-format-v1-v2.html#key-repeat',1,'']]],
   ['replacement_12',['Legacy X tools replacement',['../faq.html#legacy-x-tools-replacement',1,'']]],

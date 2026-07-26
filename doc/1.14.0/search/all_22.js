@@ -65,7 +65,7 @@ var searchData=
   ['–_20conflicting_20key_20type_20map_20entry_62',['XKB-266 – Conflicting key type map entry',['../error-index.html#XKB-266',1,'']]],
   ['–_20conflicting_20key_20type_20merging_20groups_63',['XKB-893 – Conflicting key type merging groups',['../error-index.html#XKB-893',1,'']]],
   ['–_20conflicting_20key_20type_20preserve_20entries_64',['XKB-043 – Conflicting key type preserve entries',['../error-index.html#XKB-043',1,'']]],
-  ['–_20conflicting_20modmap_65',['– Conflicting modmap',['../error-index.html#XKB-800',1,'XKB-800 – Conflicting modmap'],['../todo.html#_todo000025',1,'XKB-800 – Conflicting modmap']]],
+  ['–_20conflicting_20modmap_65',['– Conflicting modmap',['../error-index.html#XKB-800',1,'XKB-800 – Conflicting modmap'],['../todo.html#_todo000027',1,'XKB-800 – Conflicting modmap']]],
   ['–_20deprecated_20keysym_66',['XKB-301 – Deprecated keysym',['../error-index.html#XKB-301',1,'']]],
   ['–_20deprecated_20keysym_20name_67',['XKB-302 – Deprecated keysym name',['../error-index.html#XKB-302',1,'']]],
   ['–_20deprecated_20section_68',['XKB-021 – Deprecated section',['../error-index.html#XKB-021',1,'']]],

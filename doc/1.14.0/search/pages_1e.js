@@ -7,10 +7,11 @@ var searchData=
   ['values_4',['values',['../keymap-text-format-v1-v2.html#keycode-values',1,'Keycode values'],['../keymap-text-format-v1-v2.html#set-default-values-1',1,'Set default values'],['../keymap-text-format-v1-v2.html#set-default-values-2',1,'Set default values']]],
   ['variables_5',['Environment Variables',['../group__context.html',1,'']]],
   ['variants_20and_20symbols_6',['Example: layouts, variants and symbols',['../rule-file-format.html#rules-symbols-example',1,'']]],
-  ['virtual_20modifier_7',['XKB-123 – Undeclared virtual modifier',['../error-index.html#XKB-123',1,'']]],
-  ['virtual_20modifier_20encoding_8',['How to get the virtual modifier encoding?',['../faq.html#how-to-get-the-virtual-modifier-encoding',1,'']]],
-  ['virtual_20modifier_20map_9',['Setting the virtual modifier map',['../keymap-text-format-v1-v2.html#set-virtual-mod-map',1,'']]],
-  ['virtual_20modifiers_10',['Virtual modifiers',['../keymap-text-format-v1-v2.html#key-virtual-modifiers',1,'']]],
-  ['virtual_20modifiers_11',['Real and virtual modifiers',['../keymap-text-format-v1-v2.html#real-and-virtual-modifiers',1,'']]],
-  ['vs_20kccgst_12',['How keyboard layout and options names map to keyboard data (RMLVO vs KcCGST)',['../custom-configuration.html#custom-config-rmlvo-kccgst',1,'']]]
+  ['vendor_20keysyms_7',['Vendor keysyms',['../group__keysym-encoding.html#vendor-keysyms',1,'']]],
+  ['virtual_20modifier_8',['XKB-123 – Undeclared virtual modifier',['../error-index.html#XKB-123',1,'']]],
+  ['virtual_20modifier_20encoding_9',['How to get the virtual modifier encoding?',['../faq.html#how-to-get-the-virtual-modifier-encoding',1,'']]],
+  ['virtual_20modifier_20map_10',['Setting the virtual modifier map',['../keymap-text-format-v1-v2.html#set-virtual-mod-map',1,'']]],
+  ['virtual_20modifiers_11',['Virtual modifiers',['../keymap-text-format-v1-v2.html#key-virtual-modifiers',1,'']]],
+  ['virtual_20modifiers_12',['Real and virtual modifiers',['../keymap-text-format-v1-v2.html#real-and-virtual-modifiers',1,'']]],
+  ['vs_20kccgst_13',['How keyboard layout and options names map to keyboard data (RMLVO vs KcCGST)',['../custom-configuration.html#custom-config-rmlvo-kccgst',1,'']]]
 ];

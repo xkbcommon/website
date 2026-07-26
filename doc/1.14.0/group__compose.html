@@ -575,7 +575,7 @@ Functions</h2></td></tr>
 <p>Get the left-hand keysym sequence of a Compose table entry. </p>
 <p>For example, given the following entry:</p>
 <div class="fragment"><div class="line">&lt;dead_tilde&gt; &lt;space&gt; : <span class="stringliteral">&quot;~&quot;</span> asciitilde # TILDE</div>
-</div><!-- fragment --><p>it will return <span class="tt">{XKB_KEY_dead_tilde, XKB_KEY_space}</span>.</p>
+</div><!-- fragment --><p>it will return <span class="tt">{<a class="el" href="group__predefined-keysyms.html#ga203692c7f588bafc846c8daccb837451" title="Keysym dead_tilde.">XKB_KEY_dead_tilde</a>, <a class="el" href="group__predefined-keysyms.html#gadc5968d5a62c0e6cd9217f3fa830da7e" title="Keysym space.">XKB_KEY_space</a>}</span>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">entry</td><td>The compose table entry object to process.</td></tr>
@@ -606,8 +606,8 @@ Functions</h2></td></tr>
 <p>Get the right-hand result keysym of a Compose table entry. </p>
 <p>For example, given the following entry:</p>
 <div class="fragment"><div class="line">&lt;dead_tilde&gt; &lt;space&gt; : <span class="stringliteral">&quot;~&quot;</span> asciitilde # TILDE</div>
-</div><!-- fragment --><p>it will return <span class="tt">XKB_KEY_asciitilde</span>.</p>
-<p>The keysym is optional; if the entry does not specify a keysym, returns <span class="tt">XKB_KEY_NoSymbol</span>.</p>
+</div><!-- fragment --><p>it will return <span class="tt"><a class="el" href="group__predefined-keysyms.html#ga1f464e7728813eb057e1a686321cf70a" title="Keysym asciitilde.">XKB_KEY_asciitilde</a></span>.</p>
+<p>The keysym is optional; if the entry does not specify a keysym, returns <span class="tt"><a class="el" href="group__predefined-keysyms.html#ga97f51967fc74b73a474550b634bc753c" title="Keysym NoSymbol: Special KeySym.">XKB_KEY_NoSymbol</a></span>.</p>
 <dl class="section since"><dt>Since</dt><dd>1.6.0 </dd></dl>
 
 </div>
@@ -846,7 +846,7 @@ COMPOSING =&gt;
              sequences.
    CANCELLED if keysym does not advance any of the currently
              possible sequences.
-</pre><p>The current Compose formats do not support multiple-keysyms. Therefore, if you are using a function such as <span class="tt"><a class="el" href="group__state.html#gaf884599c359e0d2d051f157bacdf22bb" title="Get the keysyms obtained from pressing a particular key in a given keyboard state.">xkb_state::xkb_state_key_get_syms()</a></span> and it returns more than one keysym, consider feeding <span class="tt">XKB_KEY_NoSymbol</span> instead.</p>
+</pre><p>The current Compose formats do not support multiple-keysyms. Therefore, if you are using a function such as <span class="tt"><a class="el" href="group__state.html#gaf884599c359e0d2d051f157bacdf22bb" title="Get the keysyms obtained from pressing a particular key in a given keyboard state.">xkb_state::xkb_state_key_get_syms()</a></span> and it returns more than one keysym, consider feeding <span class="tt"><a class="el" href="group__predefined-keysyms.html#ga97f51967fc74b73a474550b634bc753c" title="Keysym NoSymbol: Special KeySym.">XKB_KEY_NoSymbol</a></span> instead.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">state</td><td>The compose state object. </td></tr>
@@ -956,7 +956,7 @@ You may check if truncation has occurred by comparing the return value with the 
 
 <p>Get the result keysym for a composed sequence. </p>
 <p>See <a class="el" href="group__compose.html" title="Overview">Overview</a> for more details. This function is only useful when the status is <span class="tt"><a class="el" href="#ggafe19c07d2d020dce3b43694f2caccd4cac548adc59ce66fa684bb8d39133d65a6" title="A complete sequence has been matched.">XKB_COMPOSE_COMPOSED</a></span>.</p>
-<dl class="section return"><dt>Returns</dt><dd>The result keysym. If the sequence is not complete, or does not specify a result keysym, returns <span class="tt">XKB_KEY_NoSymbol</span>. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The result keysym. If the sequence is not complete, or does not specify a result keysym, returns <span class="tt"><a class="el" href="group__predefined-keysyms.html#ga97f51967fc74b73a474550b634bc753c" title="Keysym NoSymbol: Special KeySym.">XKB_KEY_NoSymbol</a></span>. </dd></dl>
 
 </div>
 </div>

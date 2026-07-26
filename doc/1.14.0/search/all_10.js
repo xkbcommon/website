@@ -1,7 +1,7 @@
 var searchData=
 [
   ['general_0',['General',['../release-notes.html#general',1,'']]],
-  ['general_20features_1',['General features',['../xkbcommon-compatibility.html#general-features',1,'General features'],['../todo.html#_todo000003',1,'General features']]],
+  ['general_20features_1',['General features',['../xkbcommon-compatibility.html#general-features',1,'General features'],['../todo.html#_todo000002',1,'General features']]],
   ['generic_20flags_2',['Generic flags',['../keymap-text-format-v1-v2.html#generic-flags',1,'']]],
   ['geometry_20section_3',['XKB-172 – Unsupported geometry section',['../error-index.html#XKB-172',1,'']]],
   ['get_20the_20keys_20that_20trigger_20modifiers_4',['How to get the keys that trigger modifiers?',['../faq.html#how-to-get-the-keys-that-trigger-modifiers',1,'']]],

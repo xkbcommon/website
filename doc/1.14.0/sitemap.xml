@@ -29,6 +29,12 @@
     <loc>https://xkbcommon.org/doc/1.14.0-beta1/xkbregistry_8h.html</loc>
   </url>
   <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta1/xkbcommon-compatibility.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta1/custom-configuration.html</loc>
+  </url>
+  <url>
     <loc>https://xkbcommon.org/doc/1.14.0-beta1/debugging.html</loc>
   </url>
   <url>
@@ -38,37 +44,34 @@
     <loc>https://xkbcommon.org/doc/1.14.0-beta1/xkb-intro.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/md_doc_2quick-guide.html</loc>
-  </url>
-  <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/xkbcommon-compatibility.html</loc>
-  </url>
-  <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/packaging-keyboard-layouts.html</loc>
-  </url>
-  <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/custom-configuration.html</loc>
-  </url>
-  <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/rule-file-format.html</loc>
-  </url>
-  <url>
     <loc>https://xkbcommon.org/doc/1.14.0-beta1/keymap-text-format-v1-v2.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta1/detailed-license.html</loc>
   </url>
   <url>
     <loc>https://xkbcommon.org/doc/1.14.0-beta1/error-index.html</loc>
   </url>
   <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta1/packaging-keyboard-layouts.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta1/md_doc_2quick-guide.html</loc>
+  </url>
+  <url>
     <loc>https://xkbcommon.org/doc/1.14.0-beta1/release-notes.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/detailed-license.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta1/rule-file-format.html</loc>
   </url>
   <url>
     <loc>https://xkbcommon.org/doc/1.14.0-beta1/todo.html</loc>
   </url>
   <url>
     <loc>https://xkbcommon.org/doc/1.14.0-beta1/deprecated.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__keysym-encoding.html</loc>
   </url>
   <url>
     <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__rules-api.html</loc>
@@ -108,6 +111,9 @@
   </url>
   <url>
     <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__test-api.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__predefined-keysyms.html</loc>
   </url>
   <url>
     <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__modifier-names.html</loc>
@@ -491,15 +497,15 @@
     <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_defs.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_defs.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_defs_l.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_defs.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_defs_m.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_defs.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_defs_v.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_defs.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_defs_x.html</loc>
   </url>
 </urlset>

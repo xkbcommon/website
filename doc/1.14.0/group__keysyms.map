@@ -1,0 +1,5 @@
+<map id="Keysyms" name="Keysyms">
+<area shape="rect" id="Node000002" href="$group__keysym-encoding.html" title="Description of the keysyms encoding and the categories of keysyms." alt="" coords="142,5,278,33"/>
+<area shape="rect" id="Node000001" title="Utility functions related to keysyms (short for “key symbols”)." alt="" coords="5,32,86,60"/>
+<area shape="rect" id="Node000003" href="$group__predefined-keysyms.html" title="List of predefined keysyms names." alt="" coords="134,57,287,85"/>
+</map>
