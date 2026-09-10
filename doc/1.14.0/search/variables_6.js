@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['policy_0',['policy',['../structxkb__layout__policy__update.html#a8bb5cad46a162e3bc1f0cde617ce8ae2',1,'xkb_layout_policy_update']]]
+  ['keycodes_0',['keycodes',['../structxkb__component__names.html#a4371837028ae2befe97938cd5fde7594',1,'xkb_component_names']]]
 ];

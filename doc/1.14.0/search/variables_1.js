@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['components_0',['components',['../structxkb__state__components__update.html#af5bf6a82306c235d2851b6626e169c2c',1,'xkb_state_components_update::components'],['../structxkb__state__update.html#a8bc66308352a1eb9ca37277c9c22cd0c',1,'xkb_state_update::components']]],
-  ['controls_1',['controls',['../structxkb__state__components__update.html#ad821ffe65b54a734552a1b59078feefe',1,'xkb_state_components_update']]]
+  ['builder_5fflags_0',['builder_flags',['../structxkb__machine__builder__config.html#a205f2d7175f26e3db9a4d10e2faf528b',1,'xkb_machine_builder_config']]],
+  ['button_1',['button',['../structxkb__event__pointer__button.html#ae6bcbb702a40d46772d1eb4d0ba10e80',1,'xkb_event_pointer_button']]]
 ];

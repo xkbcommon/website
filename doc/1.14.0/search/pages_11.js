@@ -15,5 +15,6 @@ var searchData=
   ['how_20to_20handle_20more_20than_204_20layouts_12',['How to handle more than 4 layouts?',['../faq.html#how-to-handle-more-than-4-layouts',1,'']]],
   ['how_20to_20report_20an_20issue_20or_20propose_20a_20patch_13',['Where are the standard keyboard layouts designed?&lt;br  /&gt;
 How to report an issue or propose a patch?',['../faq.html#where-are-the-standard-keyboard-layouts-designedbrhow-to-report-an-issue-or-propose-a-patch',1,'']]],
-  ['how_20to_20use_20keyboard_20shortcuts_20from_20a_20different_20layout_14',['How to use keyboard shortcuts from a different layout?',['../faq.html#how-to-use-keyboard-shortcuts-from-a-different-layout',1,'']]]
+  ['how_20to_20use_20keyboard_20shortcuts_20from_20a_20different_20layout_14',['How to use keyboard shortcuts from a different layout?',['../faq.html#how-to-use-keyboard-shortcuts-from-a-different-layout',1,'']]],
+  ['how_20to_20use_20windows_20style_20altgr_20i_20e_20remap_20control_20alt_20to_20levelthree_15',['How to use Windows-style &lt;span class=&quot;tt&quot;&gt;AltGr&lt;/span&gt;, i.e. remap &lt;span class=&quot;tt&quot;&gt;Control+Alt&lt;/span&gt; to &lt;span class=&quot;tt&quot;&gt;LevelThree&lt;/span&gt;?',['../faq.html#how-to-use-windows-style-altgr-ie-remap-controlalt-to-levelthree',1,'']]]
 ];

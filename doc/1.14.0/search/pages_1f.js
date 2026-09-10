@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['wayland_20server_0',['Code for a Wayland server',['../md_doc_2quick-guide.html#quick-guide-wayland-server',1,'']]],
+  ['wayland_20server_0',['Code for a Wayland server',['../quick-guide-library.html#quick-guide-wayland-server',1,'']]],
   ['what_20are_20the_20differences_20with_20the_20xorg_20x11_20implementations_1',['What are the differences with the Xorg/X11 implementations?',['../faq.html#what-are-the-differences-with-the-xorgx11-implementations',1,'']]],
   ['what_20are_20the_20xkb_20nnn_20numbers_20in_20the_20log_2',['What are the &lt;span class=&quot;tt&quot;&gt;[XKB-nnn]&lt;/span&gt; numbers in the log?',['../faq.html#what-are-the-xkb-nnn-numbers-in-the-log',1,'']]],
   ['what_20does_20…_20mean_3',['What does … mean?',['../faq.html#what-does--mean',1,'']]],
@@ -12,9 +12,9 @@ How to report an issue or propose a patch?',['../faq.html#where-are-the-standard
   ['why_20does_20my_20key_20combination_20to_20switch_20between_20layouts_20not_20work_8',['Why does my key combination to switch between layouts not work?',['../faq.html#why-does-my-key-combination-to-switch-between-layouts-not-work',1,'']]],
   ['why_20does_20my_20keyboard_20layout_20not_20work_20as_20expected_9',['Why does my keyboard layout not work as expected?',['../faq.html#why-does-my-keyboard-layout-not-work-as-expected',1,'']]],
   ['wild_20cards_10',['Wild cards',['../rule-file-format.html#rules-wildcard-def',1,'']]],
-  ['with_20standard_20keyboard_20layouts_11',['Examples with standard keyboard layouts',['../keymap-text-format-v1-v2.html#key-type-mappings-examples',1,'']]],
-  ['with_20the_20xorg_20x11_20implementations_12',['What are the differences with the Xorg/X11 implementations?',['../faq.html#what-are-the-differences-with-the-xorgx11-implementations',1,'']]],
-  ['with_20x11_13',['Compatibility with X11',['../index.html#compatibility-with-x11',1,'']]],
+  ['windows_20style_20altgr_20i_20e_20remap_20control_20alt_20to_20levelthree_11',['How to use Windows-style &lt;span class=&quot;tt&quot;&gt;AltGr&lt;/span&gt;, i.e. remap &lt;span class=&quot;tt&quot;&gt;Control+Alt&lt;/span&gt; to &lt;span class=&quot;tt&quot;&gt;LevelThree&lt;/span&gt;?',['../faq.html#how-to-use-windows-style-altgr-ie-remap-controlalt-to-levelthree',1,'']]],
+  ['with_20standard_20keyboard_20layouts_12',['Examples with standard keyboard layouts',['../keymap-text-format-v1-v2.html#key-type-mappings-examples',1,'']]],
+  ['with_20the_20xorg_20x11_20implementations_13',['What are the differences with the Xorg/X11 implementations?',['../faq.html#what-are-the-differences-with-the-xorgx11-implementations',1,'']]],
   ['without_20installing_20it_14',['How do I test my custom layout without installing it?',['../faq.html#how-do-i-test-my-custom-layout-without-installing-it',1,'']]],
   ['work_15',['work',['../keymap-text-format-v1-v2.html#how-key-types-work',1,'How key types work'],['../faq.html#why-does-my-key-combination-to-switch-between-layouts-not-work',1,'Why does my key combination to switch between layouts not work?']]],
   ['work_20as_20expected_16',['Why does my keyboard layout not work as expected?',['../faq.html#why-does-my-keyboard-layout-not-work-as-expected',1,'']]],

@@ -1,4 +1,5 @@
 <map id="Keymap Serialization" name="Keymap Serialization">
-<area shape="rect" id="Node000001" title="Serializing keymaps." alt="" coords="5,5,165,33"/>
-<area shape="rect" id="Node000002" href="$group__xkb__keymap__format__enum.html" title="Keymap formats for parsing and serializing keymaps." alt="" coords="213,5,342,33"/>
+<area shape="rect" id="Node000003" href="$group__abi-struct-contract.html" title="Explains how extensible structures maintain ABI compatibility across library releases." alt="" coords="358,42,509,87"/>
+<area shape="rect" id="Node000001" title="Serializing keymaps." alt="" coords="5,81,165,109"/>
+<area shape="rect" id="Node000002" href="$group__xkb__keymap__format__enum.html" title="Keymap formats for parsing and serializing keymaps." alt="" coords="369,110,498,138"/>
 </map>

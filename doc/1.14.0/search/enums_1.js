@@ -22,9 +22,12 @@ var searchData=
   ['xkb_5flayout_5fout_5fof_5frange_5fpolicy_19',['xkb_layout_out_of_range_policy',['../group__state.html#ga8090b0c1541784ffca82da486880c76b',1,'xkbcommon.h']]],
   ['xkb_5flog_5flevel_20',['xkb_log_level',['../group__logging.html#ga6f345bcb71a7f68c53ab93ec3698ed35',1,'xkbcommon.h']]],
   ['xkb_5fmachine_5fbuilder_5fflags_21',['xkb_machine_builder_flags',['../group__state.html#gae247f618a3c6cdd53ba7df75a936a9bc',1,'xkbcommon.h']]],
-  ['xkb_5frmlvo_5fbuilder_5fflags_22',['xkb_rmlvo_builder_flags',['../group__rules-api.html#ga476043ecab9746f59dbf6edc8192a3ad',1,'xkbcommon.h']]],
-  ['xkb_5fstate_5fcomponent_23',['xkb_state_component',['../group__state.html#ga04e8eac0666cc64dee6f0d5a7a773a03',1,'xkbcommon.h']]],
-  ['xkb_5fstate_5fmatch_24',['xkb_state_match',['../group__state.html#gaf79b475eb908309ae1aa0e231b2c9aa8',1,'xkbcommon.h']]],
-  ['xkb_5fstate_5fmode_25',['xkb_state_mode',['../group__state.html#gafd3df12db1991a26b7d7474246a1b80a',1,'xkbcommon.h']]],
-  ['xkb_5fx11_5fsetup_5fxkb_5fextension_5fflags_26',['xkb_x11_setup_xkb_extension_flags',['../group__x11-support.html#ga4034b296086a8012f427b408dabe0d06',1,'xkbcommon-x11.h']]]
+  ['xkb_5fmachine_5fflags_22',['xkb_machine_flags',['../group__state.html#gaed17ae67126765a259793aef3adf524e',1,'xkbcommon.h']]],
+  ['xkb_5fpointer_5fbutton_5fdirection_23',['xkb_pointer_button_direction',['../group__state.html#ga5b6f43e3e51d643239bce16621a5eeaf',1,'xkbcommon.h']]],
+  ['xkb_5fpointer_5fmotion_5fflags_24',['xkb_pointer_motion_flags',['../group__state.html#gae7faa82c2eacd528d37ec7c4167aef80',1,'xkbcommon.h']]],
+  ['xkb_5frmlvo_5fbuilder_5fflags_25',['xkb_rmlvo_builder_flags',['../group__rules-api.html#ga476043ecab9746f59dbf6edc8192a3ad',1,'xkbcommon.h']]],
+  ['xkb_5fstate_5fcomponent_26',['xkb_state_component',['../group__state.html#ga04e8eac0666cc64dee6f0d5a7a773a03',1,'xkbcommon.h']]],
+  ['xkb_5fstate_5fmatch_27',['xkb_state_match',['../group__state.html#gaf79b475eb908309ae1aa0e231b2c9aa8',1,'xkbcommon.h']]],
+  ['xkb_5fstate_5fmode_28',['xkb_state_mode',['../group__state.html#gafd3df12db1991a26b7d7474246a1b80a',1,'xkbcommon.h']]],
+  ['xkb_5fx11_5fsetup_5fxkb_5fextension_5fflags_29',['xkb_x11_setup_xkb_extension_flags',['../group__x11-support.html#ga4034b296086a8012f427b408dabe0d06',1,'xkbcommon-x11.h']]]
 ];

@@ -10,11 +10,5 @@ var searchData=
   ['“usemodmapmods”_20statement_7',['“useModMapMods” statement',['../keymap-text-format-v1-v2.html#usemodmapmods-statement',1,'']]],
   ['“virtualmodifier”_20statement_8',['“virtualModifier” statement',['../keymap-text-format-v1-v2.html#interpret-virtualModifier',1,'']]],
   ['“whichgroupstate”_20statement_9',['“whichGroupState” statement',['../keymap-text-format-v1-v2.html#whichgroupstate-statement',1,'']]],
-  ['“whichmodstate”_20statement_10',['“whichModState” statement',['../keymap-text-format-v1-v2.html#whichmodstate-statement',1,'']]],
-  ['“xkb_5fcompat”_20section_11',['The “xkb_compat” section',['../keymap-text-format-v1-v2.html#the-xkb_compat-section',1,'']]],
-  ['“xkb_5fgeometry”_20section_12',['The “xkb_geometry” section',['../keymap-text-format-v1-v2.html#the-xkb_geometry-section',1,'']]],
-  ['“xkb_5fkeycodes”_20section_13',['The “xkb_keycodes” section',['../keymap-text-format-v1-v2.html#the-xkb_keycodes-section',1,'']]],
-  ['“xkb_5fkeymap”_20block_14',['The “xkb_keymap” block',['../keymap-text-format-v1-v2.html#the-xkb_keymap-block',1,'']]],
-  ['“xkb_5fsymbols”_20section_15',['The “xkb_symbols” section',['../keymap-text-format-v1-v2.html#the-xkb_symbols-section',1,'']]],
-  ['“xkb_5ftypes”_20section_16',['The “xkb_types” section',['../keymap-text-format-v1-v2.html#the-xkb_types-section',1,'']]]
+  ['“whichmodstate”_20statement_10',['“whichModState” statement',['../keymap-text-format-v1-v2.html#whichmodstate-statement',1,'']]]
 ];

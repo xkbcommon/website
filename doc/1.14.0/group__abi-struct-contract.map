@@ -1,0 +1,6 @@
+<map id="Extensible structure ABI contract" name="Extensible structure ABI contract">
+<area shape="rect" id="Node000001" title="Explains how extensible structures maintain ABI compatibility across library releases." alt="" coords="5,117,157,161"/>
+<area shape="rect" id="Node000003" href="$group__components.html" title="Enumeration of state components in a keymap." alt="" coords="379,27,539,54"/>
+<area shape="rect" id="Node000002" href="$group__keymap-serialization.html" title="Serializing keymaps." alt="" coords="379,125,538,153"/>
+<area shape="rect" id="Node000004" href="$group__state.html" title="Creating, destroying and manipulating keyboard state objects." alt="" coords="399,428,519,456"/>
+</map>

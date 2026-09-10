@@ -3,7 +3,7 @@
 
  The MIT License (MIT)
 
- Copyright (C) 1997-2020 by Dimitri van Heesch
+ Copyright (C) 1997-2026 by Dimitri van Heesch
 
  Permission is hereby granted, free of charge, to any person obtaining a copy of this software
  and associated documentation files (the "Software"), to deal in the Software without restriction,
@@ -23,26 +23,41 @@
  @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var menudata={children:[
-{text:"Main Page",url:"index.html"},
-{text:"Related Pages",url:"pages.html"},
-{text:"Topics",url:"topics.html"},
+{text:"Home",url:"index.html"},
+{text:"News",url:"release-notes.html"},
+{text:"Learn",url:"pages.html",children:[
+{text:"What is XKB?",url:"xkb-intro.html"},
+{text:"Features",url:"xkb-compatibility.html"},
+{text:"Building",url:"building-xkbcommon.html"},
+{text:"Quick guide",url:"quick-guide-library.html"},
+{text:"Keymap text format",url:"keymap-text-format-v1-v2.html"},
+{text:"Custom layouts",url:"custom-configuration.html"},
+{text:"Tools & debugging",url:"debugging.html"},
+{text:"FAQ",url:"faq.html"},
+{text:"All topics",url:"pages.html"}]},
+{text:"API documentation",url:"topics.html",children:[
 {text:"Data Structures",url:"annotated.html",children:[
 {text:"Data Structures",url:"annotated.html"},
 {text:"Data Fields",url:"functions.html",children:[
 {text:"All",url:"functions.html",children:[
 {text:"a",url:"functions.html#index_a"},
-{text:"c",url:"functions.html#index_c"},
-{text:"e",url:"functions.html#index_e"},
-{text:"f",url:"functions.html#index_f"},
-{text:"k",url:"functions.html#index_k"},
-{text:"l",url:"functions.html#index_l"},
-{text:"m",url:"functions.html#index_m"},
-{text:"o",url:"functions.html#index_o"},
-{text:"p",url:"functions.html#index_p"},
-{text:"r",url:"functions.html#index_r"},
-{text:"s",url:"functions.html#index_s"},
-{text:"v",url:"functions.html#index_v"},
-{text:"x",url:"functions.html#index_x"}]},
+{text:"b",url:"functions_b.html#index_b"},
+{text:"c",url:"functions_c.html#index_c"},
+{text:"d",url:"functions_d.html#index_d"},
+{text:"e",url:"functions_e.html#index_e"},
+{text:"f",url:"functions_f.html#index_f"},
+{text:"g",url:"functions_g.html#index_g"},
+{text:"k",url:"functions_k.html#index_k"},
+{text:"l",url:"functions_l.html#index_l"},
+{text:"m",url:"functions_m.html#index_m"},
+{text:"o",url:"functions_o.html#index_o"},
+{text:"p",url:"functions_p.html#index_p"},
+{text:"r",url:"functions_r.html#index_r"},
+{text:"s",url:"functions_s.html#index_s"},
+{text:"t",url:"functions_t.html#index_t"},
+{text:"v",url:"functions_v.html#index_v"},
+{text:"x",url:"functions_x.html#index_x"},
+{text:"y",url:"functions_y.html#index_y"}]},
 {text:"Functions",url:"functions_func.html",children:[
 {text:"c",url:"functions_func.html#index_c"},
 {text:"e",url:"functions_func.html#index_e"},
@@ -53,17 +68,28 @@ var menudata={children:[
 {text:"x",url:"functions_func.html#index_x"}]},
 {text:"Variables",url:"functions_vars.html",children:[
 {text:"a",url:"functions_vars.html#index_a"},
+{text:"b",url:"functions_vars.html#index_b"},
 {text:"c",url:"functions_vars.html#index_c"},
+{text:"d",url:"functions_vars.html#index_d"},
 {text:"f",url:"functions_vars.html#index_f"},
+{text:"g",url:"functions_vars.html#index_g"},
+{text:"k",url:"functions_vars.html#index_k"},
 {text:"l",url:"functions_vars.html#index_l"},
 {text:"m",url:"functions_vars.html#index_m"},
 {text:"o",url:"functions_vars.html#index_o"},
 {text:"p",url:"functions_vars.html#index_p"},
 {text:"r",url:"functions_vars.html#index_r"},
 {text:"s",url:"functions_vars.html#index_s"},
-{text:"v",url:"functions_vars.html#index_v"}]},
+{text:"t",url:"functions_vars.html#index_t"},
+{text:"v",url:"functions_vars.html#index_v"},
+{text:"x",url:"functions_vars.html#index_x"},
+{text:"y",url:"functions_vars.html#index_y"}]},
 {text:"Typedefs",url:"functions_type.html"}]}]},
-{text:"Files",url:"files.html",children:[
+{text:"Keysyms",url:"group__predefined-keysyms.html",children:[
+{text:"Encoding",url:"group__keysym-encoding.html"},
+{text:"Predefined keysyms",url:"group__predefined-keysyms.html"}]},
+{text:"Error index",url:"error-index.html"},
+{text:"File List",url:"files.html",children:[
 {text:"File List",url:"files.html"},
 {text:"Globals",url:"globals.html",children:[
 {text:"All",url:"globals.html",children:[
@@ -93,7 +119,18 @@ var menudata={children:[
 {text:"u",url:"globals_func.html#index_u"},
 {text:"x",url:"globals_func.html#index_x"}]},
 {text:"Typedefs",url:"globals_type.html"},
-{text:"Enumerations",url:"globals_enum.html"},
+{text:"Enumerations",url:"globals_enum.html",children:[
+{text:"a",url:"globals_enum.html#index_a"},
+{text:"c",url:"globals_enum.html#index_c"},
+{text:"e",url:"globals_enum.html#index_e"},
+{text:"f",url:"globals_enum.html#index_f"},
+{text:"k",url:"globals_enum.html#index_k"},
+{text:"l",url:"globals_enum.html#index_l"},
+{text:"m",url:"globals_enum.html#index_m"},
+{text:"p",url:"globals_enum.html#index_p"},
+{text:"r",url:"globals_enum.html#index_r"},
+{text:"s",url:"globals_enum.html#index_s"},
+{text:"x",url:"globals_enum.html#index_x"}]},
 {text:"Enumerator",url:"globals_eval.html",children:[
 {text:"a",url:"globals_eval.html#index_a"},
 {text:"c",url:"globals_eval.html#index_c"},
@@ -102,6 +139,7 @@ var menudata={children:[
 {text:"k",url:"globals_eval.html#index_k"},
 {text:"l",url:"globals_eval.html#index_l"},
 {text:"m",url:"globals_eval.html#index_m"},
+{text:"p",url:"globals_eval.html#index_p"},
 {text:"r",url:"globals_eval.html#index_r"},
 {text:"s",url:"globals_eval.html#index_s"},
 {text:"x",url:"globals_eval.html#index_x"}]},
@@ -110,4 +148,5 @@ var menudata={children:[
 {text:"l",url:"globals_defs_l.html#index_l"},
 {text:"m",url:"globals_defs_m.html#index_m"},
 {text:"v",url:"globals_defs_v.html#index_v"},
-{text:"x",url:"globals_defs_x.html#index_x"}]}]}]}]}
+{text:"x",url:"globals_defs_x.html#index_x"}]}]}]}]},
+{text:"Contributing",url:"^https://github.com/xkbcommon/libxkbcommon/"}]}

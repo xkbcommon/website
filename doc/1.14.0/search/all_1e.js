@@ -9,12 +9,13 @@ var searchData=
   ['variant_6',['variant',['../structxkb__rule__names.html#a758e1865c002d8f4fb59b2e3dda83b66',1,'xkb_rule_names']]],
   ['variants_20and_20symbols_7',['Example: layouts, variants and symbols',['../rule-file-format.html#rules-symbols-example',1,'']]],
   ['vendor_20keysyms_8',['Vendor keysyms',['../group__keysym-encoding.html#vendor-keysyms',1,'']]],
-  ['virtual_20modifier_9',['XKB-123 – Undeclared virtual modifier',['../error-index.html#XKB-123',1,'']]],
-  ['virtual_20modifier_20encoding_10',['How to get the virtual modifier encoding?',['../faq.html#how-to-get-the-virtual-modifier-encoding',1,'']]],
-  ['virtual_20modifier_20map_11',['Setting the virtual modifier map',['../keymap-text-format-v1-v2.html#set-virtual-mod-map',1,'']]],
-  ['virtual_20modifier_20names_12',['Legacy virtual modifier names',['../group__legacy-virtual-modifier-names.html',1,'']]],
-  ['virtual_20modifiers_13',['Virtual modifiers',['../keymap-text-format-v1-v2.html#key-virtual-modifiers',1,'']]],
-  ['virtual_20modifiers_14',['Real and virtual modifiers',['../keymap-text-format-v1-v2.html#real-and-virtual-modifiers',1,'']]],
-  ['virtual_20modifiers_20names_15',['Virtual modifiers names',['../group__virtual-modifier-names.html',1,'']]],
-  ['vs_20kccgst_16',['How keyboard layout and options names map to keyboard data (RMLVO vs KcCGST)',['../custom-configuration.html#custom-config-rmlvo-kccgst',1,'']]]
+  ['version_20resolution_9',['Version resolution',['../group__abi-struct-contract.html#abi-struct-resolution',1,'']]],
+  ['virtual_20modifier_10',['XKB-123 – Undeclared virtual modifier',['../error-index.html#XKB-123',1,'']]],
+  ['virtual_20modifier_20encoding_11',['How to get the virtual modifier encoding?',['../faq.html#how-to-get-the-virtual-modifier-encoding',1,'']]],
+  ['virtual_20modifier_20map_12',['Setting the virtual modifier map',['../keymap-text-format-v1-v2.html#set-virtual-mod-map',1,'']]],
+  ['virtual_20modifier_20names_13',['Legacy virtual modifier names',['../group__legacy-virtual-modifier-names.html',1,'']]],
+  ['virtual_20modifiers_14',['Virtual modifiers',['../keymap-text-format-v1-v2.html#key-virtual-modifiers',1,'']]],
+  ['virtual_20modifiers_15',['Real and virtual modifiers',['../keymap-text-format-v1-v2.html#real-and-virtual-modifiers',1,'']]],
+  ['virtual_20modifiers_20names_16',['Virtual modifiers names',['../group__virtual-modifier-names.html',1,'']]],
+  ['vs_20kccgst_17',['How keyboard layout and options names map to keyboard data (RMLVO vs KcCGST)',['../custom-configuration.html#custom-config-rmlvo-kccgst',1,'']]]
 ];

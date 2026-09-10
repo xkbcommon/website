@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['serialized_0',['serialized',['../structxkb__keymap__serialize__result.html#aa8ea03c297c14f398ad8330da58cdb00',1,'xkb_keymap_serialize_result']]],
-  ['size_1',['size',['../structxkb__keymap__serialize__config.html#a0d5f26121bbcb79ecee0da1a892bc750',1,'xkb_keymap_serialize_config::size'],['../structxkb__keymap__serialize__result.html#ae5a2cf216accd01b8e739df125afd4b5',1,'xkb_keymap_serialize_result::size'],['../structxkb__state__components__update.html#a0bad3d13ba0fb72dcdb30ca545120e80',1,'xkb_state_components_update::size'],['../structxkb__layout__policy__update.html#a6cbbf799ac35b03556afc0fcadf2f499',1,'xkb_layout_policy_update::size'],['../structxkb__state__update.html#a91d578ae3c294764c9202ba4ba3e411b',1,'xkb_state_update::size']]]
+  ['machine_5fflags_0',['machine_flags',['../structxkb__machine__builder__config.html#a5a03725444bde01cf3dff0943fdd56a3',1,'xkb_machine_builder_config']]],
+  ['model_1',['model',['../structxkb__rule__names.html#a1c897b49b49c7cd495db4a424bd27265',1,'xkb_rule_names']]],
+  ['mods_2',['mods',['../structxkb__event__components.html#ae0827754bf1ca45f50d12fb6e417ff00',1,'xkb_event_components::mods'],['../structxkb__machine__builder__shortcut__override__update.html#a44f3f7bf24a7b33757bd7296d14473cd',1,'xkb_machine_builder_shortcut_override_update::mods']]]
 ];

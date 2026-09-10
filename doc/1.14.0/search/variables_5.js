@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['options_0',['options',['../structxkb__rule__names.html#a556899eafb333c440be64ede408644df',1,'xkb_rule_names']]]
+  ['geometry_0',['geometry',['../structxkb__component__names.html#a3aa4b56630a47cd9838ed7e1a10e1a32',1,'xkb_component_names']]]
 ];

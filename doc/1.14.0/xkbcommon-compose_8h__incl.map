@@ -1,6 +1,6 @@
 <map id="include/xkbcommon/xkbcommon&#45;compose.h" name="include/xkbcommon/xkbcommon&#45;compose.h">
-<area shape="rect" id="Node000001" title="libxkbcommon Compose API &#45; support for Compose and dead&#45;keys." alt="" coords="290,5,528,50"/>
-<area shape="rect" id="Node000002" href="$xkbcommon_8h.html" title="Main libxkbcommon API." alt="" coords="309,98,508,126"/>
+<area shape="rect" id="Node000001" title="xkbcommon Compose API &#45; support for Compose and dead&#45;keys." alt="" coords="290,5,528,50"/>
+<area shape="rect" id="Node000002" href="$xkbcommon_8h.html" title="Main xkbcommon API." alt="" coords="309,98,508,126"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="410,48,411,84,406,81,407,53"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,182,87,210"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="316,127,213,148,100,176,91,179,89,174,99,171,212,143,321,125"/>

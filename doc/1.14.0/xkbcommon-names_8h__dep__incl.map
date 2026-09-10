@@ -1,11 +1,11 @@
 <map id="include/xkbcommon/xkbcommon&#45;names.h" name="include/xkbcommon/xkbcommon&#45;names.h">
 <area shape="rect" id="Node000001" title="Predefined names for common modifiers and LEDs." alt="" coords="268,5,506,50"/>
-<area shape="rect" id="Node000002" href="$xkbcommon_8h.html" title="Main libxkbcommon API." alt="" coords="262,98,512,126"/>
+<area shape="rect" id="Node000002" href="$xkbcommon_8h.html" title="Main xkbcommon API." alt="" coords="262,98,512,126"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="389,64,389,99,385,96,386,68"/>
-<area shape="rect" id="Node000003" href="$xkbcommon-compose_8h.html" title="libxkbcommon Compose API &#45; support for Compose and dead&#45;keys." alt="" coords="5,174,244,218"/>
+<area shape="rect" id="Node000003" href="$xkbcommon-compose_8h.html" title="xkbcommon Compose API &#45; support for Compose and dead&#45;keys." alt="" coords="5,174,244,218"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="333,130,195,176,194,170,328,131"/>
 <area shape="rect" id="Node000004" href="$xkbcommon-features_8h.html" title="Test features availability." alt="" coords="268,174,506,218"/>
 <area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="389,140,389,175,385,171,385,143"/>
-<area shape="rect" id="Node000005" href="$xkbcommon-x11_8h.html" title="libxkbcommon&#45;x11 API &#45; Additional X11 support for xkbcommon." alt="" coords="531,174,769,218"/>
+<area shape="rect" id="Node000005" href="$xkbcommon-x11_8h.html" title="xkbcommon&#45;x11 API &#45; Additional X11 support for xkbcommon." alt="" coords="531,174,769,218"/>
 <area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="444,128,583,173,577,173,444,133"/>
 </map>

@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title="Main libxkbcommon API.">
+<g id="a_Node000001"><a xlink:title="Main xkbcommon API.">
 <polygon fill="#999999" stroke="#666666" points="396.38,-90.25 208.62,-90.25 208.62,-69.5 396.38,-69.5 396.38,-90.25"/>
 <text xml:space="preserve" text-anchor="middle" x="302.5" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">include/xkbcommon/xkbcommon.h</text>
 </a>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['data_20locations_0',['data locations',['../custom-configuration.html#xkb-data-locations',1,'XKB data locations'],['../deprecated.html#_deprecated000001',1,'XKB data locations']]],
+  ['data_20locations_0',['XKB data locations',['../custom-configuration.html#xkb-data-locations',1,'']]],
   ['data_20rmlvo_20vs_20kccgst_1',['How keyboard layout and options names map to keyboard data (RMLVO vs KcCGST)',['../custom-configuration.html#custom-config-rmlvo-kccgst',1,'']]],
   ['database_2',['Layouts database',['../index.html#layouts-database',1,'']]],
   ['debugging_3',['Debugging',['../debugging.html',1,'']]],
@@ -21,14 +21,14 @@ var searchData=
   ['deprecated_18',['Deprecated',['../release-notes.html#deprecated',1,'Deprecated'],['../release-notes.html#deprecated-1',1,'Deprecated'],['../release-notes.html#deprecated-2',1,'Deprecated']]],
   ['deprecated_20keysym_19',['XKB-301 – Deprecated keysym',['../error-index.html#XKB-301',1,'']]],
   ['deprecated_20keysym_20name_20',['XKB-302 – Deprecated keysym name',['../error-index.html#XKB-302',1,'']]],
-  ['deprecated_20list_21',['Deprecated List',['../deprecated.html',1,'']]],
+  ['deprecated_20list_21',['Deprecated List',['../Doxygen_List_deprecated.html',1,'']]],
   ['deprecated_20section_22',['XKB-021 – Deprecated section',['../error-index.html#XKB-021',1,'']]],
   ['designed_20how_20to_20report_20an_20issue_20or_20propose_20a_20patch_23',['Where are the standard keyboard layouts designed?&lt;br  /&gt;
 How to report an issue or propose a patch?',['../faq.html#where-are-the-standard-keyboard-layouts-designedbrhow-to-report-an-issue-or-propose-a-patch',1,'']]],
   ['details_24',['Details',['../error-index.html#details',1,'']]],
   ['developing_20keyboard_20layouts_25',['Developing keyboard layouts',['../index.html#developing-keyboard-layouts',1,'']]],
   ['development_26',['Development',['../index.html#development',1,'']]],
-  ['device_20actions_27',['Device actions',['../keymap-text-format-v1-v2.html#device-actions',1,'Device actions'],['../todo.html#_todo000020',1,'Device actions'],['../todo.html#_todo000021',1,'Device actions'],['../todo.html#_todo000022',1,'Device actions']]],
+  ['device_20actions_27',['Device actions',['../keymap-text-format-v1-v2.html#device-actions',1,'']]],
   ['differences_20with_20the_20xorg_20x11_20implementations_28',['What are the differences with the Xorg/X11 implementations?',['../faq.html#what-are-the-differences-with-the-xorgx11-implementations',1,'']]],
   ['different_20layout_29',['How to use keyboard shortcuts from a different layout?',['../faq.html#how-to-use-keyboard-shortcuts-from-a-different-layout',1,'']]],
   ['directories_30',['The extensions directories',['../packaging-keyboard-layouts.html#the-extensions-directories',1,'']]],

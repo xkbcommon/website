@@ -1,8 +1,8 @@
 <map id="include/xkbcommon/xkbcommon&#45;x11.h" name="include/xkbcommon/xkbcommon&#45;x11.h">
-<area shape="rect" id="Node000001" title="libxkbcommon&#45;x11 API &#45; Additional X11 support for xkbcommon." alt="" coords="207,5,445,50"/>
+<area shape="rect" id="Node000001" title="xkbcommon&#45;x11 API &#45; Additional X11 support for xkbcommon." alt="" coords="207,5,445,50"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="202,98,285,126"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="306,49,269,89,266,85,302,52"/>
-<area shape="rect" id="Node000003" href="$xkbcommon_8h.html" title="Main libxkbcommon API." alt="" coords="309,98,508,126"/>
+<area shape="rect" id="Node000003" href="$xkbcommon_8h.html" title="Main xkbcommon API." alt="" coords="309,98,508,126"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="348,48,387,87,382,87,347,53"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="5,182,87,210"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="316,127,213,148,100,176,91,179,89,174,99,171,212,143,321,125"/>

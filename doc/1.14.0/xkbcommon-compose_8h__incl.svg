@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title="libxkbcommon Compose API &#45; support for Compose and dead&#45;keys.">
+<g id="a_Node000001"><a xlink:title="xkbcommon Compose API &#45; support for Compose and dead&#45;keys.">
 <polygon fill="#999999" stroke="#666666" points="391.88,-159.75 213.12,-159.75 213.12,-126.25 391.88,-126.25 391.88,-159.75"/>
 <text xml:space="preserve" text-anchor="start" x="221.12" y="-146.25" font-family="Helvetica,sans-Serif" font-size="10.00">include/xkbcommon/xkbcommon</text>
 <text xml:space="preserve" text-anchor="middle" x="302.5" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45;compose.h</text>
@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="xkbcommon_8h.html" target="_top" xlink:title="Main libxkbcommon API.">
+<g id="a_Node000002"><a xlink:href="xkbcommon_8h.html" target="_top" xlink:title="Main xkbcommon API.">
 <polygon fill="white" stroke="#666666" points="377.25,-90.25 227.75,-90.25 227.75,-69.5 377.25,-69.5 377.25,-90.25"/>
 <text xml:space="preserve" text-anchor="middle" x="302.5" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">xkbcommon/xkbcommon.h</text>
 </a>

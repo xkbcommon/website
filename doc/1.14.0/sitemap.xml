@@ -5,507 +5,582 @@
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/xkbcommon-compose_8h.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/xkbcommon-compose_8h.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/xkbcommon-errors_8h.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/xkbcommon-errors_8h.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/xkbcommon-features_8h.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/xkbcommon-features_8h.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/xkbcommon-keysyms_8h.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/xkbcommon-keysyms_8h.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/xkbcommon-names_8h.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/xkbcommon-names_8h.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/xkbcommon-x11_8h.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/xkbcommon-x11_8h.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/xkbcommon_8h.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/xkbcommon_8h.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/xkbregistry_8h.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/xkbregistry_8h.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/xkbcommon-compatibility.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/building-xkbcommon.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/custom-configuration.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/xkb-compatibility.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/debugging.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/custom-configuration.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/faq.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/debugging.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/xkb-intro.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/faq.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/keymap-text-format-v1-v2.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/xkb-intro.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/detailed-license.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/keymap-text-format-v1-v2.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/error-index.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/detailed-license.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/packaging-keyboard-layouts.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/error-index.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/md_doc_2quick-guide.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/prose-naming-conventions.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/release-notes.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/packaging-keyboard-layouts.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/rule-file-format.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/quick-guide-library.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/todo.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/release-notes.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/deprecated.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/rule-file-format.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__keysym-encoding.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/Doxygen_List_todo.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__rules-api.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/Doxygen_List_deprecated.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__keysyms.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__keysym-encoding.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__context.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__abi-struct-contract.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__include-path.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__rules-api.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__logging.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__keysyms.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__keymap.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__context.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__xkb__keymap__format__enum.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__include-path.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__keymap-serialization.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__logging.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__components.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__keymap.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__state.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__xkb__keymap__format__enum.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__compose.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__keymap-serialization.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__error-api.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__components.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__test-api.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__state.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__predefined-keysyms.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__compose.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__modifier-names.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__error-api.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__real-modifier-names.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__test-api.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__virtual-modifier-names.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__predefined-keysyms.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__legacy-virtual-modifier-names.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__modifier-names.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__led-names.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__real-modifier-names.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__x11-support.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__virtual-modifier-names.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/group__registry.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__legacy-virtual-modifier-names.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structrxkb__context.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__led-names.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structrxkb__iso3166__code.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__x11-support.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structrxkb__iso639__code.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/group__registry.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structrxkb__layout.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structrxkb__context.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structrxkb__model.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structrxkb__iso3166__code.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structrxkb__option.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structrxkb__iso639__code.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structrxkb__option__group.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structrxkb__layout.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__component__names.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structrxkb__model.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__compose__state.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structrxkb__option.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__compose__table.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structrxkb__option__group.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__compose__table__entry.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__component__names.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__compose__table__iterator.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__compose__state.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__context.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__compose__table.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__event.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__compose__table__entry.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__events.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__compose__table__iterator.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__keymap.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__context.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__keymap__key__iterator.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__event.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__keymap__serialize__config.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__event__components.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__keymap__serialize__result.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__event__pointer__button.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__layout__policy__update.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__event__pointer__motion.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__machine.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__events.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__machine__builder.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__events__config.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__rmlvo__builder.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__keymap.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__rule__names.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__keymap__key__iterator.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__state.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__keymap__key__iterator__config.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__state__components__update.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__keymap__serialize__config.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/structxkb__state__update.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__keymap__serialize__result.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/graph_legend.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__layout__policy__update.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/dir_891596f32582d3133e8915e72908625f.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__machine.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/dir_e68e8157741866f444e17edd764ebbae.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__machine__builder.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/dir_76bfb54b130652dbca3c6686e89e7f20.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__machine__builder__a11y__update.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/dir_d44c64559bbebec7f509842c48db8b23.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__machine__builder__config.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/dir_63ce773eee1f9b680e6e312b48cc99ca.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__machine__builder__mods__remap__update.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/index.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__machine__builder__shortcut__override__update.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/doxygen_crawl.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__rmlvo__builder.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/pages.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__rule__names.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/topics.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__state.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/annotated.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__state__components__update.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/classes.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/structxkb__state__update.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/graph_legend.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/dir_891596f32582d3133e8915e72908625f.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/dir_e68e8157741866f444e17edd764ebbae.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/dir_76bfb54b130652dbca3c6686e89e7f20.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/dir_d44c64559bbebec7f509842c48db8b23.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/dir_63ce773eee1f9b680e6e312b48cc99ca.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/index.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/doxygen_crawl.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/pages.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/topics.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/annotated.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/classes.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_func.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_b.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_func.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_c.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_func.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_d.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_func.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_e.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_func.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_f.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_func.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_g.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_func.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_k.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_vars.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_l.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_vars.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_m.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_vars.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_o.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_vars.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_p.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_vars.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_r.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_vars.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_s.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_vars.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_t.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_vars.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_v.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_vars.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_x.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_vars.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_y.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/functions_type.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_func.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/files.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_func.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_func.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_c.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_func.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_e.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_func.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_f.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_func.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_i.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_func.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_k.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_l.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_m.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_o.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_p.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_r.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_s.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_u.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_v.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_x.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_func.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_func.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_func.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_func.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_func.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_func.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_func.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_vars.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_func.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/functions_type.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_func.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/files.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_type.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_type.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_c.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_type.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_e.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_enum.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_f.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_enum.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_i.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_enum.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_k.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_enum.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_l.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_enum.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_m.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_enum.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_o.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_enum.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_p.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_enum.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_r.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_enum.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_s.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_enum.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_u.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_enum.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_v.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_eval.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_x.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_eval.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_func.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_eval.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_func.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_eval.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_func.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_eval.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_func.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_eval.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_func.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_eval.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_func.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_eval.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_func.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_eval.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_func.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_eval.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_func.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_defs.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_type.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_defs_l.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_type.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_defs_m.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_type.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_defs_v.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_enum.html</loc>
   </url>
   <url>
-    <loc>https://xkbcommon.org/doc/1.14.0-beta1/globals_defs_x.html</loc>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_enum.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_enum.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_enum.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_enum.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_enum.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_enum.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_enum.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_enum.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_enum.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_enum.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_eval.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_eval.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_eval.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_eval.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_eval.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_eval.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_eval.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_eval.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_eval.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_eval.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_eval.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_defs.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_defs_l.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_defs_m.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_defs_v.html</loc>
+  </url>
+  <url>
+    <loc>https://xkbcommon.org/doc/1.14.0-beta2/globals_defs_x.html</loc>
   </url>
 </urlset>

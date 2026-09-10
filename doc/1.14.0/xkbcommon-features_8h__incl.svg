@@ -39,7 +39,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="xkbcommon_8h.html" target="_top" xlink:title="Main libxkbcommon API.">
+<g id="a_Node000003"><a xlink:href="xkbcommon_8h.html" target="_top" xlink:title="Main xkbcommon API.">
 <polygon fill="white" stroke="#666666" points="319.12,-90.25 169.62,-90.25 169.62,-69.5 319.12,-69.5 319.12,-90.25"/>
 <text xml:space="preserve" text-anchor="middle" x="244.38" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">xkbcommon/xkbcommon.h</text>
 </a>

@@ -1,5 +1,5 @@
 <map id="include/xkbcommon/xkbcommon.h" name="include/xkbcommon/xkbcommon.h">
-<area shape="rect" id="Node000001" title="Main libxkbcommon API." alt="" coords="284,5,534,33"/>
+<area shape="rect" id="Node000001" title="Main xkbcommon API." alt="" coords="284,5,534,33"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,90,87,117"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="316,35,213,56,100,84,91,86,89,81,99,78,212,51,321,33"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="111,90,181,117"/>
